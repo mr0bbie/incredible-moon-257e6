@@ -42,7 +42,7 @@ sections:
       - image: images/G&K.jpg
         image_alt: Sanity logo
         image_align: center
-      - image: images/73505077_691126314709437_6208322097667535880_n.jpg
+      - image: images/APRES.jpg
         image_alt: DatoCMS logo
         image_align: center
       - image: images/logo-6.svg
