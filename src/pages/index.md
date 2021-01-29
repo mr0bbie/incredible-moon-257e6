@@ -6,7 +6,7 @@ sections:
     subtitle: Light up letters for any event
     content: ''
     actions:
-      - label: Book your event
+      - label: Book now
         url: /pricing
         style: primary
       - label: Learn More
