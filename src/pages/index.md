@@ -39,7 +39,7 @@ sections:
       - image: images/breath.jpg
         image_alt: Gatsby logo
         image_align: center
-      - image: images/logo-4.svg
+      - image: images/G&K.jpg
         image_alt: Sanity logo
         image_align: center
       - image: images/logo-5.svg
