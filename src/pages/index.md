@@ -26,7 +26,7 @@ sections:
     background_image_position: center center
     background_image_repeat: no-repeat
   - type: grid_section
-    title: Image Grid
+    title: Event Gallery
     subtitle: Glow Letters in action
     align: center
     grid_items:
