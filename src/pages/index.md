@@ -21,6 +21,7 @@ sections:
     padding_bottom: large
     background_color: none
     has_border: true
+    background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
   - type: grid_section
     title: Image Grid
     subtitle: Grid Section Example
