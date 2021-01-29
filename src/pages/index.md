@@ -33,7 +33,7 @@ sections:
       - image: images/37193292_512310919224538_4202086317531594752_n_original.jpg
         image_alt: Contentful logo
         image_align: center
-      - image: images/logo-2.svg
+      - image: images/APRES.jpg
         image_alt: Netlify logo
         image_align: center
       - image: images/logo-3.svg
