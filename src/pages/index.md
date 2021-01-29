@@ -27,7 +27,7 @@ sections:
     background_image_repeat: no-repeat
   - type: grid_section
     title: Image Grid
-    subtitle: Grid Section Example
+    subtitle: Glow Letters in action
     align: center
     grid_items:
       - image: images/logo-1.svg
