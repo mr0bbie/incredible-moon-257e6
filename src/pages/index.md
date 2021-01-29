@@ -15,7 +15,7 @@ sections:
         url: /features
         style: secondary
     image: images/knowledgeable-eggplant.png
-    image_alt: Hero section placeholder image
+    image_alt: ''
     media_position: left
     media_width: fifty
     align: left
