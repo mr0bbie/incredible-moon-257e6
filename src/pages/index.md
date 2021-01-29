@@ -6,7 +6,7 @@ sections:
     subtitle: Light up letters for any event
     content: ''
     actions:
-      - label: Try Free
+      - label: ' kooB'
         url: /pricing
         style: primary
       - label: Learn More
