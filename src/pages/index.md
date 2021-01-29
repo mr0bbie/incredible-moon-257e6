@@ -45,7 +45,7 @@ sections:
       - image: images/APRES.jpg
         image_alt: DatoCMS logo
         image_align: center
-      - image: images/DSC_0535.jpg
+      - image: images/IMG_6592_1.jpg
         image_alt: Next.js logo
         image_align: center
       - image: images/IMG_1636.JPG
