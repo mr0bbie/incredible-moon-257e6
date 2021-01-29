@@ -24,6 +24,7 @@ sections:
     background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
     background_image_opacity: 98
     background_image_position: center center
+    background_image_repeat: no-repeat
   - type: grid_section
     title: Image Grid
     subtitle: Grid Section Example
