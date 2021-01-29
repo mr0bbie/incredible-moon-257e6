@@ -12,7 +12,7 @@ sections:
       - label: Learn More
         url: /features
         style: secondary
-    image: images/knowledgeable-eggplant.png
+    image: images/group-copy_orig.png
     image_alt: Hello
     media_position: left
     media_width: fourty
