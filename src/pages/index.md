@@ -51,7 +51,7 @@ sections:
       - image: images/IMG_1636.JPG
         image_alt: Gridsome logo
         image_align: center
-      - image: images/logo-8.svg
+      - image: images/IMG_20190702_085229__01.jpg
         image_alt: Git logo
         image_align: center
     grid_cols: four
