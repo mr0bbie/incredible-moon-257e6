@@ -19,7 +19,7 @@ sections:
     align: right
     padding_top: large
     padding_bottom: large
-    background_color: none
+    background_color: primary
     has_border: true
     background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
     background_image_opacity: 98
