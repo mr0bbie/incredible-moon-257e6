@@ -22,6 +22,7 @@ sections:
     background_color: none
     has_border: true
     background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
+    background_image_opacity: 10
   - type: grid_section
     title: Image Grid
     subtitle: Grid Section Example
