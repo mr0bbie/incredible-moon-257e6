@@ -4,9 +4,7 @@ sections:
   - type: hero_section
     title: The Glow Letter Co
     subtitle: Light up letters for any event
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel.
+    content: ''
     actions:
       - label: Try Free
         url: /pricing
