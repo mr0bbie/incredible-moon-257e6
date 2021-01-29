@@ -30,7 +30,7 @@ sections:
     subtitle: Glow Letters in action
     align: center
     grid_items:
-      - image: images/logo-1.svg
+      - image: images/37193292_512310919224538_4202086317531594752_n_original.jpg
         image_alt: Contentful logo
         image_align: center
       - image: images/logo-2.svg
