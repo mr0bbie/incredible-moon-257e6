@@ -3,7 +3,7 @@ title: Home
 sections:
   - type: hero_section
     title: The Glow Letter Co
-    subtitle: Optional hero section subtitle
+    subtitle: Light up letter for any event
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel.
