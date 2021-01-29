@@ -15,7 +15,7 @@ sections:
         url: /features
         style: secondary
     image: images/knowledgeable-eggplant.png
-    image_alt: ''
+    image_alt: Hello
     media_position: left
     media_width: fifty
     align: left
