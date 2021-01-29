@@ -7,7 +7,7 @@ sections:
     content: ''
     actions:
       - label: Book now
-        url: /pricing
+        url: /contact
         style: primary
       - label: Learn More
         url: /features
