@@ -17,7 +17,7 @@ sections:
     image: images/knowledgeable-eggplant.png
     image_alt: Hello
     media_position: left
-    media_width: fifty
+    media_width: fourty
     align: left
     padding_top: large
     padding_bottom: large
