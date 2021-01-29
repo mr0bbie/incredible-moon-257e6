@@ -48,7 +48,7 @@ sections:
       - image: images/Image from iOS (24).jpg
         image_alt: Next.js logo
         image_align: center
-      - image: images/logo-7.svg
+      - image: images/IMG_1636.JPG
         image_alt: Gridsome logo
         image_align: center
       - image: images/logo-8.svg
