@@ -67,7 +67,6 @@ sections:
         type: grid_item
         image: images/73505077_691126314709437_6208322097667535880_n.jpg
       - title: lorem-ipsum
-        subtitle: lorem-ipsum
         title_align: left
         content_align: left
         actions: []
