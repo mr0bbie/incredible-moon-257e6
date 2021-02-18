@@ -71,7 +71,7 @@ sections:
   - type: cta_section
     title: This is Call To Action Section In DIY Theme!
     actions:
-      - label: lorem-ipsum
+      - label: Check out more on Instagram
         url: Check out more on Instagram
         style: link
         has_icon: false
