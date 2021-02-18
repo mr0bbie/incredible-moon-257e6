@@ -68,23 +68,6 @@ sections:
     grid_cols: four
     grid_gap_horiz: medium
     grid_gap_vert: medium
-  - type: cta_section
-    title: Here we are at an amazing SASSY event!
-    actions:
-      - label: Check out more on Instagram
-        url: 'https://www.instagram.com/glowletterco/'
-        style: link
-        has_icon: true
-        icon: instagram
-        icon_position: left
-        new_window: true
-        no_follow: false
-        type: action
-    actions_position: bottom
-    align: center
-    padding_top: large
-    padding_bottom: large
-    background_color: secondary
   - title: Here we are at an amazing SASSY event!
     subtitle: Check out more on Instagram
     content: |
