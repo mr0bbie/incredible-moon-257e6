@@ -171,7 +171,7 @@ sections:
           *   Price Per Day
         content_align: left
         actions:
-          - url: /style-guide
+          - url: /contact
             style: link
             has_icon: true
             icon: arrow-right
