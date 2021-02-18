@@ -74,7 +74,7 @@ sections:
         image: images/IMG_3554_1000_cropped.jpg
         image_alt: Feature 1 placeholder image
         media_position: right
-        media_width: fifty
+        media_width: fourty
       - title: Our Letters are Aussie Made
         content: >
           The Glow Letter Co. has created a unique set of LED letters and
