@@ -72,7 +72,7 @@ sections:
     title: This is Call To Action Section In DIY Theme!
     actions:
       - label: Check out more on Instagram
-        url: Check out more on Instagram
+        url: 'https://www.instagram.com/glowletterco/'
         style: link
         has_icon: false
         icon: instagram
