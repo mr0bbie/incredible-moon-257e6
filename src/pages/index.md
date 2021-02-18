@@ -208,7 +208,7 @@ sections:
         image_align: center
         image_has_padding: true
         subtitle: per additional letter
-      - title: Section Item 3
+      - title: Extras
         title_align: left
         content: |
           Custom symbols and logos
