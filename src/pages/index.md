@@ -61,7 +61,7 @@ sections:
     title: What We Do
     subtitle: A little about what
     features:
-      - title: The Big Title For the Feature
+      - title: Time to Glow!
         subtitle: "The Glow Letter Co hires easy to set up, glowing event letters that will light up your event and be a favourite\_focal point of your attendees."
         content: "Choose the letters or numbers in any colour to add atmosphere and match the style of your event. We hire any combination of A-Z letters, 0-9 numbers and special characters. \n\nOur letters can glow in any colour to create a unique look for your event:\_ we love shades of crisp white, retro blue, trendy violet, and bold pink.\_Speak to us today to find your style!\n"
         actions:
