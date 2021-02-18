@@ -70,14 +70,6 @@ sections:
     grid_gap_vert: medium
   - type: cta_section
     title: Here we are at an amazing SASSY event!
-    media_position: centre
-        media_width: sixty
-        video_embed_html: >-
-          <div
-          style="width:100%;height:0px;position:relative;padding-bottom:66.667%;"><iframe
-          src="https://streamable.com/e/9b2q81?autoplay=1" frameborder="0"
-          width="100%" height="100%" allowfullscreen allow="autoplay"
-          style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
     actions:
       - label: Check out more on Instagram
         url: 'https://www.instagram.com/glowletterco/'
