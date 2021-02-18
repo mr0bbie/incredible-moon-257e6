@@ -227,7 +227,7 @@ sections:
             icon: arrow-right
             icon_position: right
         actions_align: center
-        image: images/x.png
+        image: images/blue-eucalyptus.png
         image_alt: Section item 3 icon
         image_position: top
         image_align: center
