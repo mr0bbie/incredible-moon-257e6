@@ -221,7 +221,7 @@ sections:
           Bundle deals for photobooths or flower walls
         content_align: center
         actions:
-          - label: Learn More
+          - label: Contact us
             url: /style-guide
             style: link
             has_icon: true
