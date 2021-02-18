@@ -69,7 +69,7 @@ sections:
     grid_gap_horiz: medium
     grid_gap_vert: medium
   - type: cta_section
-    title: This is Call To Action Section In DIY Theme!
+    title: Here we are at an amazing SASSY event!
     actions:
       - label: Check out more on Instagram
         url: 'https://www.instagram.com/glowletterco/'
