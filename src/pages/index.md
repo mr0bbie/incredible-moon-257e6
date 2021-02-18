@@ -58,7 +58,7 @@ sections:
     grid_gap_horiz: medium
     grid_gap_vert: medium
   - type: features_section
-    title: Features Section
+    title: What We Do
     subtitle: Features Section Example
     features:
       - title: The Big Title For the Feature
