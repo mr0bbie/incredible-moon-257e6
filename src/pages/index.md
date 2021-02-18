@@ -195,7 +195,7 @@ sections:
           Price Per Day
         content_align: center
         actions:
-          - label: Glow for it
+          - label: GLOW FOR IT
             url: /style-guide
             style: link
             has_icon: true
