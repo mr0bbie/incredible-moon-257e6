@@ -250,6 +250,11 @@ sections:
         image_alt: Hanson Deck
         image_position: left
         image_width: twenty-five
+      - content: "Letter lights are a real trend at the moment, and we used\_[**Glow Letter Co**](https://sassyassistants.us16.list-manage.com/track/click?u=45a5a2c9ad91b12f2d0243e71\\&id=bd9986f3f1\\&e=cdc7fd3d4e)\_for our event earlier this year. A fun way to spell out a name, a number, or have a buzz word at your event\n\n**Enisa Fazlic,** *Sassy Assistants*\n"
+        image: images/gordon-norman.png
+        image_alt: Gordon Norman
+        image_position: left
+        image_width: twenty-five
       - content: "Your stunning letter lights spelling out our favourite name\_LILY\_in pink neon absolutely stole the show on the night!\n\n\n**Priyanka Saha,** The Lily Calvert Fund\n"
         image: images/miles-tone.png
         image_alt: Miles Tone
@@ -264,11 +269,6 @@ sections:
           **Jayde Parr,** *Central Coast, Letters: 2020*
         image: images/eleanor-carr.png
         image_alt: Eleanor Carr
-        image_position: left
-        image_width: twenty-five
-      - content: "Letter lights are a real trend at the moment, and we used\_[**Glow Letter Co**](https://sassyassistants.us16.list-manage.com/track/click?u=45a5a2c9ad91b12f2d0243e71\\&id=bd9986f3f1\\&e=cdc7fd3d4e)\_for our event earlier this year. A fun way to spell out a name, a number, or have a buzz word at your event\n\n**Enisa Fazlic,** *Sassy Assistants*\n"
-        image: images/gordon-norman.png
-        image_alt: Gordon Norman
         image_position: left
         image_width: twenty-five
     grid_cols: two
