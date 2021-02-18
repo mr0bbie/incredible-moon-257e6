@@ -25,12 +25,6 @@ sections:
     background_image_opacity: 98
     background_image_position: center center
     background_image_repeat: no-repeat
-    video_embed_html: >-
-      <div
-      style="width:100%;height:0px;position:relative;padding-bottom:56.389%;"><iframe
-      src="https://streamable.com/e/7jpc5z?autoplay=1" frameborder="0"
-      width="100%" height="100%" allowfullscreen allow="autoplay"
-      style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
   - type: grid_section
     title: Event Gallery
     subtitle: Glow Letters in action
