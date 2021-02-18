@@ -184,7 +184,7 @@ sections:
         image_align: left
         image_has_padding: true
         subtitle: 3 letters or less
-        image_width: thirty-three
+        image_width: fifty
       - title: Section Item 2
         title_align: left
         content: >
