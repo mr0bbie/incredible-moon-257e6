@@ -155,7 +155,7 @@ sections:
     feature_padding_vert: small
     background_color: primary
   - type: grid_section
-    subtitle: Glow Letter Co's
+    subtitle: Our
     grid_items:
       - title: Starter Bundle
         title_align: center
