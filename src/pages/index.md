@@ -118,9 +118,7 @@ sections:
     background_color: secondary
   - type: features_section
     features:
-      - title: >-
-          “Stackbit is fast! Themes are always up to date. It’s easy to use
-          across the organization, and collaboration is easy.”
+      - title: “The lights were such a hit! I'm so stoked we found you guys!”
         subtitle: 'Brandon Guidelines, Sr. Design Manager at Company'
         image: images/brandon-guidelines.png
         image_alt: Brandon Guidelines
