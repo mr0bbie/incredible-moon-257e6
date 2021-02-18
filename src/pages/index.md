@@ -88,7 +88,7 @@ sections:
   - title: lorem-ipsum
     subtitle: lorem-ipsum
     content: |
-      # Here we are at an amazing SASSY event!&#xA;&#xA;
+      # &#xA;&#xA;
     actions: []
     image_alt: lorem-ipsum
     video_embed_html: >-
