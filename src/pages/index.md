@@ -169,6 +169,7 @@ sections:
     background_image_repeat: no-repeat
     type: hero_section
     image: images/glowletter_deck.png
+    background_image: images/happy-primrose.png
   - type: grid_section
     title: Cards Grid Section
     subtitle: Grid Section Example
