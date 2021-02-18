@@ -155,7 +155,7 @@ sections:
     feature_padding_vert: small
     background_color: primary
   - type: grid_section
-    subtitle: Grid Section Example
+    subtitle: Glow Letter Co's
     grid_items:
       - title: Section Item 1
         title_align: left
