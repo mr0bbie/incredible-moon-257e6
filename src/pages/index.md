@@ -154,22 +154,6 @@ sections:
         media_width: thirty-three
     feature_padding_vert: small
     background_color: primary
-  - actions: []
-    image_alt: lorem-ipsum
-    media_position: top
-    media_width: fifty
-    align: left
-    padding_top: large
-    padding_bottom: large
-    has_border: false
-    background_color: none
-    background_image_opacity: 0
-    background_image_size: cover
-    background_image_position: center center
-    background_image_repeat: no-repeat
-    type: hero_section
-    image: images/G&K.jpg
-    background_image: images/happy-primrose.png
   - type: grid_section
     title: Cards Grid Section
     subtitle: Grid Section Example
