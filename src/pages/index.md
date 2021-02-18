@@ -265,12 +265,13 @@ sections:
         image_alt: Miles Tone
         image_position: left
         image_width: twenty-five
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
+      - content: >
+          You guys have been so great. I will be sure to use you again for
+          upcoming events.
 
 
-          **Eleanor Carr,** *CTO, Studio*
+
+          **Jayde Parr,** *Central Coast, Letters: 2020*
         image: images/eleanor-carr.png
         image_alt: Eleanor Carr
         image_position: left
