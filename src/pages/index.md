@@ -90,7 +90,7 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-        image: images/classic/feature-2.png
+        image: images/Image from iOS (24).jpg
         image_alt: Feature 2 placeholder image
         media_position: left
         media_width: fifty
