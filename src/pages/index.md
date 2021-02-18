@@ -71,9 +71,6 @@ sections:
   - type: cta_section
     title: This is Call To Action Section In DIY Theme!
     actions:
-      - label: Button
-        url: /pricing
-        style: primary
       - label: lorem-ipsum
         url: lorem-ipsum
         style: link
