@@ -158,7 +158,7 @@ sections:
     subtitle: Glow Letter Co's
     grid_items:
       - title: Starter Bundle
-        title_align: left
+        title_align: center
         content: |
 
 
