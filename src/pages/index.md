@@ -183,7 +183,7 @@ sections:
         image_has_padding: true
         subtitle: 3 letters or less
         image_width: twenty-five
-      - title: Section Item 2
+      - title: Additional Letters
         title_align: left
         content: |
           *   Setup & Delivery included
