@@ -86,7 +86,7 @@ sections:
     padding_bottom: large
     background_color: secondary
   - title: Here we are at an amazing SASSY event!
-    subtitle: lorem-ipsum
+    subtitle: Check out more on Instagram
     content: |
       # &#xA;&#xA;
     actions: []
