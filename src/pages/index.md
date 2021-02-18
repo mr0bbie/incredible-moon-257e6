@@ -75,7 +75,7 @@ sections:
         url: Check out more on Instagram
         style: link
         has_icon: false
-        icon: arrow-left
+        icon: instagram
         icon_position: right
         new_window: false
         no_follow: false
