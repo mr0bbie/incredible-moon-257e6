@@ -70,7 +70,7 @@ sections:
     grid_gap_vert: medium
   - type: cta_section
     title: Here we are at an amazing SASSY event!
-    media_position: right
+    media_position: centre
         media_width: sixty
         video_embed_html: >-
           <div
