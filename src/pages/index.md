@@ -201,7 +201,7 @@ sections:
             style: link
             has_icon: true
             icon: arrow-right
-            icon_position: center
+            icon_position: right
         actions_align: center
         image: images/classic/icon-2.svg
         image_alt: Section item 2 icon
