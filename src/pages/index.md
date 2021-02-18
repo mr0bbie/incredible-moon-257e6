@@ -74,6 +74,12 @@ sections:
         image_alt: Feature 1 placeholder image
         media_position: right
         media_width: sixty
+        video_embed_html: >-
+          <div
+          style="width:100%;height:0px;position:relative;padding-bottom:66.667%;"><iframe
+          src="https://streamable.com/e/9b2q81" frameborder="0" width="100%"
+          height="100%" allowfullscreen
+          style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
       - title: Our Letters are Aussie Made
         content: >
           The Glow Letter Co. has created a unique set of LED letters and
