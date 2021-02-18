@@ -62,18 +62,6 @@ sections:
         image_alt: lorem-ipsum
         image_position: top
         image_width: fifty
-        image_align: center
-        image_has_padding: true
-        type: grid_item
-        image: images/Logo.jpg
-      - title_align: left
-        content_align: left
-        actions: []
-        actions_align: left
-        actions_width: auto
-        image_alt: lorem-ipsum
-        image_position: top
-        image_width: fifty
         image_align: left
         image_has_padding: false
         type: grid_item
