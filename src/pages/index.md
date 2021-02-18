@@ -85,7 +85,7 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: secondary
-  - title: lorem-ipsum
+  - title: Here we are at an amazing SASSY event!
     subtitle: lorem-ipsum
     content: |
       # &#xA;&#xA;
