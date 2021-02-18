@@ -184,7 +184,7 @@ sections:
         subtitle: 3 letters or less
         image_width: twenty-five
       - title: Additional Letters
-        title_align: left
+        title_align: center
         content: |
           *   Setup & Delivery included
 
