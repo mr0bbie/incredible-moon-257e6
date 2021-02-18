@@ -119,7 +119,7 @@ sections:
   - type: features_section
     features:
       - title: “The lights were such a hit! I'm so stoked we found you guys!”
-        subtitle: 'Brandon Guidelines, Sr. Design Manager at Company'
+        subtitle: 'Lucy Neville, Sr. Design Manager at Company'
         image: images/brandon-guidelines.png
         image_alt: Brandon Guidelines
         media_position: right
