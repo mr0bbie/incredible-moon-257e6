@@ -78,7 +78,7 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/qrcode.jpeg
+        image: images/73505077_691126314709437_6208322097667535880_n.jpg
     grid_cols: four
     grid_gap_horiz: medium
     grid_gap_vert: medium
