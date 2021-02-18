@@ -202,7 +202,7 @@ sections:
             icon: arrow-right
             icon_position: right
         actions_align: center
-        image: images/150.png
+        image: images/oceanic-oak.png
         image_alt: Section item 2 icon
         image_position: top
         image_align: center
