@@ -186,8 +186,8 @@ sections:
       - title: Section Item 2
         title_align: left
         content: >
-          *   *   Setup & Delivery included*   Choose up to 12 colours to glow
-          in*   Hire any A-Z letter or 0-9 number*   Price Per Day
+          *   *   *   Choose up to 12 colours to glow in*   Hire any A-Z letter
+          or 0-9 number*   Price Per Day
         content_align: left
         actions:
           - label: Learn More
