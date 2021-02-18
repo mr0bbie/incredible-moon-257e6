@@ -65,7 +65,7 @@ sections:
         image_align: center
         image_has_padding: false
         type: grid_item
-        image: images/73505077_691126314709437_6208322097667535880_n.jpg
+        image: images/Logo.jpg
       - title_align: left
         content_align: left
         actions: []
