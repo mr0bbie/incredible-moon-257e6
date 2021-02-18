@@ -70,8 +70,6 @@ sections:
     grid_gap_vert: medium
   - type: cta_section
     title: This is Call To Action Section In DIY Theme!
-    content: |
-      <https://streamable.com/7jpc5z>
     actions:
       - label: Button
         url: /pricing
