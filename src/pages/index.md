@@ -159,10 +159,17 @@ sections:
     grid_items:
       - title: Starter Bundle
         title_align: left
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: |+
+          *   Setup & Delivery included
+
+          *   Choose up to 12 colours to glow in
+
+          *   Hire any A-Z letter or 0-9 number
+
+          *   Price Per Day
+
+
+
         content_align: left
         actions:
           - label: Learn More
