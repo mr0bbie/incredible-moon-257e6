@@ -209,7 +209,7 @@ sections:
         image_has_padding: true
         subtitle: per additional letter
       - title: Extras
-        title_align: left
+        title_align: center
         content: |
           Custom symbols and logos
 
