@@ -233,7 +233,7 @@ sections:
         image_align: center
         image_has_padding: true
         subtitle: price on application
-        image_width: sixty
+        image_width: twenty-five
     grid_cols: three
     grid_gap_horiz: medium
     grid_gap_vert: small
