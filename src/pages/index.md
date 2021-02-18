@@ -74,7 +74,7 @@ sections:
       - label: Check out more on Instagram
         url: 'https://www.instagram.com/glowletterco/'
         style: link
-        has_icon: false
+        has_icon: true
         icon: instagram
         icon_position: right
         new_window: false
