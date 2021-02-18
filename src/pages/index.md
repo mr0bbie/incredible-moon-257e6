@@ -72,7 +72,7 @@ sections:
     title: This is Call To Action Section In DIY Theme!
     actions:
       - label: lorem-ipsum
-        url: 'Check out more '
+        url: Check out more here
         style: link
         has_icon: false
         icon: arrow-left
