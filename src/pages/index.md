@@ -215,10 +215,9 @@ sections:
 
           Generators, Batteries, DMX Control
 
-
           Other Alphabets, Fonts and Scripts
 
-          Bundle deals for photobooths or flower walls
+          Bundle deals 
         content_align: center
         actions:
           - label: CONTACT US
