@@ -160,7 +160,7 @@ sections:
       - title: Starter Bundle
         title_align: left
         content: |
-          *   **Setup & Delivery included**
+          ###### **Setup & Delivery included**
 
           *   **Choose up to 12 colours to glow in**
 
