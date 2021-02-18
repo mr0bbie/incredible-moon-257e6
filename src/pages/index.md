@@ -76,10 +76,13 @@ sections:
         media_position: right
         media_width: fifty
       - title: The Big Title For the Feature
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: >
+          The Glow Letter Co. has created a unique set of LED letters and
+          numbers to light up your event.
+
+          Each letter is designed with our own font and then custom built at our
+          Brisbane and Sydney workshops. We use the latest LED technology to
+          give our letters an infinite range of colours.
         actions:
           - label: Learn More
             url: /style-guide
