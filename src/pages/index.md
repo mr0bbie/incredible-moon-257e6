@@ -277,9 +277,7 @@ sections:
     align: center
     background_color: secondary
   - type: cta_section
-    title: >-
-      You guys have been so great. I will be sure to use you again for upcoming
-      events.
+    title: You've come this far! Why not book in for a chat?
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
