@@ -107,7 +107,7 @@ sections:
       width="100%" height="100%" allowfullscreen allow="autoplay"
       style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
     media_position: top
-    media_width: fifty
+    media_width: sixty
     align: left
     padding_top: medium
     padding_bottom: medium
