@@ -210,10 +210,15 @@ sections:
         subtitle: per additional letter
       - title: Section Item 3
         title_align: left
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: |+
+          Custom symbols and logos
+
+          Generators, Batteries, DMX Control
+          Other Alphabets, Fonts and Scripts
+
+
+          Bundle deals for photobooths or flower walls
+
         content_align: left
         actions:
           - label: Learn More
