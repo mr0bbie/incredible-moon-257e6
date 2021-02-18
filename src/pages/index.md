@@ -278,10 +278,9 @@ sections:
     background_color: secondary
   - type: cta_section
     title: You've come this far! Why not book in for a chat?
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-      fringilla, fringilla.
+    content: >
+      Leave your name, contact details and any plans or questions you may have,
+      and we'll get back to you right away!
     actions:
       - label: Learn More
         url: /features
