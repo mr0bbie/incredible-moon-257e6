@@ -299,7 +299,7 @@ sections:
         url: /style-guide
         style: primary
     grid_items:
-      - title: Gustav Purpleson
+      - title: Duncan Robbie
         subtitle: Co-Founder & CEO
         title_align: center
         image: images/gustav-purpleson.jpg
