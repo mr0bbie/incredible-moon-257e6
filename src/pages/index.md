@@ -176,7 +176,7 @@ sections:
             icon_position: right
             label: BOOK NOW
         actions_align: center
-        image: images/energetic-parsley.png
+        image: images/classic/icon-1.svg
         image_alt: Section item 1 icon
         image_position: top
         image_align: center
