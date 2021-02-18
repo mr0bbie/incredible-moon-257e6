@@ -72,7 +72,7 @@ sections:
     title: This is Call To Action Section In DIY Theme!
     actions:
       - label: lorem-ipsum
-        url: Check out more here
+        url: Check out more on Instagram
         style: link
         has_icon: false
         icon: arrow-left
