@@ -245,12 +245,7 @@ sections:
     title: Reviews Section
     subtitle: Grid Section Example
     grid_items:
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
-
-
-          **Hanson Deck,** *App Developer, Studio*
+      - content: "Thank\_you\_so much for providing the wonderful #ifightyoufight\_letters on Friday night at our charity event. They were a huge hit and actually brought tears to Alex’s parents when they saw them.\n\n**Natalie Kelly,** *Maquarie Telecom, Letters: **#IFIGHTYOUFIGHT***\n"
         image: images/hanson-deck.png
         image_alt: Hanson Deck
         image_position: left
