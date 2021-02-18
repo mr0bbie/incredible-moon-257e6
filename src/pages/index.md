@@ -183,6 +183,7 @@ sections:
         image_position: top
         image_align: left
         image_has_padding: true
+        subtitle: 3 letters or less
       - title: Section Item 2
         title_align: left
         content: >
