@@ -282,7 +282,7 @@ sections:
       Leave your name, contact details and any plans or questions you may have,
       and we'll get back to you right away!
     actions:
-      - label: Learn More
+      - label: Contact
         url: /features
         style: secondary
     actions_position: right
