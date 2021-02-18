@@ -108,7 +108,7 @@ sections:
       style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
     media_position: top
     media_width: sixty
-    align: left
+    align: center
     padding_top: none
     padding_bottom: medium
     has_border: false
