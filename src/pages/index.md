@@ -109,7 +109,7 @@ sections:
     media_position: top
     media_width: sixty
     align: left
-    padding_top: medium
+    padding_top: none
     padding_bottom: medium
     has_border: false
     background_color: none
