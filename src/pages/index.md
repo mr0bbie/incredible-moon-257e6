@@ -219,7 +219,7 @@ sections:
           Other Alphabets, Fonts and Scripts
 
           Bundle deals for photobooths or flower walls
-        content_align: left
+        content_align: center
         actions:
           - label: Learn More
             url: /style-guide
