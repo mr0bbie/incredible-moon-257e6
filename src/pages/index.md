@@ -63,10 +63,7 @@ sections:
     features:
       - title: The Big Title For the Feature
         subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: "Choose the letters or numbers in any colour to add atmosphere and match the style of your event. We hire any combination of A-Z letters, 0-9 numbers and special characters. Our letters can glow in any colour to create a unique look for your event:\_ we love shades of crisp white, retro blue, trendy violet, and bold pink.\_Speak to us today to find your style!\n\n"
         actions:
           - label: Learn More
             url: /style-guide
