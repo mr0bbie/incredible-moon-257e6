@@ -120,7 +120,7 @@ sections:
     features:
       - title: “The lights were such a hit! I'm so stoked we found you guys!”
         subtitle: 'Lucy Neville, Mamamia'
-        image: images/brandon-guidelines.png
+        image: images/download.png
         image_alt: Brandon Guidelines
         media_position: right
         media_width: thirty-three
