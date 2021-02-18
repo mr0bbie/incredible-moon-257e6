@@ -186,10 +186,9 @@ sections:
         image_has_padding: true
       - title: Section Item 2
         title_align: left
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: >
+          *   *   Setup & Delivery included*   Choose up to 12 colours to glow
+          in*   Hire any A-Z letter or 0-9 number*   Price Per Day
         content_align: left
         actions:
           - label: Learn More
