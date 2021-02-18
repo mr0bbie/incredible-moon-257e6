@@ -202,7 +202,7 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: center
-        actions_align: left
+        actions_align: center
         image: images/classic/icon-2.svg
         image_alt: Section item 2 icon
         image_position: top
