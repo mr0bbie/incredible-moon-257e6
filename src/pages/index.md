@@ -75,7 +75,7 @@ sections:
         image_alt: Feature 1 placeholder image
         media_position: right
         media_width: fifty
-      - title: The Big Title For the Feature
+      - title: Our Letters are Aussie Made
         content: >
           The Glow Letter Co. has created a unique set of LED letters and
           numbers to light up your event.
