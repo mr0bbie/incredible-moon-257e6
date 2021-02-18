@@ -175,7 +175,7 @@ sections:
             style: link
             has_icon: true
             icon: arrow-right
-            icon_position: center
+            icon_position: right
             label: Book now
         actions_align: left
         image: images/classic/icon-1.svg
