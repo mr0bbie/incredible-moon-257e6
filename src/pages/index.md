@@ -242,7 +242,7 @@ sections:
     background_color: none
     title: Packages/Pricing?
   - type: grid_section
-    title: Reviews Section
+    title: Client Feedback
     subtitle: Grid Section Example
     grid_items:
       - content: "Thank\_you\_so much for providing the wonderful #ifightyoufight\_letters on Friday night at our charity event. They were a huge hit and actually brought tears to Alex’s parents when they saw them.\n\n**Natalie Kelly,** *Maquarie Telecom, Letters: #IFIGHTYOUFIGHT*\n"
