@@ -76,7 +76,7 @@ sections:
         style: link
         has_icon: true
         icon: instagram
-        icon_position: right
+        icon_position: left
         new_window: false
         no_follow: false
         type: action
