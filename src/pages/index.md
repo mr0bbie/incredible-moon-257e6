@@ -72,7 +72,16 @@ sections:
     subtitle: Check out more on Instagram
     content: |
       # &#xA;&#xA;
-    actions: []
+    actions:
+      - label: lorem-ipsum
+        url: lorem-ipsum
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: right
+        new_window: false
+        no_follow: false
+        type: action
     image_alt: lorem-ipsum
     video_embed_html: >-
       <div
