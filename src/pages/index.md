@@ -255,7 +255,7 @@ sections:
     enable_cards: true
     align: center
     background_color: none
-    title: Packages/Pricing?
+    title: Packages
   - type: grid_section
     title: Client Feedback
     subtitle: 'Some of our favourite '
