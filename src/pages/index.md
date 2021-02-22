@@ -69,7 +69,6 @@ sections:
     grid_gap_horiz: medium
     grid_gap_vert: medium
   - title: Here we are at an amazing SASSY event!
-    subtitle: Check out more on Instagram
     content: |
       # &#xA;&#xA;
     actions:
