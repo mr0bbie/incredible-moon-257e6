@@ -72,7 +72,7 @@ sections:
     content: |
       # &#xA;&#xA;
     actions:
-      - label: lorem-ipsum
+      - label: Check out more on Instagram!
         url: lorem-ipsum
         style: link
         has_icon: false
