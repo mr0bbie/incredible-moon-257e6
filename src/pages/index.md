@@ -73,7 +73,7 @@ sections:
       # &#xA;&#xA;
     actions:
       - label: Check out more on Instagram!
-        url: lorem-ipsum
+        url: 'https://www.instagram.com/glowletterco/'
         style: link
         has_icon: false
         icon: arrow-left
