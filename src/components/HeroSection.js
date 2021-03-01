@@ -10,7 +10,7 @@ export default class HeroSection extends React.Component {
         let padding_top = _.get(section, 'padding_top', null) || 'medium';
         let padding_bottom = _.get(section, 'padding_bottom', null) || 'medium';
         let align_x = _.get(section, 'align', null) || 'center';
-        let bg_color = _.get(section, 'background_color', null) || 'none';
+        let bg_color = _.get(section, 'background_color', null) || 'blue';
         let bg_img_opacity_pct = _.get(section, 'background_image_opacity', null) || 100;
         let bg_img_opacity = bg_img_opacity_pct * 0.01;
         let bg_img_size = _.get(section, 'background_image_size', null) || 'cover';
