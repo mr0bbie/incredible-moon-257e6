@@ -74,7 +74,7 @@ sections:
         actions_align: left
         actions_width: full-width
       - title: DIY Package
-        subtitle: lorem-ipsum
+        subtitle: Glow Letter on your terms
         title_align: left
         content: >-
           ## Lorem ipsum
