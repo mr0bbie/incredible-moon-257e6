@@ -87,7 +87,7 @@ sections:
 
           *   Choose up to 12 colours to glow in
 
-          *   You drop off when conveni
+          *   Hire any A-Z letter or 0-9 number
 
           *   Price Per Day
         content_align: left
