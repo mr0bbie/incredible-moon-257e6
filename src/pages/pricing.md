@@ -52,7 +52,7 @@ sections:
         actions_align: left
         actions_width: full-width
       - title: Extras
-        subtitle: Optional subtitle
+        subtitle: s
         title_align: left
         content: |-
           ---
