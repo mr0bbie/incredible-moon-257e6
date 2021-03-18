@@ -48,7 +48,7 @@ sections:
       - image: images/IMG_6592_1.jpg
         image_alt: Next.js logo
         image_align: center
-      - image: images/IMG_1636.JPG
+      - image: images/ignite.jpg
         image_alt: Gridsome logo
         image_align: center
       - image: images/IMG_20190702_085229__01.jpg
