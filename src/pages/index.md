@@ -378,7 +378,7 @@ sections:
       - title: Sara Miljic
         subtitle: Business Development
         title_align: center
-        image: images/hilary-ouse.jpg
+        image: images/sara.jpeg
         image_position: top
     grid_cols: four
     align: center
