@@ -371,7 +371,7 @@ sections:
         image: images/dianne-ameter.jpg
         image_position: top
       - title: Aanand Prackbar
-        subtitle: Developer Advocate
+        subtitle: Operations Manager
         title_align: center
         image: images/hugh-saturation.jpg
         image_position: top
