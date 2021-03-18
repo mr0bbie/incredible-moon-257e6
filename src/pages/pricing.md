@@ -73,7 +73,7 @@ sections:
             style: primary
         actions_align: left
         actions_width: full-width
-      - title: lorem-ipsum
+      - title: DIY Package
         subtitle: lorem-ipsum
         title_align: left
         content: >-
