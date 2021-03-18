@@ -16,7 +16,7 @@ sections:
 
           ### $150
 
-          per event, billed prior
+          per event
 
           *   Setup & Delivery included
           *   Choose up to 12 colours to glow in
