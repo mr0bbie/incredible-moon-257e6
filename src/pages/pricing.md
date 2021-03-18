@@ -77,11 +77,11 @@ sections:
         subtitle: Glow Letter on your terms
         title_align: left
         content: |
-          ## $100
+          ##
+
+          ### $100
 
           per letter
-
-
 
           *   Lorem ipsum
           *   dolor sit amet
