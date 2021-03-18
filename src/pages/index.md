@@ -288,7 +288,7 @@ sections:
             icon: arrow-right
             icon_position: right
         actions_align: center
-        image: images/classic/icon-3.svg
+        image: images/enthusiastic-panda.png
         image_alt: Section item 3 icon
         image_position: top
         image_align: center
