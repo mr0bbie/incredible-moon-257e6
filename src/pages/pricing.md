@@ -31,7 +31,7 @@ sections:
         actions_width: full-width
         subtitle: 3 letters or less
       - title: Additional Letters
-        subtitle: per
+        subtitle: Need to spell out more?
         title_align: left
         content: |-
           ---
