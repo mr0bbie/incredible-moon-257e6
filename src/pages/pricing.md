@@ -30,7 +30,7 @@ sections:
         actions_align: left
         actions_width: full-width
         subtitle: 3 letters or less
-      - title: Premium
+      - title: Additional Letters
         subtitle: Optional subtitle
         title_align: left
         content: |-
