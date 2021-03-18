@@ -51,7 +51,7 @@ sections:
       - image: images/ignite.jpg
         image_alt: Gridsome logo
         image_align: center
-      - image: images/IMG_20190702_085229__01.jpg
+      - image: images/gobig.jpg
         image_alt: Git logo
         image_align: center
       - title_align: left
