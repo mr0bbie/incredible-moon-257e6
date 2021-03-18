@@ -255,7 +255,7 @@ sections:
         content_align: center
         actions:
           - label: GLOW FOR IT
-            url: /style-guide
+            url: /contact
             style: primary
             has_icon: true
             icon: arrow-right
