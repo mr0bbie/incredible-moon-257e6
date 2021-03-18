@@ -256,7 +256,7 @@ sections:
         actions:
           - label: GLOW FOR IT
             url: /style-guide
-            style: link
+            style: primary
             has_icon: true
             icon: arrow-right
             icon_position: right
