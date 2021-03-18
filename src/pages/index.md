@@ -210,7 +210,7 @@ sections:
     feature_padding_vert: small
     background_color: primary
   - type: grid_section
-    subtitle: Our
+    subtitle: The Glow Letter Co
     grid_items:
       - title: Starter Bundle
         title_align: center
