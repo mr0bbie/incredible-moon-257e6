@@ -368,7 +368,7 @@ sections:
       - title: Matthew Robbie
         subtitle: Chief Operations Officer
         title_align: center
-        image: images/dianne-ameter.jpg
+        image: images/matt.jpeg
         image_position: top
       - title: Andrew Flanagan
         subtitle: Operations Manager
