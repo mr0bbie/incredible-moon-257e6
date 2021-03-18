@@ -43,7 +43,7 @@
         "anncmnt_id": "new-features"
     },
     "footer": {
-        "logo": "images/Logo.jpg",
+        "logo": "images/logo.png",
         "logo_alt": "DIY logo",
         "has_primary_nav": true,
         "primary_nav_title": "Company",
