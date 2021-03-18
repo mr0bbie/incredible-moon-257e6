@@ -233,7 +233,7 @@ sections:
             icon_position: right
             label: BOOK NOW
         actions_align: center
-        image: images/rocket.jpg
+        image: images/festive-kangaroo.jpg
         image_alt: Section item 1 icon
         image_position: top
         image_align: center
