@@ -312,7 +312,7 @@ sections:
         image_position: left
         image_width: twenty-five
       - content: "Letter lights are a real trend at the moment, and we used\_[**Glow Letter Co**](https://sassyassistants.us16.list-manage.com/track/click?u=45a5a2c9ad91b12f2d0243e71\\&id=bd9986f3f1\\&e=cdc7fd3d4e)\_for our event earlier this year. A fun way to spell out a name, a number, or have a buzz word at your event\n\n**Enisa Fazlic,** *Sassy Assistants*\n"
-        image: images/gordon-norman.png
+        image: images/sassy.png
         image_alt: Gordon Norman
         image_position: left
         image_width: twenty-five
