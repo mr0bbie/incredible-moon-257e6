@@ -29,7 +29,7 @@ sections:
             style: primary
         actions_align: left
         actions_width: full-width
-        subtitle: 3 Letters or less
+        subtitle: 3 letters or less
       - title: Premium
         subtitle: Optional subtitle
         title_align: left
