@@ -307,7 +307,7 @@ sections:
     subtitle: 'Some of our favourite '
     grid_items:
       - content: "Thank\_you\_so much for providing the wonderful #ifightyoufight\_letters on Friday night at our charity event. They were a huge hit and actually brought tears to Alex’s parents when they saw them.\n\n**Natalie Kelly,** *Maquarie Telecom*\n"
-        image: images/hanson-deck.png
+        image: images/macquarie.png
         image_alt: Hanson Deck
         image_position: left
         image_width: twenty-five
