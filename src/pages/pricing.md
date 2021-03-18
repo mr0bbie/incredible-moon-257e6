@@ -76,7 +76,7 @@ sections:
       - title: DIY Package
         subtitle: Glow Letter on your terms
         title_align: left
-        content: |
+        content: |+
           ###  
 
           ### $450
