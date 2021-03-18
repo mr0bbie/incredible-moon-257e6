@@ -357,7 +357,7 @@ sections:
     subtitle: Grid Section Example
     actions:
       - label: Join the team
-        url: /style-guide
+        url: /contact
         style: primary
     grid_items:
       - title: Duncan Robbie
