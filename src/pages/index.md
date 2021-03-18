@@ -282,7 +282,7 @@ sections:
         content_align: center
         actions:
           - label: CONTACT US
-            url: /style-guide
+            url: /pricing
             style: primary
             has_icon: true
             icon: arrow-right
