@@ -54,18 +54,18 @@ sections:
       - title: Extras
         subtitle: Price on application
         title_align: left
-        content: |-
-          ---
+        content: |+
+          ***
 
-          ### $39
+          ### $XXX
 
-          per month, billed yearly
+          per 
 
-          * Et semper leo mattis orci conubia congue
-          * Quisque eleifend imperdiet tortor
-          * Elementum eu rhoncus, volutpat
-          * Nisi cubilia interdum ultricies
-          * Feugiat porta tortor
+          *   Custom symbols and logos
+          *   Generators, Batteries, DMX Control
+          *   Other Alphabets, Fonts and Scripts
+          *   Bundle deals
+
         content_align: left
         actions:
           - label: Start with Business
