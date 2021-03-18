@@ -276,7 +276,9 @@ sections:
 
           Other Alphabets, Fonts and Scripts
 
-          Bundle deals 
+          Bundle deals
+
+          ...
         content_align: center
         actions:
           - label: CONTACT US
