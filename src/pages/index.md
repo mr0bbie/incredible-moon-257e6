@@ -239,6 +239,7 @@ sections:
         image_has_padding: true
         subtitle: 3 letters or less
         image_width: twenty-five
+        image: images/thoughtful-mustard.jpg
       - title: Additional Letters
         title_align: center
         content: |
