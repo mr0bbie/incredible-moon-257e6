@@ -54,17 +54,6 @@ sections:
       - image: images/IMG_20190702_085229__01.jpg
         image_alt: Git logo
         image_align: center
-      - title_align: left
-        content_align: left
-        actions: []
-        actions_align: left
-        actions_width: auto
-        image_alt: lorem-ipsum
-        image_position: top
-        image_width: fifty
-        image_align: left
-        image_has_padding: false
-        type: grid_item
       - title: lorem-ipsum
         subtitle: lorem-ipsum
         title_align: left
@@ -79,6 +68,17 @@ sections:
           - Lorem ipsum
 
           - dolor sit amet
+        content_align: left
+        actions: []
+        actions_align: left
+        actions_width: auto
+        image_alt: lorem-ipsum
+        image_position: top
+        image_width: fifty
+        image_align: left
+        image_has_padding: false
+        type: grid_item
+      - title_align: left
         content_align: left
         actions: []
         actions_align: left
