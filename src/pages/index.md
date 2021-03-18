@@ -261,7 +261,7 @@ sections:
             icon: arrow-right
             icon_position: right
         actions_align: center
-        image: images/classic/icon-2.svg
+        image: images/moon.png
         image_alt: Section item 2 icon
         image_position: top
         image_align: center
