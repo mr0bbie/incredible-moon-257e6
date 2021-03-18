@@ -250,6 +250,8 @@ sections:
           Hire any A-Z letter or 0-9 number
 
           Price Per Day
+
+          ...
         content_align: center
         actions:
           - label: GLOW FOR IT
