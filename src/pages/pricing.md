@@ -76,18 +76,18 @@ sections:
       - title: DIY Package
         subtitle: Glow Letter on your terms
         title_align: left
-        content: |+
-          *** 
+        content: |
+          ***
 
-          ### $450
+          ### $100
 
-          per event
+          per letter
 
-          *   Setup & Delivery included
+          *   You collect & drop off
 
-          *   Choose up to 12 colours to glow in
+          *   We show you how to set up
 
-          *   Hire any A-Z letter or 0-9 number
+          *   You drop off when conveni
 
           *   Price Per Day
         content_align: left
