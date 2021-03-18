@@ -54,8 +54,7 @@ sections:
       - image: images/IMG_20190702_085229__01.jpg
         image_alt: Git logo
         image_align: center
-      - title: lorem-ipsum
-        title_align: left
+      - title_align: left
         content_align: left
         actions: []
         actions_align: left
