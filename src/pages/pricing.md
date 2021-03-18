@@ -85,7 +85,7 @@ sections:
 
           *   You collect & drop off
 
-          *   We show you how to set up
+          *   Choose up to 12 colours to glow in
 
           *   You drop off when conveni
 
