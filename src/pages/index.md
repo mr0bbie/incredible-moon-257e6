@@ -19,7 +19,7 @@ sections:
     align: right
     padding_top: large
     padding_bottom: large
-    background_color: primary
+    background_color: none
     has_border: true
     background_image: images/maroon-triceratops.jpg
     background_image_opacity: 98
