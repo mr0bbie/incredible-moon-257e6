@@ -294,7 +294,7 @@ sections:
     grid_gap_vert: small
     enable_cards: true
     align: center
-    background_color: none
+    background_color: primary
     title: Packages
   - type: grid_section
     title: Client Feedback
