@@ -76,17 +76,15 @@ sections:
       - title: DIY Package
         subtitle: Glow Letter on your terms
         title_align: left
-        content: >-
-          ## Lorem ipsum
+        content: |
+          ## $100
+
+          per letter
 
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          *   Lorem ipsum
+          *   dolor sit amet
         content_align: left
         actions: []
         actions_align: left
