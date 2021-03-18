@@ -14,7 +14,7 @@ sections:
         content: |
           ***
 
-          ### $150
+          ### $450
 
           per event
 
