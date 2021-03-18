@@ -370,7 +370,7 @@ sections:
         title_align: center
         image: images/dianne-ameter.jpg
         image_position: top
-      - title: Aanand Prackbar
+      - title: Andrew Flanagan
         subtitle: Operations Manager
         title_align: center
         image: images/hugh-saturation.jpg
