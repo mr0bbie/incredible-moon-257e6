@@ -33,18 +33,19 @@ sections:
       - title: Additional Letters
         subtitle: Need to spell out more?
         title_align: left
-        content: |
+        content: >+
           ***
+
 
           ### $19
 
+
           per letter
 
-          *   Et semper leo mattis orci conubia congue
-          *   Quisque eleifend imperdiet tortor
-          *   Elementum eu rhoncus, volutpat
-          *   Fringilla diam magnis libero lacinia
-          *   Litora primis facilisis ullamcorper per
+
+          *   **   Choose up to 12 colours to glow in*   Hire any A-Z letter or
+          0-9 number*   Price Per Day
+
         content_align: left
         actions:
           - label: Start with Premium
