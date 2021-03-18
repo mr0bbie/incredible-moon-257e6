@@ -11,17 +11,17 @@ sections:
     grid_items:
       - title: Starter Package
         title_align: left
-        content: |-
-          ---
+        content: |
+          ***
 
-          ### $9
+          ### $150
 
-          per month, billed yearly
+          per event, billed prior
 
-          * Et semper leo mattis orci conubia congue
-          * Quisque eleifend imperdiet tortor
-          * Elementum eu rhoncus, volutpat
-          * Nisi cubilia interdum ultricies
+          *   Setup & Delivery included
+          *   Choose up to 12 colours to glow in
+          *   Hire any A-Z letter or 0-9 number
+          *   Price Per Day
         content_align: left
         actions:
           - label: Start with Personal
