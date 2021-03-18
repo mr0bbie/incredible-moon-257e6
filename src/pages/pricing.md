@@ -77,9 +77,9 @@ sections:
         subtitle: Glow Letter on your terms
         title_align: left
         content: |
-          $450
 
 
+          ### $450
 
           per event
 
