@@ -52,7 +52,7 @@ sections:
         actions_align: left
         actions_width: full-width
       - title: Extras
-        subtitle: s
+        subtitle: Price on application
         title_align: left
         content: |-
           ---
