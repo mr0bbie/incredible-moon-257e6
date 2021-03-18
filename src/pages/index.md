@@ -376,7 +376,7 @@ sections:
         image: images/hugh-saturation.jpg
         image_position: top
       - title: Sara Miljic
-        subtitle: Marketing Executive
+        subtitle: Business Development Executive
         title_align: center
         image: images/hilary-ouse.jpg
         image_position: top
