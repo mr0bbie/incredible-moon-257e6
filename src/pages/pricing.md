@@ -52,7 +52,7 @@ sections:
         actions_align: left
         actions_width: full-width
       - title: DIY Package
-        subtitle: Glow Letter on your terms
+        subtitle: Glow letters on your terms
         title_align: left
         content: |
           ***
