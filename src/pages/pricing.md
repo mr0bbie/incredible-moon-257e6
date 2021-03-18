@@ -10,7 +10,6 @@ sections:
   - type: grid_section
     grid_items:
       - title: Starter Package
-        subtitle: Optional subtitle
         title_align: left
         content: |-
           ---
