@@ -366,7 +366,7 @@ sections:
         image: images/gustav-purpleson.jpg
         image_position: top
       - title: Matthew Robbie
-        subtitle: Software Engineer
+        subtitle: Chief Operations Officer
         title_align: center
         image: images/dianne-ameter.jpg
         image_position: top
