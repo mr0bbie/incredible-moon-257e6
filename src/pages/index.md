@@ -160,7 +160,7 @@ sections:
     align: center
     background_color: secondary
     background_image: images/beautiful-shining-stars-night-sky.jpg
-    background_image_opacity: 90
+    background_image_opacity: 98
   - type: features_section
     features:
       - title: “The lights were such a hit! I'm so stoked we found you guys!”
