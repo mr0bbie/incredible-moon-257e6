@@ -223,7 +223,7 @@ sections:
 
           Price Per Day
 
-          \__\__\__\__
+          *\__\_*
         content_align: center
         actions:
           - url: /contact
