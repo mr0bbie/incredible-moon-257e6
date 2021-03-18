@@ -155,7 +155,7 @@ sections:
         image: images/IMG_3554_1000_cropped.jpg
         image_alt: Feature 1 placeholder image
         media_position: right
-        media_width: sixty
+        media_width: fourty
         video_embed_html: >-
           <div
           style="width:100%;height:0px;position:relative;padding-bottom:66.667%;"><iframe
