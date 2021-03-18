@@ -77,7 +77,6 @@ sections:
         subtitle: Glow Letter on your terms
         title_align: left
         content: |+
-    
           ###  
 
           ### $450
