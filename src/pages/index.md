@@ -274,6 +274,8 @@ sections:
       - title: Extras
         title_align: center
         content: |
+          ...
+
           Custom symbols and logos
 
           Generators, Batteries, DMX Control
