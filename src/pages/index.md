@@ -363,7 +363,7 @@ sections:
       - title: Duncan Robbie
         subtitle: Co-Founder & CEO
         title_align: center
-        image: images/gustav-purpleson.jpg
+        image: images/duncan.jpg
         image_position: top
       - title: Matthew Robbie
         subtitle: Chief Operations Officer
