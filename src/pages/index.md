@@ -239,7 +239,7 @@ sections:
         image_align: center
         image_has_padding: true
         subtitle: 3 letters or less
-        image_width: thirty-three
+        image_width: twenty-five
       - title: Additional Letters
         title_align: center
         content: |
