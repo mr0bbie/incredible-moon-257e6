@@ -317,7 +317,7 @@ sections:
         image_position: left
         image_width: twenty-five
       - content: "Your stunning letter lights spelling out our favourite name\_LILY\_in pink neon absolutely stole the show on the night!\n\n\n**Priyanka Saha,** The Lily Calvert Fund\n"
-        image: images/miles-tone.png
+        image: images/LilyCalvert.png
         image_alt: Miles Tone
         image_position: left
         image_width: twenty-five
