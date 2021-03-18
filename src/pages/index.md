@@ -25,6 +25,7 @@ sections:
     background_image_opacity: 98
     background_image_position: center center
     background_image_repeat: no-repeat
+    background_image_size: contain
   - type: grid_section
     title: Event Gallery
     subtitle: Glow Letters in action
