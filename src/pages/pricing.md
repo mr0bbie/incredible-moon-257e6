@@ -9,6 +9,33 @@ sections:
     padding_bottom: small
   - type: grid_section
     grid_items:
+      - title: DIY Package
+        subtitle: Glow Letter on your terms
+        title_align: left
+        content: |
+          ***
+
+          ### $100
+
+          per letter
+
+          *   You collect & drop off
+
+          *   Choose up to 12 colours to glow in
+
+          *   Hire any A-Z letter or 0-9 number
+
+          *   Price Per Day
+        content_align: left
+        actions: []
+        actions_align: left
+        actions_width: auto
+        image_alt: lorem-ipsum
+        image_position: top
+        image_width: fifty
+        image_align: left
+        image_has_padding: true
+        type: grid_item
       - title: Starter Package
         title_align: left
         content: |
@@ -73,33 +100,6 @@ sections:
             style: primary
         actions_align: left
         actions_width: full-width
-      - title: DIY Package
-        subtitle: Glow Letter on your terms
-        title_align: left
-        content: |
-          ***
-
-          ### $100
-
-          per letter
-
-          *   You collect & drop off
-
-          *   Choose up to 12 colours to glow in
-
-          *   Hire any A-Z letter or 0-9 number
-
-          *   Price Per Day
-        content_align: left
-        actions: []
-        actions_align: left
-        actions_width: auto
-        image_alt: lorem-ipsum
-        image_position: top
-        image_width: fifty
-        image_align: left
-        image_has_padding: true
-        type: grid_item
     grid_cols: four
     grid_gap_horiz: small
     grid_gap_vert: small
