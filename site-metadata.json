@@ -32,7 +32,7 @@
                 "type": "action"
             },
             {
-                "label": "lorem-ipsum",
+                "label": "Features",
                 "url": "lorem-ipsum",
                 "style": "link",
                 "has_icon": false,
