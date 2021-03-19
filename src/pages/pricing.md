@@ -28,7 +28,7 @@ sections:
           *   Price Per Day
         content_align: left
         actions:
-          - label: Lets get startered
+          - label: Lets get started!
             url: /general-enquiries
             style: primary
         actions_align: left
