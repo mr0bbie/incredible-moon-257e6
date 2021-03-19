@@ -9,6 +9,7 @@ sections:
     padding_bottom: small
     has_border: true
     background_color: none
+    background_image: images/beautiful-shining-stars-night-sky.jpg
   - type: grid_section
     grid_items:
       - title: Partnering and Sponsorships
