@@ -7,7 +7,7 @@
     "base_font": "serif",
     "header": {
         "title": "DIY",
-        "logo": "images/square-oak.png",
+        "logo": "images/Logo.jpg",
         "logo_alt": "DIY logo",
         "has_primary_nav": true,
         "primary_nav_links": [
