@@ -3,7 +3,7 @@ title: Contact
 sections:
   - type: hero_section
     title: Partnerships
-    subtitle: Want to be a part of the fun? We three
+    subtitle: Want to be a part of the fun?
     align: center
     padding_top: small
     padding_bottom: small
