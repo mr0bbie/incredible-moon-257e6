@@ -6,7 +6,7 @@ sections:
     subtitle: Want to be a part of the fun?
     align: center
     padding_top: large
-    padding_bottom: small
+    padding_bottom: large
     has_border: true
     background_color: primary
     background_image: images/beautiful-shining-stars-night-sky.jpg
