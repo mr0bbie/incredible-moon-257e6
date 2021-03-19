@@ -33,7 +33,7 @@
             },
             {
                 "label": "Features",
-                "url": "lorem-ipsum",
+                "url": "/features",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
