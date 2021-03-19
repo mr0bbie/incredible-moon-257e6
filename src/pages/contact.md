@@ -15,7 +15,7 @@ sections:
       the discounts they can bring you
   - type: grid_section
     grid_items:
-      - title: Partnering and Sponsorships
+      - title: Bronze Partner
         title_align: center
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
