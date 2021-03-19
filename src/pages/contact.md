@@ -10,6 +10,9 @@ sections:
     has_border: true
     background_color: none
     background_image: images/beautiful-shining-stars-night-sky.jpg
+    content: >
+      ##### We want to work with you, below are our tiers of partnerships and
+      the discounts they can bring you
   - type: grid_section
     grid_items:
       - title: Partnering and Sponsorships
