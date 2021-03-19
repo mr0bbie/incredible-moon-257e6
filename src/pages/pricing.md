@@ -3,7 +3,9 @@ title: Pricing
 sections:
   - type: hero_section
     title: Choose Your Package
-    subtitle: Optional hero section subtitle
+    subtitle: >-
+      Our packages are fully customisable, get in touch if you have any
+      questions
     align: center
     padding_top: large
     padding_bottom: small
