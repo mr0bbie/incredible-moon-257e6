@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Partnership
 sections:
   - type: hero_section
     title: Partnerships
