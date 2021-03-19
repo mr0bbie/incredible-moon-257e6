@@ -3,15 +3,19 @@ title: Contact
 sections:
   - type: hero_section
     title: Partnerships
-    subtitle: Want to be a part of the fun? We three
+    subtitle: Want to be a part of the fun?
     align: center
     padding_top: small
     padding_bottom: small
     has_border: true
-    background_color: none
+    background_color: primary
+    background_image: images/beautiful-shining-stars-night-sky.jpg
+    content: >
+      ###### We want to work with you, below are our tiers of partnerships and
+      the discounts they can bring you
   - type: grid_section
     grid_items:
-      - title: Partnering and Sponsorships
+      - title: Bronze Partner
         title_align: center
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
@@ -20,7 +24,7 @@ sections:
         actions:
           - label: Get Support
             url: /general-enquiries
-            style: link
+            style: primary
             has_icon: true
             icon: arrow-right
             icon_position: right
@@ -30,7 +34,7 @@ sections:
         image_position: top
         image_align: center
         image_has_padding: true
-      - title: Help & Support
+      - title: Silver Partner
         title_align: center
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
@@ -39,7 +43,7 @@ sections:
         actions:
           - label: Get Support
             url: /general-enquiries
-            style: secondary
+            style: primary
             has_icon: true
             icon: arrow-right
             icon_position: right
@@ -49,7 +53,7 @@ sections:
         image_position: top
         image_align: center
         image_has_padding: true
-      - title: Other Queries
+      - title: Gold Partner
         title_align: center
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
@@ -75,6 +79,6 @@ sections:
     align: center
     padding_top: large
     padding_bottom: large
-    background_color: primary
+    background_color: secondary
 template: advanced
 ---

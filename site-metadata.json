@@ -11,8 +11,8 @@
         "has_primary_nav": true,
         "primary_nav_links": [
             {
-                "label": "Features",
-                "url": "/features",
+                "label": "About",
+                "url": "/about",
                 "style": "link"
             },
             {
@@ -21,9 +21,15 @@
                 "style": "link"
             },
             {
-                "label": "About",
-                "url": "/about",
-                "style": "link"
+                "label": "Partnership",
+                "url": "/partnership",
+                "style": "secondary",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "right",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
             }
         ],
         "has_secondary_nav": true,
