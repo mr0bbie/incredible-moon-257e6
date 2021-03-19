@@ -29,7 +29,7 @@ sections:
         content_align: left
         actions:
           - label: Lets get startered
-            url: /features
+            url: /general-enquiries
             style: primary
         actions_align: left
         actions_width: full-width
