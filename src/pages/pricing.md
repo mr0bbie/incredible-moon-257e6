@@ -8,6 +8,7 @@ sections:
     padding_top: large
     padding_bottom: small
     background_image: images/beautiful-shining-stars-night-sky.jpg
+    background_color: primary
   - type: grid_section
     grid_items:
       - title: Starter Package
