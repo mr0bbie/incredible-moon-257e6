@@ -66,7 +66,7 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/30.jpg
+        image: images/insta.jpg
       - title_align: left
         content_align: left
         actions: []
@@ -78,7 +78,7 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/insta.jpg
+        image: images/30.jpg
       - title_align: left
         content_align: left
         actions: []
