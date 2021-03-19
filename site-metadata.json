@@ -1,7 +1,7 @@
 {
     "description": "A \"do it yourself\" theme for Stackbit",
     "layout": "full-width",
-    "style": "minimal",
+    "style": "bold",
     "palette": "blue",
     "mode": "light",
     "base_font": "serif",
