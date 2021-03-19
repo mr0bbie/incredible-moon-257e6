@@ -3,10 +3,14 @@ title: Pricing
 sections:
   - type: hero_section
     title: Choose Your Package
-    subtitle: Optional hero section subtitle
+    subtitle: >-
+      Our packages are fully customisable, get in touch if you have any
+      questions
     align: center
     padding_top: large
     padding_bottom: small
+    background_image: images/beautiful-shining-stars-night-sky.jpg
+    background_color: primary
   - type: grid_section
     grid_items:
       - title: Starter Package
@@ -24,8 +28,8 @@ sections:
           *   Price Per Day
         content_align: left
         actions:
-          - label: Start with Personal
-            url: /features
+          - label: Lets get started!
+            url: /general-enquiries
             style: primary
         actions_align: left
         actions_width: full-width
