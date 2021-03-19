@@ -23,7 +23,7 @@
             {
                 "label": "Partnership",
                 "url": "/partnership",
-                "style": "secondary",
+                "style": "primary",
                 "has_icon": false,
                 "icon": "arrow-left",
                 "icon_position": "right",
