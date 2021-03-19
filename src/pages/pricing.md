@@ -28,7 +28,7 @@ sections:
           *   Price Per Day
         content_align: left
         actions:
-          - label: Start with Personal
+          - label: Lets get startered
             url: /features
             style: primary
         actions_align: left
