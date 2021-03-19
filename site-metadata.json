@@ -3,7 +3,7 @@
     "layout": "full-width",
     "style": "classic",
     "palette": "blue",
-    "mode": "dark",
+    "mode": "light",
     "base_font": "serif",
     "header": {
         "title": "DIY",
