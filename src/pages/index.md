@@ -359,6 +359,7 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
+    background_image: images/futuristic-planet.jpg
   - type: grid_section
     title: Team Section
     subtitle: Grid Section Example
