@@ -47,7 +47,7 @@
         "secondary_nav_links": [
             {
                 "label": "Get In Touch",
-                "url": "/general",
+                "url": "/general-enquiries",
                 "style": "primary"
             }
         ],
