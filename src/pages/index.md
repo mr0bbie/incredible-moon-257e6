@@ -90,7 +90,6 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/smiling-squid.jpg
       - title_align: left
         content_align: left
         actions: []
