@@ -209,6 +209,7 @@ sections:
         media_width: thirty-three
     feature_padding_vert: small
     background_color: primary
+    background_image: images/super-birch.jpg
   - type: grid_section
     subtitle: The Glow Letter Co
     grid_items:
