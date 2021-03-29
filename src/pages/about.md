@@ -39,7 +39,7 @@ sections:
   - type: grid_section
     title: Our Office's
     grid_items:
-      - title: Sydney
+      - title: NSW
         content: |
           866 Bourke Street
           Waterloo, 2017
