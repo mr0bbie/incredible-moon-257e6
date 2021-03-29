@@ -3,7 +3,7 @@ title: About
 sections:
   - type: hero_section
     title: About
-    subtitle: About Page Demo
+    subtitle: How we came to light up events
     align: center
     background_color: secondary
   - type: features_section
