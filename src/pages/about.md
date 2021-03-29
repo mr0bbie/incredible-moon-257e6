@@ -8,7 +8,7 @@ sections:
     background_color: secondary
   - type: features_section
     features:
-      - title: Section Title One
+      - title: The Glow Letter Co
         subtitle: 'Odio et tortor laoreet, sed interdum augue ornare. '
         content: >
           born from the experiences of the team at Tag Snaps. From supporting
