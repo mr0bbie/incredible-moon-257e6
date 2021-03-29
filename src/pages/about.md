@@ -23,7 +23,9 @@ sections:
         media_position: right
         media_width: fifty
       - title: Australian Made
-        subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
+        subtitle: >-
+          The Glow Letter Co hand builds our letters at our Brisbane factory
+          using the latest CNC laser and router equipment.
         content: >
           Each letter is extensively tested and specially packaged before
           entering the hire fleet to ensure they glow their brightest at your
