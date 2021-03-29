@@ -40,10 +40,16 @@ sections:
     title: Our Office's
     grid_items:
       - title: Sydney
-        content: >-
-          1234 Some St.<br/> Some City, ST 12345<br/>
-          [1-234-556-7890](tel:+12345567890)<br/>
-          [email@example.com](mailto:email@example.com)
+        content: |
+          866 Bourke Street
+
+          Waterloo
+
+          2017
+
+          [02 8073 8373](tel:+61280738373)
+
+          [i](mailto:email@example.com)nfo@glowletter.co
         content_align: left
         actions:
           - label: Get Directions
