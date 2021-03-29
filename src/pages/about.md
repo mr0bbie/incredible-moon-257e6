@@ -10,10 +10,16 @@ sections:
     features:
       - title: Section Title One
         subtitle: 'Odio et tortor laoreet, sed interdum augue ornare. '
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: >+
+          The Glow Letter Co was born from the experiences of the team at Tag
+          Snaps. From supporting hundreds of events across the country we were
+          aware of the benefits well lit props can bring to styling an event.
+          After seeing and experiencing all the best and worse of all the
+          options in the market including Neon, Light Bulb, Steel and Foam
+          Letters we figured something better could be made. Two years of
+          development later and the Glow Letter Co was born taking in the best
+          elements of the different letter lighting approaches.
+
         image: images/about-5.jpg
         image_alt: People in conversation in the office lounge area
         media_position: right
