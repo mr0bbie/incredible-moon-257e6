@@ -9,7 +9,7 @@ sections:
   - type: features_section
     features:
       - title: The Glow Letter Co
-        subtitle: Born from the experiences of the team at Tag Snaps.
+        subtitle: Born from experiences of the team at Tag Snaps
         content: >
           From supporting hundreds of events across the country we were aware of
           the benefits well lit props can bring to styling an event. After
