@@ -24,10 +24,14 @@ sections:
         media_width: fifty
       - title: Section Title Two
         subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: >+
+          The Glow Letter Co hand builds our letters at our Brisbane factory
+          using the latest CNC laser and router equipment. Each letter is
+          extensively tested and specially packaged before entering the hire
+          fleet to ensure they glow their brightest at your event. We are
+          continually testing and refining our letter builds to introduce new
+          technology and manufacturing techniques.
+
         image: images/about-2.jpg
         image_alt: People in a conference room
         media_position: left
