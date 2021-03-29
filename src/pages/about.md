@@ -40,9 +40,11 @@ sections:
     title: Our Office's
     grid_items:
       - title: Sydney
-        content: >
-          866 \<br> Bourke Street\</br>  Waterloo 2017 [02 8073
-          8373](tel:+61280738373) [i](mailto:email@example.com)nfo@glowletter.co
+        content: |
+          866 Bourke Street
+          Waterloo, 2017 
+          [02 8073 8373](tel:+61280738373) 
+          info@glowletter.co
         content_align: left
         actions:
           - label: Get Directions
