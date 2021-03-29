@@ -37,12 +37,12 @@ sections:
         media_position: left
         media_width: fifty
   - type: grid_section
-    title: Our Office's
+    title: Our Locations
     grid_items:
       - title: Sydney
         content: >-
-          866 Bourke St.<br/> Waterloo, NSW 2017<br/>
-          [+61 2 8073 8373](tel:+61280738373)<br/>
+          866 Bourke St.<br/> Waterloo, NSW 2017<br/> [+61 2 8073
+          8373](tel:+61280738373)<br/>
           [info@glowletter.co](mailto:info@glowletter.co)
         content_align: left
         actions:
@@ -56,8 +56,8 @@ sections:
         actions_width: auto
       - title: Brisbane
         content: >-
-          15 Jules Avenue <br/> Rochedale Sth, QLD 4123<br/>
-          [+61 7 3185 2373](tel:+61731852373)<br/>
+          15 Jules Avenue <br/> Rochedale Sth, QLD 4123<br/> [+61 7 3185
+          2373](tel:+61731852373)<br/>
           [info@glowletter.co](mailto:info@glowletter.co)
         content_align: left
         actions:
