@@ -42,8 +42,14 @@ sections:
       - title: NSW
         content: |
           866 Bourke Street
-          Waterloo, 2017
+          Waterloo
+
+          Sydney, 2017
+
+
           [02 8073 8373](tel:+61280738373)
+
+
           info@glowletter.co
         content_align: left
         actions:
