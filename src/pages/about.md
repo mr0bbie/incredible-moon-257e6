@@ -5,7 +5,7 @@ sections:
     title: About
     subtitle: How we came to light up events
     align: center
-    background_color: secondary
+    background_color: primary
     background_image: images/beautiful-shining-stars-night-sky.jpg
   - type: features_section
     features:
