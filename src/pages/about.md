@@ -19,7 +19,7 @@ sections:
           figured something better could be made. Two years of development later
           and the Glow Letter Co was born taking in the best elements of the
           different letter lighting approaches.
-        image: images/about-5.jpg
+        image: images/Image from iOS.jpg
         image_alt: People in conversation in the office lounge area
         media_position: right
         media_width: fifty
