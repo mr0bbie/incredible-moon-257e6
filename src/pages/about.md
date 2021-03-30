@@ -69,6 +69,7 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
+            new_window: true
         actions_align: center
         actions_width: auto
         title_align: center
