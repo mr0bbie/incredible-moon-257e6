@@ -11,7 +11,7 @@ sections:
     features:
       - title: The Glow Letter Co
         subtitle: Born from experiences of the team at Tag Snaps
-        content: >
+        content: >+
           From supporting hundreds of events across the country we were aware of
           the benefits well lit props can bring to styling an event. After
           seeing and experiencing all the best and worse of all the options in
@@ -19,6 +19,15 @@ sections:
           figured something better could be made. Two years of development later
           and the Glow Letter Co was born taking in the best elements of the
           different letter lighting approaches.
+
+
+
+
+          Each letter is extensively tested and specially packaged before
+          entering the hire fleet to ensure they glow their brightest at your
+          event. We are continually testing and refining our letter builds to
+          introduce new technology and manufacturing techniques.
+
         image: images/Image from iOS.jpg
         image_alt: People in conversation in the office lounge area
         media_position: right
