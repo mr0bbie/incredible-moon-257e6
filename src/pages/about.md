@@ -23,8 +23,7 @@ sections:
 
 
 
-
-
+          ## Australian Made
 
 
           The Glow Letter Co hand builds our letters at our Brisbane factory
