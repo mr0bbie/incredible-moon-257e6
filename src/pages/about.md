@@ -65,7 +65,7 @@ sections:
         actions:
           - label: Get Directions
             url: 'https://goo.gl/maps/C67efzgambHeegs78'
-            style: link
+            style: primary
             has_icon: true
             icon: arrow-right
             icon_position: right
