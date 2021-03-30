@@ -80,7 +80,6 @@
         "secondary_nav_title": "Contact",
         "secondary_nav_links": [
             {
-                "label": "News",
                 "url": "/blog/category/news",
                 "style": "link"
             },
