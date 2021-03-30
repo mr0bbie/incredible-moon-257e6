@@ -44,7 +44,7 @@ sections:
           866 Bourke St.<br/> Waterloo, NSW 2017<br/> [+61 2 8073
           8373](tel:+61280738373)<br/>
           [info@glowletter.co](mailto:info@glowletter.co)
-        content_align: left
+        content_align: center
         actions:
           - label: Get Directions
             url: 'https://goo.gl/maps/ff8y1nkdF6gtQbox9'
