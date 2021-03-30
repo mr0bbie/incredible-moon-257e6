@@ -53,7 +53,7 @@ sections:
             icon: arrow-right
             icon_position: right
             new_window: true
-        actions_align: left
+        actions_align: center
         actions_width: auto
         title_align: center
       - title: Brisbane
