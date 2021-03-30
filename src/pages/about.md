@@ -89,6 +89,7 @@ sections:
     actions:
       - url: /pricing
         style: primary
+        label: Contact
     align: center
     padding_top: medium
     padding_bottom: medium
