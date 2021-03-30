@@ -51,7 +51,7 @@ sections:
             style: link
             has_icon: true
             icon: arrow-right
-            icon_position: right
+            icon_position: center
         actions_align: left
         actions_width: auto
         title_align: center
