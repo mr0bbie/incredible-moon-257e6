@@ -54,6 +54,7 @@ sections:
             icon_position: right
         actions_align: left
         actions_width: auto
+        title_align: center
       - title: Brisbane
         content: >-
           15 Jules Avenue <br/> Rochedale Sth, QLD 4123<br/> [+61 7 3185
