@@ -83,7 +83,9 @@ sections:
     background_color: none
   - type: cta_section
     title: Get in touch!
-    content: Ut egestas elementum suscipit. Quisque at hendrerit mauris.
+    content: |+
+      Book Glow Letters for your event today!
+
     actions:
       - label: Compare Plans
         url: /pricing
