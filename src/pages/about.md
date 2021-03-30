@@ -61,7 +61,7 @@ sections:
           15 Jules Avenue <br/> Rochedale Sth, QLD 4123<br/> [+61 7 3185
           2373](tel:+61731852373)<br/>
           [info@glowletter.co](mailto:info@glowletter.co)
-        content_align: left
+        content_align: center
         actions:
           - label: Get Directions
             url: 'https://goo.gl/maps/C67efzgambHeegs78'
