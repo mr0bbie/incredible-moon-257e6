@@ -82,7 +82,7 @@ sections:
     has_border: false
     background_color: none
   - type: cta_section
-    title: Book Glow Letters for your event today!
+    title: Get in touch!
     content: Ut egestas elementum suscipit. Quisque at hendrerit mauris.
     actions:
       - label: Compare Plans
