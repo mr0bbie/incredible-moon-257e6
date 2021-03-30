@@ -67,7 +67,7 @@ sections:
             icon: arrow-right
             icon_position: right
         actions_align: center
-        image: images/classic/icon-3.svg
+        image: images/gold-medal.svg
         image_alt: Other queries icon
         image_position: top
         image_align: center
