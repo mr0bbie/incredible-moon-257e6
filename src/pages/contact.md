@@ -29,7 +29,7 @@ sections:
             icon: arrow-right
             icon_position: right
         actions_align: center
-        image: images/bronze-medal.svg
+        image: images/bronze.png
         image_alt: Partnering and sponsorships icon
         image_position: top
         image_align: center
