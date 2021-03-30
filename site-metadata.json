@@ -81,7 +81,8 @@
         "secondary_nav_links": [
             {
                 "url": "/blog/category/news",
-                "style": "link"
+                "style": "link",
+                "label": "Enquiry"
             },
             {
                 "label": "General",
