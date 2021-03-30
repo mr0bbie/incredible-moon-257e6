@@ -87,8 +87,7 @@ sections:
       Book Glow Letters for your event today!
 
     actions:
-      - label: Compare Plans
-        url: /pricing
+      - url: /pricing
         style: primary
     align: center
     padding_top: medium
