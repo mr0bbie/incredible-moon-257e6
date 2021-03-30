@@ -87,7 +87,7 @@ sections:
       Book Glow Letters for your event today!
 
     actions:
-      - url: /general-enquiry
+      - url: /general-enquiries
         style: primary
         label: Contact
     align: center
