@@ -23,7 +23,7 @@ sections:
 
           If you book in once a month
 
-          Conditions: minimum 3x months
+          Conditions: minimum 3 months
         content_align: center
         actions:
           - label: Get Support
