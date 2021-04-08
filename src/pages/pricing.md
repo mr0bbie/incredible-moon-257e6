@@ -79,18 +79,17 @@ sections:
       - title: Extras
         subtitle: Price on application
         title_align: left
-        content: |+
+        content: |
           ***
 
           ### $XXX
 
-          per 
+
 
           *   Custom symbols and logos
           *   Generators, Batteries, DMX Control
           *   Other Alphabets, Fonts and Scripts
           *   Bundle deals
-
         content_align: left
         actions: []
         actions_align: left
