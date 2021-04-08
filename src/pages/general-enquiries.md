@@ -3,7 +3,7 @@ title: General enquiries
 sections:
   - type: hero_section
     title: Contact Us
-    subtitle: 'We''d love to hear from you, no job is too big or too small!'
+    subtitle: 'We''d love to hear from you, no job is too big or too small'
     align: center
     padding_top: medium
     padding_bottom: medium
