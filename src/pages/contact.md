@@ -47,7 +47,7 @@ sections:
 
           \---
 
-          If you book in three times a month
+          If you book in 3x a month
 
           Conditions: minimum 3 months
         content_align: center
