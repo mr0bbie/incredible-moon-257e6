@@ -279,7 +279,7 @@ sections:
 
           Custom symbols and logos
 
-          Generators, Batteries, DMX Control
+          Generators, Batteries, DMX
 
           Other Alphabets, Fonts and Scripts
 
