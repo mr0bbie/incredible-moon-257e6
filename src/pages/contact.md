@@ -21,6 +21,8 @@ sections:
 
           ##### for every hire
 
+          \---
+
           If you book in once a month
 
           Conditions: over 3x months
