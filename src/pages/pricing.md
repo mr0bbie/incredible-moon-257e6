@@ -5,7 +5,7 @@ sections:
     title: Choose Your Package
     subtitle: Our packages are fully customisable
     align: center
-    padding_top: large
+    padding_top: medium
     padding_bottom: small
     background_image: images/beautiful-shining-stars-night-sky.jpg
     background_color: primary
