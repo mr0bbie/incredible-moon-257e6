@@ -99,7 +99,7 @@ sections:
     padding_bottom: large
     background_color: secondary
   - title: Terms and Conditions
-    subtitle: lorem-ipsum
+    subtitle: The fine print
     features: []
     feature_padding_vert: medium
     align: center
