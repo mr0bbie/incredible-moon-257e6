@@ -335,7 +335,7 @@ sections:
 
 
           **Jayde Parr,** *Central Coast, Letters: 2020*
-        image: images/cool-potato.png
+        image: images/kind-strawberry.png
         image_alt: Eleanor Carr
         image_position: left
         image_width: twenty-five
