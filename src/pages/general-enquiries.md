@@ -31,7 +31,7 @@ sections:
         is_required: true
       - input_type: number
         name: Contact Number
-        label: tnoC
+        label: Contact Number
         default_value: lorem-ipsum
         options: []
         is_required: false
