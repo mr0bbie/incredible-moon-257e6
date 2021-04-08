@@ -26,7 +26,7 @@ sections:
           Conditions: minimum 3 months
         content_align: center
         actions:
-          - label: Get Support
+          - label: LET'S DO IT
             url: /general-enquiries
             style: primary
             has_icon: true
