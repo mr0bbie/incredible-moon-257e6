@@ -15,7 +15,9 @@ sections:
       - title: Bronze Partner
         title_align: center
         content: |
-          ## 15% off
+          ##
+
+          # 15% off
 
           for every hire
 
