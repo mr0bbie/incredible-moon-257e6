@@ -34,7 +34,7 @@ sections:
         label: Contact Number
         default_value: Your phone number
         options: []
-        is_required: false
+        is_required: true
         type: form_field
       - input_type: select
         name: subject
