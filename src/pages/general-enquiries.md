@@ -32,7 +32,7 @@ sections:
       - input_type: number
         name: Contact Number
         label: Contact Number
-        default_value: 'Your '
+        default_value: Your phone number
         options: []
         is_required: false
         type: form_field
