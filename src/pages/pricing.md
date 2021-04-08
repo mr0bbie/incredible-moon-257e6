@@ -27,10 +27,7 @@ sections:
           *   Hire any A-Z letter or 0-9 number
           *   Price Per Day
         content_align: left
-        actions:
-          - label: Lets get started!
-            url: /general-enquiries
-            style: primary
+        actions: []
         actions_align: left
         actions_width: full-width
         subtitle: 3 letters or less
