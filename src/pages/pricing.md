@@ -6,7 +6,7 @@ sections:
     subtitle: Our packages are fully customisable
     align: center
     padding_top: none
-    padding_bottom: none
+    padding_bottom: medium
     background_image: images/beautiful-shining-stars-night-sky.jpg
     background_color: primary
   - type: grid_section
