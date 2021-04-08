@@ -7,7 +7,7 @@ sections:
     align: center
     padding_top: medium
     padding_bottom: medium
-    background_color: none
+    background_color: primary
     background_image: images/beautiful-shining-stars-night-sky.jpg
   - type: form_section
     content: >-
