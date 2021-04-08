@@ -19,9 +19,7 @@ sections:
 
           # 15% off
 
-          for every hire
-
-
+          ##### for every hire
 
           If you book in once a month
 
