@@ -66,9 +66,16 @@ sections:
         image_has_padding: true
       - title: Gold Partner
         title_align: center
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel.
+        content: |
+          # 45% off
+
+          ##### for every hire
+
+          \---
+
+          If you book in 10x a month
+
+          Conditions: minimum 3 months
         content_align: center
         actions:
           - label: Get Support
