@@ -10,7 +10,7 @@ sections:
     background_color: primary
     background_image: images/beautiful-shining-stars-night-sky.jpg
   - type: form_section
-    content: "### Thanks for dropping in!\n\nUse the form or our contact details below and we'll come back with answers to any of your questions.\_\n​Email -\_<hello@glowletter.co>\nPhone -\_[02 8073 8373](tel:6180738373)\n\n\n### Want first dibs?\n\nIf you would like to ensure the availability\_of your letters please use our [booking form](https://www.glowletter.co/book.html) and we will reserve them for you\n\n"
+    content: "### Thanks for dropping in!\n\nUse the form or our contact details below and we'll come back with answers to any of your questions.\_\n\n\n​Email -\_<hello@glowletter.co>\nPhone -\_[02 8073 8373](tel:6180738373)\n\n### Want first dibs?\n\nIf you would like to ensure the availability\_of your letters please use our [booking form](https://www.glowletter.co/book.html) and we will reserve them for you\n"
     content_align: left
     form_position: right
     form_width: fifty
