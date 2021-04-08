@@ -84,7 +84,7 @@ sections:
 
           ### $XXX
 
-          custom packages include
+          custom packages
 
           *   Custom symbols and logos
           *   Generators, Batteries, DMX Control
