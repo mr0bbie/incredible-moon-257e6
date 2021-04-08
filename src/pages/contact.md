@@ -5,7 +5,7 @@ sections:
     title: Partnerships
     subtitle: Want to be a part of the fun?
     align: center
-    padding_top: large
+    padding_top: medium
     padding_bottom: large
     has_border: true
     background_color: primary
