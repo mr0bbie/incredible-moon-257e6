@@ -47,6 +47,13 @@ sections:
           I understand that this form is storing my submitted information so I
           can be contacted.
         is_required: true
+      - input_type: text
+        name: lorem-ipsum
+        label: lorem-ipsum
+        default_value: lorem-ipsum
+        options: []
+        is_required: false
+        type: form_field
     submit_label: Send Message
     align_vert: top
     padding_top: medium
