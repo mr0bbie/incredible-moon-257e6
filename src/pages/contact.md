@@ -3,7 +3,7 @@ title: Partnership
 sections:
   - type: hero_section
     title: Partnerships
-    subtitle: Want to be a part of the fun?
+    subtitle: Want to be a part of the fun? Let's join forces!
     align: center
     padding_top: medium
     padding_bottom: medium
