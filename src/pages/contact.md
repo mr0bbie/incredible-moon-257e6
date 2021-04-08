@@ -3,7 +3,9 @@ title: Partnership
 sections:
   - type: hero_section
     title: Partnerships
-    subtitle: Want to be a part of the fun?
+    subtitle: >-
+      Want to be a part of the fun? Below are our tiers of partnerships and the
+      discounts they can bring you
     align: center
     padding_top: medium
     padding_bottom: medium
