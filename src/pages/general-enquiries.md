@@ -8,6 +8,7 @@ sections:
     padding_top: medium
     padding_bottom: medium
     background_color: none
+    background_image: images/beautiful-shining-stars-night-sky.jpg
   - type: form_section
     content: >-
       ### Billing
