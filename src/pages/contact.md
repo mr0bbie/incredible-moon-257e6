@@ -98,7 +98,7 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: secondary
-  - title: lorem-ipsum
+  - title: Terms and Conditions
     subtitle: lorem-ipsum
     features: []
     feature_padding_vert: medium
