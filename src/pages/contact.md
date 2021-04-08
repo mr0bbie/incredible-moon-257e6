@@ -15,11 +15,11 @@ sections:
       - title: Bronze Partner
         title_align: center
         content: |
-          ## 15% off every hire
+          ## 15% off
+
+          for every hire
 
           If you book in once a month
-
-
 
           Conditions:
 
