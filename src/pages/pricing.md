@@ -49,10 +49,7 @@ sections:
           *   Hire any A-Z letter or 0-9 number
           *   Price Per Day
         content_align: left
-        actions:
-          - label: Start with Premium
-            url: /features
-            style: primary
+        actions: []
         actions_align: left
         actions_width: full-width
       - title: DIY Package
