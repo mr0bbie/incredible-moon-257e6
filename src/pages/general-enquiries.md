@@ -43,7 +43,7 @@ sections:
         options:
           - Enquiry
           - Partnership
-          - Other
+          - null
       - input_type: textarea
         name: message
         label: Message
