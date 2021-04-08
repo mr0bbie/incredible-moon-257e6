@@ -40,9 +40,16 @@ sections:
         image_has_padding: true
       - title: Silver Partner
         title_align: center
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla.
+        content: |
+          # 30% off
+
+          ##### for every hire
+
+          \---
+
+          If you book in once a month
+
+          Conditions: minimum 3 months
         content_align: center
         actions:
           - label: Get Support
