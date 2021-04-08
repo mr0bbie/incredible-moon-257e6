@@ -26,7 +26,7 @@ sections:
           Conditions: minimum 3 months
         content_align: center
         actions:
-          - label: LET'S DO IT
+          - label: I'M READY
             url: /general-enquiries
             style: primary
             has_icon: true
