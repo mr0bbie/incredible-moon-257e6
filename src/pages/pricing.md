@@ -84,7 +84,7 @@ sections:
 
           ### $XXX
 
-
+          add ons
 
           *   Custom symbols and logos
           *   Generators, Batteries, DMX Control
