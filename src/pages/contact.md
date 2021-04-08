@@ -21,11 +21,11 @@ sections:
 
           for every hire
 
+
+
           If you book in once a month
 
-          Conditions:
-
-          3x months
+          Conditions: over 3x months
         content_align: center
         actions:
           - label: Get Support
