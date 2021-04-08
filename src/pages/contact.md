@@ -15,8 +15,6 @@ sections:
       - title: Bronze Partner
         title_align: center
         content: |
-
-
           # 15% off
 
           ##### for every hire
@@ -25,7 +23,7 @@ sections:
 
           If you book in once a month
 
-          Conditions: over 3x months
+          Conditions: minimum 3x months
         content_align: center
         actions:
           - label: Get Support
