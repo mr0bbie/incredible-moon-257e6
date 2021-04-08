@@ -14,9 +14,16 @@ sections:
     grid_items:
       - title: Bronze Partner
         title_align: center
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam.
+        content: |
+          ## 15% off every hire
+
+          If you book in once a month
+
+
+
+          Conditions:
+
+          3x months
         content_align: center
         actions:
           - label: Get Support
