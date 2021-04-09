@@ -362,7 +362,7 @@ sections:
     background_image: images/futuristic-planet.jpg
   - type: grid_section
     title: The Glow Letter Team
-    subtitle: Meet the people
+    subtitle: Meet the people behind the shine
     actions:
       - label: Join the team
         url: /contact
