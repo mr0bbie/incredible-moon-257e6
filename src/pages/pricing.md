@@ -57,7 +57,7 @@ sections:
 
           per letter
 
-          *   You collect & drop off
+          *   You collect & drop off from our base
 
           *   Choose up to 12 colours to glow in
 
