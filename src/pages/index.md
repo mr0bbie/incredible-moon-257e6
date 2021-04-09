@@ -172,7 +172,7 @@ sections:
           give our letters an infinite range of colours.
         actions:
           - label: Choose your colour
-            url: /style-guide
+            url: /general
             style: primary
             has_icon: true
             icon: arrow-right
