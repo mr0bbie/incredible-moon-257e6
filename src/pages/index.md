@@ -146,8 +146,8 @@ sections:
       - subtitle: "The Glow Letter Co hires easy to set up, glowing event letters that will light up your event and be a favourite\_focal point of your attendees."
         content: "Choose the letters or numbers in any colour to add atmosphere and match the style of your event. We hire any combination of A-Z letters, 0-9 numbers and special characters.\n\nOur letters can glow in any colour to create a unique look for your event:\_ we love shades of crisp white, retro blue, trendy violet, and bold pink.\_\n\nSpeak to us today to find your style!\n"
         actions:
-          - label: Learn More
-            url: /style-guide
+          - label: Find your style
+            url: /general-enquiry
             style: primary
             has_icon: true
             icon: arrow-right
@@ -171,13 +171,13 @@ sections:
           Brisbane and Sydney workshops. We use the latest LED technology to
           give our letters an infinite range of colours.
         actions:
-          - label: Learn More
-            url: /style-guide
+          - label: Choose your colour
+            url: /general-enquiry
             style: primary
             has_icon: true
             icon: arrow-right
             icon_position: right
-        image: images/Image from iOS (24).jpg
+        image: images/smart-mars.jpg
         image_alt: Feature 2 placeholder image
         media_position: left
         media_width: thirty-three
@@ -185,13 +185,13 @@ sections:
       - title: Uniquely Designed
         content: "Based on years of experience\_at events our Glow Letters have been designed to be quickly and easily installed at any event. Our letters are light weight and easily transported up stairs or across fields. We also know how critical a smooth, on-time setup is for your event. \n\nOur team works with you and your venue to co-ordinate timing so you can relax and focus on running your event\n​(and perfecting\_that Glow Letter selfie!).\n"
         actions:
-          - label: Learn More
-            url: /style-guide
+          - url: /general-enquiry
             style: primary
             has_icon: true
             icon: arrow-right
             icon_position: right
-        image: images/Image from iOS (17).jpg
+            label: Lock in your letters
+        image: images/good-europa.jpg
         image_alt: Feature 3 placeholder image
         media_position: right
         media_width: thirty-three
@@ -361,8 +361,8 @@ sections:
     background_color: primary
     background_image: images/futuristic-planet.jpg
   - type: grid_section
-    title: Team Section
-    subtitle: Grid Section Example
+    title: The Glow Letter Team
+    subtitle: Meet the people behind the shine
     actions:
       - label: Join the team
         url: /contact
