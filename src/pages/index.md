@@ -190,7 +190,7 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-            label: Book in your event!
+            label: Lock in your letters
         image: images/Image from iOS (17).jpg
         image_alt: Feature 3 placeholder image
         media_position: right
