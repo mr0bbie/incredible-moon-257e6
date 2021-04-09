@@ -190,7 +190,6 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-            label: Organise
         image: images/Image from iOS (17).jpg
         image_alt: Feature 3 placeholder image
         media_position: right
