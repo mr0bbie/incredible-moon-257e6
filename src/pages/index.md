@@ -185,7 +185,7 @@ sections:
       - title: Uniquely Designed
         content: "Based on years of experience\_at events our Glow Letters have been designed to be quickly and easily installed at any event. Our letters are light weight and easily transported up stairs or across fields. We also know how critical a smooth, on-time setup is for your event. \n\nOur team works with you and your venue to co-ordinate timing so you can relax and focus on running your event\n​(and perfecting\_that Glow Letter selfie!).\n"
         actions:
-          - url: /style-guide
+          - url: /general-enquiry
             style: primary
             has_icon: true
             icon: arrow-right
