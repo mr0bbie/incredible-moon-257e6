@@ -147,7 +147,7 @@ sections:
         content: "Choose the letters or numbers in any colour to add atmosphere and match the style of your event. We hire any combination of A-Z letters, 0-9 numbers and special characters.\n\nOur letters can glow in any colour to create a unique look for your event:\_ we love shades of crisp white, retro blue, trendy violet, and bold pink.\_\n\nSpeak to us today to find your style!\n"
         actions:
           - label: Enquire here
-            url: /g
+            url: /geral-enquiry
             style: primary
             has_icon: true
             icon: arrow-right
