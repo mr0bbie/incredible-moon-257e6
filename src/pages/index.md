@@ -362,7 +362,7 @@ sections:
     background_image: images/futuristic-planet.jpg
   - type: grid_section
     title: Team Section
-    subtitle: Grid Section Example
+    subtitle: Meet the people
     actions:
       - label: Join the team
         url: /contact
