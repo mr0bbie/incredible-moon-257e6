@@ -361,7 +361,7 @@ sections:
     background_color: primary
     background_image: images/futuristic-planet.jpg
   - type: grid_section
-    title: Team Section
+    title: The Glow Letter Team
     subtitle: Meet the people
     actions:
       - label: Join the team
