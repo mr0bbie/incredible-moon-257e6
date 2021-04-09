@@ -171,7 +171,7 @@ sections:
           Brisbane and Sydney workshops. We use the latest LED technology to
           give our letters an infinite range of colours.
         actions:
-          - label: Learn More
+          - label: Choose your colour
             url: /style-guide
             style: primary
             has_icon: true
