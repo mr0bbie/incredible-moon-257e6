@@ -191,7 +191,7 @@ sections:
             icon: arrow-right
             icon_position: right
             label: Lock in your letters
-        image: images/pride.jpg
+        image: images/good-europa.jpg
         image_alt: Feature 3 placeholder image
         media_position: right
         media_width: thirty-three
