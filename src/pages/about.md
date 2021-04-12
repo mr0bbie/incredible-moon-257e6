@@ -114,7 +114,7 @@ sections:
         type: grid_item
         image: images/modern-tiger.jpg
       - title: Matthew Robbie
-        subtitle: lorem-ipsum
+        subtitle: Chief of Operations
         title_align: left
         content: >-
           ## Lorem ipsum
