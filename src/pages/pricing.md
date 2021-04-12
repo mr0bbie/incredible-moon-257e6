@@ -58,22 +58,13 @@ sections:
           per letter
 
           *   You collect & drop off from our base
-
           *   Choose up to 12 colours to glow in
-
           *   Hire any A-Z letter or 0-9 number
-
           *   Price Per Day
         content_align: left
         actions: []
         actions_align: left
-        actions_width: auto
-        image_alt: lorem-ipsum
-        image_position: top
-        image_width: fifty
-        image_align: left
-        image_has_padding: true
-        type: grid_item
+        actions_width: full-width
       - title: Extras
         subtitle: Price on application
         title_align: left
