@@ -50,6 +50,8 @@ sections:
           If you book in 3x a month
 
           Conditions: minimum 3 months
+
+          Minimum 10x letters booked in month
         content_align: center
         actions:
           - label: LET'S DO IT
