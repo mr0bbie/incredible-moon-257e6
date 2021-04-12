@@ -97,7 +97,16 @@ sections:
     background_color: primary
   - title: The Glow Letter Team
     subtitle: Meet the people behind the shine
-    actions: []
+    actions:
+      - label: lorem-ipsum
+        url: lorem-ipsum
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: right
+        new_window: false
+        no_follow: false
+        type: action
     grid_items:
       - title: Duncan Robbie
         subtitle: Co-Founder and CEO
