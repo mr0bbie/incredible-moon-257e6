@@ -223,6 +223,7 @@ sections:
     background_image_position: center center
     background_image_repeat: no-repeat
     type: features_section
+    subtitle: Glow Letter
   - type: grid_section
     subtitle: The Glow Letter Co
     grid_items:
