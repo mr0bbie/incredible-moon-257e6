@@ -142,7 +142,6 @@ sections:
       - title: What letters are available?
         content: "We can provide any combination of letters from A-Z, numbers from 0-9 along with\_♡,\_⇧, &, @ and #. We can also provide customised symbols or logos: please contact us to discuss pricing for custom letters.\n\n"
       - title: lorem-ipsum
-        subtitle: lorem-ipsum
         title_align: left
         content: >-
           ## Lorem ipsum
