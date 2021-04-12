@@ -127,11 +127,11 @@ sections:
       - title: Can I use your letters outdoor?
         content: "Sure!\_Glow Letters make a great addition to any event, indoors our outdoors as long as you have access to a power outlet. \n\nHowever, Glow Letters don't like the rain and power should be disconnected if it's raining. For safety the Glow Letters operate at low voltage and the power supply is enclosed in a weather sealed box.\_\n\n"
       - title: Do I need to provide power?
-        content: >-
-          Blandit aliquam etiam erat velit. In massa tempor nec feugiat.
-          Volutpat maecenas volutpat blandit aliquam. Sem integer vitae justo
-          eget magna fermentum iaculis. Amet est placerat in egestas erat
-          imperdiet sed euismod nisi. Facilisi morbi tempus iaculis urna.
+        content: >+
+          Yes. If power isn't available, contact us and we can talk to you about
+          other options including generators and batteries to get your letters
+          glowing!
+
       - title: Porta nibh venenatis cras sed felis eget velit aliquet?
         content: >-
           Facilisis gravida neque convallis a cras semper auctor neque vitae.
