@@ -48,7 +48,7 @@ sections:
         is_required: true
       - input_type: text
         name: letters
-        label: Letters
+        label: Glow etters
         options: []
         is_required: false
         type: form_field
