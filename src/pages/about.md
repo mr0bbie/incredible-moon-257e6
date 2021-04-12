@@ -99,7 +99,7 @@ sections:
     subtitle: Meet the people behind the shine
     actions:
       - label: Join the team!
-        url: lorem-ipsum
+        url: /general-enquiries
         style: link
         has_icon: false
         icon: arrow-left
