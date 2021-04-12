@@ -113,5 +113,36 @@ sections:
     background_image_position: center center
     background_image_repeat: no-repeat
     type: grid_section
+    - type: grid_section
+    title: The Glow Letter Team
+    subtitle: Meet the people behind the shine
+    actions:
+      - label: Join the team
+        url: /contact
+        style: primary
+    grid_items:
+      - title: Duncan Robbie
+        subtitle: Co-Founder & CEO
+        title_align: center
+        image: images/duncan.jpg
+        image_position: top
+      - title: Matthew Robbie
+        subtitle: Chief Operations Officer
+        title_align: center
+        image: images/matt.jpeg
+        image_position: top
+      - title: Andrew Flanagan
+        subtitle: Operations Manager
+        title_align: center
+        image: images/hugh-saturation.jpg
+        image_position: top
+      - title: Sara Miljic
+        subtitle: Business Development
+        title_align: center
+        image: images/sara.jpeg
+        image_position: top
+    grid_cols: four
+    align: center
+    background_color: secondary
 template: advanced
 ---
