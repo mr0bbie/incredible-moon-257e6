@@ -143,7 +143,7 @@ sections:
         image: images/curious-turtle.jpeg
       - title: Andrew Flanagan
         subtitle: Operations Manager
-        title_align: left
+        title_align: center
         content: >-
           ## Lorem ipsum
 
