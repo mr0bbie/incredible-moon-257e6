@@ -95,6 +95,7 @@ sections:
     padding_bottom: medium
     has_border: false
     background_color: primary
+    background_image: images/beautiful-shining-stars-night-sky.jpg
   - title: The Glow Letter Team
     subtitle: Meet the people behind the shine
     actions:
