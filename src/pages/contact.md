@@ -71,7 +71,7 @@ sections:
         image_has_padding: true
       - title: Gold Partner
         title_align: center
-        content: |
+        content: |+
           # 45% off
 
           ##### for every hire
@@ -81,6 +81,9 @@ sections:
           If you book in 10x a month
 
           Conditions: minimum 3 months
+
+          Minimum 10x letters booked in month
+
         content_align: center
         actions:
           - label: 'YOU''RE ON, PARTNER'
