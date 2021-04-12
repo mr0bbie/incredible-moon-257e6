@@ -115,7 +115,7 @@ sections:
         image: images/modern-tiger.jpg
       - title: Matthew Robbie
         subtitle: Chief Operations Officer
-        title_align: left
+        title_align: center
         content: >-
           ## Lorem ipsum
 
