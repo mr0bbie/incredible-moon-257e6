@@ -105,10 +105,13 @@ sections:
     title: 'You asked, we answered!'
     grid_items:
       - title: Where does The Glow Letter Co deliver to?
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: >+
+          ​We include free delivery within 1 hour drive of the Brisbane and
+          Sydney CBDs. Shipping and self setup is also possible - if your event
+          is outside of these areas please contact us for further information.
+          We have setup teams located in Melbourne, Adelaide, Perth, Canberra
+          and Hobart.
+
       - title: Sagittis vitae et leo duis ut diam?
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
