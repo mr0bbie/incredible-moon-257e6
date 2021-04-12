@@ -101,7 +101,7 @@ sections:
     grid_items:
       - title: Duncan Robbie
         subtitle: Co-Founder and CEO
-        title_align: left
+        title_align: center
         content_align: center
         actions: []
         actions_align: left
