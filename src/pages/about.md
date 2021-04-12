@@ -129,7 +129,7 @@ sections:
         image: images/magnificent-zebra.jpeg
       - title: Sara Miljic
         subtitle: Business Development
-        title_align: left
+        title_align: center
         content: >-
           ## Lorem ipsum
 
