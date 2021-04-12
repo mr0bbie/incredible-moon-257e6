@@ -14,7 +14,7 @@ sections:
     grid_items:
       - title: Bronze Partner
         title_align: center
-        content: |
+        content: |+
           # 15% off
 
           ##### for every hire
@@ -24,6 +24,9 @@ sections:
           If you book in once a month
 
           Conditions: minimum 3 months
+
+          Minimum 10x letters booked in month
+
         content_align: center
         actions:
           - label: I'M READY
