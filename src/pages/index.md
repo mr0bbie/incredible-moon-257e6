@@ -224,7 +224,6 @@ sections:
     background_image_repeat: no-repeat
     type: features_section
     subtitle: Glow Letter
-    background_image: images/g-dimensions.png
   - type: grid_section
     subtitle: The Glow Letter Co
     grid_items:
