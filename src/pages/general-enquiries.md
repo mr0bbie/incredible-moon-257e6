@@ -41,10 +41,10 @@ sections:
         label: Subject
         default_value: Please select
         options:
+          - Booking
           - Enquiry
           - Partnership
           - Other
-          - Booking
         is_required: true
       - input_type: text
         name: lorem-ipsum
