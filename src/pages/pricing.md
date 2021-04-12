@@ -141,7 +141,7 @@ sections:
 
       - title: What letters are available?
         content: "We can provide any combination of letters from A-Z, numbers from 0-9 along with\_♡,\_⇧, &, @ and #. We can also provide customised symbols or logos: please contact us to discuss pricing for custom letters.\n\n"
-      - title: lorem-ipsum
+      - title: Are you insured?
         title_align: left
         content: >+
           ​We would hate something to happen but just in case we have a $20
