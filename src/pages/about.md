@@ -96,7 +96,7 @@ sections:
     has_border: false
     background_color: primary
   - title: The Glow Letter Team
-    subtitle: Get to know the
+    subtitle: Meet the people behind the shine
     actions: []
     grid_items: []
     grid_cols: three
