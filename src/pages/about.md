@@ -128,7 +128,7 @@ sections:
         type: grid_item
         image: images/magnificent-zebra.jpeg
       - title: Sara Miljic
-        subtitle: lorem-ipsum
+        subtitle: Business Development
         title_align: left
         content: >-
           ## Lorem ipsum
