@@ -113,10 +113,17 @@ sections:
           and Hobart.
 
       - title: How long does it take to set up?
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: >+
+          With easy access to your venue and a power outlet, glow letter lights
+          can be setup within 15 minutes. Please allow more time for difficult
+          locations, long words, long power runs or if colour matching is
+          required.
+
+
+          Alternatively setting the letters up yourself is super easy! We can
+          provide a 10 minutes tutorial on how to set the letters up and you'll
+          be a pro.
+
       - title: Viverra nam libero justo laoreet sit?
         content: >-
           In tellus integer feugiat scelerisque. Aliquam eleifend mi in nulla
