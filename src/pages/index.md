@@ -210,7 +210,7 @@ sections:
     feature_padding_vert: small
     background_color: primary
     background_image: images/super-birch.jpg
-  - title: lorem-ipsum
+  - title: Specifications
     features: []
     feature_padding_vert: medium
     align: center
