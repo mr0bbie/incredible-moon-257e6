@@ -100,7 +100,7 @@ sections:
     actions: []
     grid_items:
       - title: Duncan Robbie
-        subtitle: lorem-ipsum
+        subtitle: Co-Founder and CEO
         title_align: left
         content_align: center
         actions: []
