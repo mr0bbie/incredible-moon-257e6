@@ -212,7 +212,7 @@ sections:
     background_image: images/super-birch.jpg
   - title: Specifications
     features:
-      - content: "## Dimensions\n\nHeight - 115 cm\nWidth - 77 cm\_\nThickness - 2.5 cm\nBase - 27.5 x 80 cm\n\n\n\n\n## Technical\n\nSilicon molded RGB LED Strip\nMulti colour LED controllers with 12 selectable modes\nHigh capacity LED power supply capable of supporting multiple letters\n\n"
+      - content: "### Dimensions\n\nHeight - 115 cm\n\n\nWidth - 77 cm\_\n\n\nThickness - 2.5 cm\n\n\nBase - 27.5 x 80 cm\n\n### Technical\n\nSilicon molded RGB LED Strip\n\n\nMulti colour LED controllers with 12 selectable modes\n\n\nHigh capacity LED power supply capable of supporting multiple letters\n"
         actions: []
         image_alt: lorem-ipsum
         media_position: right
