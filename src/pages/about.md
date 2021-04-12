@@ -100,7 +100,7 @@ sections:
     actions:
       - label: Join the team!
         url: /general-enquiry
-        style: secondary
+        style: primary
         has_icon: false
         icon: arrow-left
         icon_position: right
