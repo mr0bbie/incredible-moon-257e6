@@ -104,7 +104,7 @@ sections:
   - type: grid_section
     title: 'You asked, we answered!'
     grid_items:
-      - title: Where does The Glow Letter Co deliver to?
+      - title: Where do you deliver to?
         content: >
           ​We include free delivery within 1 hour drive of the Brisbane and
           Sydney CBDs. Shipping and self setup is also possible - if your event
