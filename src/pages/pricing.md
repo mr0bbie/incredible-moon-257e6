@@ -91,6 +91,16 @@ sections:
     padding_bottom: medium
     has_border: false
     background_color: none
+    actions:
+      - label: lorem-ipsum
+        url: lorem-ipsum
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: right
+        new_window: false
+        no_follow: false
+        type: action
   - type: grid_section
     title: 'You asked, we answered!'
     grid_items:
