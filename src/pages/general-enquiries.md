@@ -49,7 +49,6 @@ sections:
       - input_type: text
         name: letters
         label: Letters
-        default_value: lorem-ipsum
         options: []
         is_required: false
         type: form_field
