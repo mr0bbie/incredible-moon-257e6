@@ -81,7 +81,7 @@ sections:
 
           Conditions: minimum 3 months
 
-          Minimum 5x letters booked in month
+          Minimum 5x letters booked in per month
         content_align: center
         actions:
           - label: 'YOU''RE ON, PARTNER'
