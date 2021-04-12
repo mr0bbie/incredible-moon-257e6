@@ -212,7 +212,7 @@ sections:
     background_image: images/super-birch.jpg
   - title: Specifications
     features:
-      - title: lorem-ipsum
+      - title: ' Dimensions'
         subtitle: lorem-ipsum
         content: >-
           ## Lorem ipsum
