@@ -92,7 +92,7 @@ sections:
     has_border: false
     background_color: none
     actions:
-      - label: lorem-ipsum
+      - label: Book your letters in now!
         url: lorem-ipsum
         style: link
         has_icon: false
