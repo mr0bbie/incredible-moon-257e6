@@ -44,6 +44,7 @@ sections:
           - Enquiry
           - Partnership
           - Other
+          - lorem-ipsum
         is_required: true
       - input_type: text
         name: lorem-ipsum
