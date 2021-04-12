@@ -124,7 +124,7 @@ sections:
           provide a 10 minutes tutorial on how to set the letters up and you'll
           be a pro.
 
-      - title: Viverra nam libero justo laoreet sit?
+      - title: Can I use your letters outdoor?
         content: >-
           In tellus integer feugiat scelerisque. Aliquam eleifend mi in nulla
           posuere. Bibendum neque egestas congue quisque egestas. Mauris sit
