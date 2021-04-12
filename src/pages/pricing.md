@@ -143,17 +143,12 @@ sections:
         content: "We can provide any combination of letters from A-Z, numbers from 0-9 along with\_♡,\_⇧, &, @ and #. We can also provide customised symbols or logos: please contact us to discuss pricing for custom letters.\n\n"
       - title: lorem-ipsum
         title_align: left
-        content: >-
-          ## Lorem ipsum
+        content: >+
+          ​We would hate something to happen but just in case we have a $20
+          million PP\&L insurance policy. We are committed to safely delivering
+          your event and are familiar working with multiple venues and
+          facilitators to perform our safety work method plans.
 
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
         content_align: left
         actions: []
         actions_align: left
