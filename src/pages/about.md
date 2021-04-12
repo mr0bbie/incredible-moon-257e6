@@ -113,7 +113,7 @@ sections:
         image_has_padding: false
         type: grid_item
         image: images/modern-tiger.jpg
-      - title: lorem-ipsum
+      - title: Matthew Robbie
         subtitle: lorem-ipsum
         title_align: left
         content: >-
