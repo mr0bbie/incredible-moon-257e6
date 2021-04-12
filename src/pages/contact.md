@@ -24,6 +24,8 @@ sections:
           If you book in once a month
 
           Conditions: minimum 3 months
+
+          Minimum 5x letters booked in per month
         content_align: center
         actions:
           - label: I'M READY
@@ -50,6 +52,8 @@ sections:
           If you book in 3x a month
 
           Conditions: minimum 3 months
+
+          Minimum 5x letters booked in per month
         content_align: center
         actions:
           - label: LET'S DO IT
@@ -76,6 +80,8 @@ sections:
           If you book in 10x a month
 
           Conditions: minimum 3 months
+
+          Minimum 5x letters booked in per month
         content_align: center
         actions:
           - label: 'YOU''RE ON, PARTNER'

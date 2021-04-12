@@ -41,10 +41,18 @@ sections:
         label: Subject
         default_value: Please select
         options:
+          - Booking
           - Enquiry
           - Partnership
           - Other
         is_required: true
+      - input_type: text
+        name: letters
+        label: Glow Letters
+        options: []
+        is_required: false
+        type: form_field
+        default_value: Glow letters for you event
       - input_type: textarea
         name: message
         label: Message
@@ -55,7 +63,7 @@ sections:
           I understand that this form is storing my submitted information so I
           can be contacted.
         is_required: true
-    submit_label: Send Message
+    submit_label: Submit
     align_vert: top
     padding_top: medium
     padding_bottom: medium
