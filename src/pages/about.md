@@ -95,7 +95,7 @@ sections:
     padding_bottom: medium
     has_border: false
     background_color: primary
-  - title: lorem-ipsum
+  - title: The Glow Letter Team
     subtitle: lorem-ipsum
     actions: []
     grid_items: []
