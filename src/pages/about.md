@@ -142,7 +142,7 @@ sections:
         type: grid_item
         image: images/curious-turtle.jpeg
       - title: Andrew Flanagan
-        subtitle: lorem-ipsum
+        subtitle: Operations Manager
         title_align: left
         content: >-
           ## Lorem ipsum
