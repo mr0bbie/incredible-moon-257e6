@@ -215,7 +215,7 @@ sections:
       - content: "### Dimensions\n\nHeight - 115 cm\n\n\nWidth - 77 cm\_\n\n\nThickness - 2.5 cm\n\n\nBase - 27.5 x 80 cm\n\n### Technical\n\nSilicon molded RGB LED Strip\n\n\nMulti colour LED controllers with 12 selectable modes\n\n\nHigh capacity LED power supply capable of supporting multiple letters\n"
         actions: []
         image_alt: lorem-ipsum
-        media_position: right
+        media_position: left
         media_width: fourty
         align: left
         type: feature
