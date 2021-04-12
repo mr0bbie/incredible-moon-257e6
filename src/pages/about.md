@@ -127,7 +127,7 @@ sections:
         image_has_padding: false
         type: grid_item
         image: images/magnificent-zebra.jpeg
-      - title: 'Sara '
+      - title: Sara Miljic
         subtitle: lorem-ipsum
         title_align: left
         content: >-
