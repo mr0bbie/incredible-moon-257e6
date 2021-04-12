@@ -132,6 +132,13 @@ sections:
           other options including generators and batteries to get your letters
           glowing!
 
+
+          Each Glow Letter uses a small amount of power thanks to the latest LED
+          technology. Glow Letters are happily powered by a regular outlet,
+          alongside other audio and lighting equipment. For a calculation
+          particular to your letter combination please contact us and we can
+          quickly calculate it for you.
+
       - title: Porta nibh venenatis cras sed felis eget velit aliquet?
         content: >-
           Facilisis gravida neque convallis a cras semper auctor neque vitae.
