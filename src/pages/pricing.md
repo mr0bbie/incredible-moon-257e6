@@ -139,7 +139,7 @@ sections:
           particular to your letter combination please contact us and we can
           quickly calculate it for you.
 
-      - title: Porta nibh venenatis cras sed felis eget velit aliquet?
+      - title: What letters are available?
         content: >-
           Facilisis gravida neque convallis a cras semper auctor neque vitae.
           Dictum varius duis at consectetur lorem donec massa. Porta non
