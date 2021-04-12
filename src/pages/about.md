@@ -98,7 +98,7 @@ sections:
   - title: The Glow Letter Team
     subtitle: Meet the people behind the shine
     actions:
-      - label: lorem-ipsum
+      - label: Join the team!
         url: lorem-ipsum
         style: link
         has_icon: false
