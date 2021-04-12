@@ -141,7 +141,7 @@ sections:
         image_has_padding: false
         type: grid_item
         image: images/curious-turtle.jpeg
-      - title: lorem-ipsum
+      - title: 'Andrew '
         subtitle: lorem-ipsum
         title_align: left
         content: >-
