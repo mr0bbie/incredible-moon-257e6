@@ -96,7 +96,7 @@ sections:
     has_border: false
     background_color: primary
   - title: The Glow Letter Team
-    subtitle: lorem-ipsum
+    subtitle: Get to know the
     actions: []
     grid_items: []
     grid_cols: three
