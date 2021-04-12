@@ -94,7 +94,7 @@ sections:
     actions:
       - label: Book your letters in now!
         url: /general-enquiries
-        style: link
+        style: secondary
         has_icon: false
         icon: arrow-left
         icon_position: right
