@@ -99,7 +99,7 @@ sections:
     subtitle: Meet the people behind the shine
     actions: []
     grid_items:
-      - title: lorem-ipsum
+      - title: Duncan Robbie
         subtitle: lorem-ipsum
         title_align: left
         content_align: center
