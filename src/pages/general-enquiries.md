@@ -52,7 +52,7 @@ sections:
         options: []
         is_required: false
         type: form_field
-        default_value: Glow Letters for you event
+        default_value: Glow letters for you event
       - input_type: textarea
         name: message
         label: Message
