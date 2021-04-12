@@ -95,11 +95,77 @@ sections:
     padding_bottom: medium
     has_border: false
     background_color: primary
-  - title: lorem-ipsum
-    subtitle: lorem-ipsum
-    actions: []
-    grid_items: []
-    grid_cols: three
+    background_image: images/beautiful-shining-stars-night-sky.jpg
+  - title: The Glow Letter Team
+    subtitle: Meet the people behind the shine
+    actions:
+      - label: Join the team!
+        url: /general-enquiry
+        style: primary
+        has_icon: false
+        icon: arrow-left
+        icon_position: right
+        new_window: false
+        no_follow: false
+        type: action
+    grid_items:
+      - title: Duncan Robbie
+        subtitle: Co-Founder and CEO
+        title_align: center
+        content_align: center
+        actions: []
+        actions_align: left
+        actions_width: auto
+        image_alt: lorem-ipsum
+        image_position: top
+        image_width: fifty
+        image_align: left
+        image_has_padding: false
+        type: grid_item
+        image: images/modern-tiger.jpg
+      - title: Matthew Robbie
+        subtitle: Chief Operations Officer
+        title_align: center
+        content_align: left
+        actions: []
+        actions_align: left
+        actions_width: auto
+        image_alt: lorem-ipsum
+        image_position: top
+        image_width: fifty
+        image_align: left
+        image_has_padding: false
+        type: grid_item
+        image: images/magnificent-zebra.jpeg
+      - title: Sara Miljic
+        subtitle: Business Development
+        title_align: center
+        content_align: left
+        actions: []
+        actions_align: left
+        actions_width: auto
+        image_alt: lorem-ipsum
+        image_position: top
+        image_width: fifty
+        image_align: left
+        image_has_padding: false
+        type: grid_item
+        image: images/curious-turtle.jpeg
+      - title: Andrew Flanagan
+        subtitle: Operations Manager
+        title_align: center
+        content_align: left
+        actions: []
+        actions_align: left
+        actions_width: auto
+        image_alt: lorem-ipsum
+        image_position: top
+        image_width: fifty
+        image_align: left
+        image_has_padding: false
+        type: grid_item
+        image: images/andrew.jpg
+    grid_cols: four
     grid_gap_vert: small
     grid_gap_horiz: small
     enable_cards: false

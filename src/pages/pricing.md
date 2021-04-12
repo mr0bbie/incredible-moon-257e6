@@ -91,37 +91,75 @@ sections:
     padding_bottom: medium
     has_border: false
     background_color: none
+    actions:
+      - label: Book your letters in now!
+        url: /general-enquiries
+        style: primary
+        has_icon: false
+        icon: arrow-left
+        icon_position: right
+        new_window: false
+        no_follow: false
+        type: action
   - type: grid_section
     title: 'You asked, we answered!'
     grid_items:
-      - title: Lorem ipsum dolor sit amet consectetur?
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
-      - title: Sagittis vitae et leo duis ut diam?
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
-      - title: Viverra nam libero justo laoreet sit?
-        content: >-
-          In tellus integer feugiat scelerisque. Aliquam eleifend mi in nulla
-          posuere. Bibendum neque egestas congue quisque egestas. Mauris sit
-          amet massa vitae tortor condimentum lacinia. Tortor at auctor urna
-          nunc id cursus metus aliquam eleifend. Sed nisi lacus sed viverra
-          tellus. Non enim praesent elementum facilisis.
-      - title: Cras tincidunt lobortis feugiat vivamus at augue eget arcu?
-        content: >-
-          Blandit aliquam etiam erat velit. In massa tempor nec feugiat.
-          Volutpat maecenas volutpat blandit aliquam. Sem integer vitae justo
-          eget magna fermentum iaculis. Amet est placerat in egestas erat
-          imperdiet sed euismod nisi. Facilisi morbi tempus iaculis urna.
-      - title: Porta nibh venenatis cras sed felis eget velit aliquet?
-        content: >-
-          Facilisis gravida neque convallis a cras semper auctor neque vitae.
-          Dictum varius duis at consectetur lorem donec massa. Porta non
-          pulvinar neque laoreet suspendisse interdum consectetur libero.
+      - title: Where do you deliver to?
+        content: >
+          ​We include free delivery within 1 hour drive of the Brisbane and
+          Sydney CBDs. Shipping and self setup is also possible - if your event
+          is outside of these areas please contact us for further information. 
+
+
+          We have setup teams located in Melbourne, Adelaide, Perth, Canberra
+          and Hobart.
+      - title: How long does it take to set up?
+        content: >+
+          With easy access to your venue and a power outlet, glow letter lights
+          can be setup within 15 minutes. Please allow more time for difficult
+          locations, long words, long power runs or if colour matching is
+          required.
+
+
+          Alternatively setting the letters up yourself is super easy! We can
+          provide a 10 minutes tutorial on how to set the letters up and you'll
+          be a pro.
+
+      - title: Can I use your letters outdoor?
+        content: "Sure!\_Glow Letters make a great addition to any event, indoors our outdoors as long as you have access to a power outlet. \n\nHowever, Glow Letters don't like the rain and power should be disconnected if it's raining. For safety the Glow Letters operate at low voltage and the power supply is enclosed in a weather sealed box.\_\n\n"
+      - title: Do I need to provide power?
+        content: >+
+          Yes. If power isn't available, contact us and we can talk to you about
+          other options including generators and batteries to get your letters
+          glowing!
+
+
+          Each Glow Letter uses a small amount of power thanks to the latest LED
+          technology. Glow Letters are happily powered by a regular outlet,
+          alongside other audio and lighting equipment. For a calculation
+          particular to your letter combination please contact us and we can
+          quickly calculate it for you.
+
+      - title: What letters are available?
+        content: "We can provide any combination of letters from A-Z, numbers from 0-9 along with\_♡,\_⇧, &, @ and #. We can also provide customised symbols or logos: please contact us to discuss pricing for custom letters.\n\n"
+      - title: Are you insured?
+        title_align: left
+        content: >+
+          ​We would hate something to happen but just in case we have a $20
+          million PP\&L insurance policy. We are committed to safely delivering
+          your event and are familiar working with multiple venues and
+          facilitators to perform our safety work method plans.
+
+        content_align: left
+        actions: []
+        actions_align: left
+        actions_width: auto
+        image_alt: lorem-ipsum
+        image_position: top
+        image_width: fifty
+        image_align: left
+        image_has_padding: false
+        type: grid_item
     grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: medium
