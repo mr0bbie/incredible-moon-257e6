@@ -211,7 +211,6 @@ sections:
     background_color: primary
     background_image: images/super-birch.jpg
   - title: lorem-ipsum
-    subtitle: lorem-ipsum
     features: []
     feature_padding_vert: medium
     align: center
