@@ -93,7 +93,7 @@ sections:
     background_color: none
     actions:
       - label: Book your letters in now!
-        url: lorem-ipsum
+        url: /general-enquiries
         style: link
         has_icon: false
         icon: arrow-left
