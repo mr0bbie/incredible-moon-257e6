@@ -140,10 +140,7 @@ sections:
           quickly calculate it for you.
 
       - title: What letters are available?
-        content: >-
-          Facilisis gravida neque convallis a cras semper auctor neque vitae.
-          Dictum varius duis at consectetur lorem donec massa. Porta non
-          pulvinar neque laoreet suspendisse interdum consectetur libero.
+        content: "We can provide any combination of letters from A-Z, numbers from 0-9 along with\_♡,\_⇧, &, @ and #. We can also provide customised symbols or logos: please contact us to discuss pricing for custom letters.\n\n"
     grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: medium
