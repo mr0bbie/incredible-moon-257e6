@@ -52,6 +52,7 @@ sections:
         options: []
         is_required: false
         type: form_field
+        default_value: Letters for you event
       - input_type: textarea
         name: message
         label: Message
