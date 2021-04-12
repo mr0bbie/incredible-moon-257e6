@@ -47,7 +47,7 @@ sections:
           - Other
         is_required: true
       - input_type: text
-        name: lorem-ipsum
+        name: Letters
         label: lorem-ipsum
         default_value: lorem-ipsum
         options: []
