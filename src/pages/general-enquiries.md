@@ -44,7 +44,7 @@ sections:
           - Enquiry
           - Partnership
           - Other
-          - lorem-ipsum
+          - Booking
         is_required: true
       - input_type: text
         name: lorem-ipsum
