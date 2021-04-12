@@ -53,7 +53,7 @@ sections:
 
           Conditions: minimum 3 months
 
-          Minimum 10x letters booked in month
+          Minimum 5x letters booked in month
         content_align: center
         actions:
           - label: LET'S DO IT
