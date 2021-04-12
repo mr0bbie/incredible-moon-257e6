@@ -212,8 +212,7 @@ sections:
     background_image: images/super-birch.jpg
   - title: Specifications
     features:
-      - subtitle: lorem-ipsum
-        content: >-
+      - content: >-
           ## Lorem ipsum
 
 
