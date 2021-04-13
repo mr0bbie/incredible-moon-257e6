@@ -4,7 +4,7 @@ sections:
   - type: hero_section
     title: Contact Us
     subtitle: 'We''d love to hear from you, no job is too big or too small'
-    align: left
+    align: center
     padding_top: medium
     padding_bottom: medium
     background_color: primary
