@@ -58,7 +58,7 @@ export default class GridItem extends React.Component {
         }
         return (
             <React.Fragment>
-                <div className={classNames('cell-3', 'cell-md-6', {'cell-lg-4': (columns === 'three') || (columns === 'four'), 'cell-xl-3': columns === 'four', 'my-1': gap_y === 'small', 'my-2': gap_y !== 'small', 'my-sm-3': gap_y === 'large'})}>
+                <div className={classNames('cell-', 'cell-md-6', {'cell-lg-4': (columns === 'three') || (columns === 'four'), 'cell-xl-3': columns === 'four', 'my-1': gap_y === 'small', 'my-2': gap_y !== 'small', 'my-sm-3': gap_y === 'large'})}>
                 	<div className={classNames('item', {'card': is_card, 'card--highlight': is_card, 'card--horiz': is_card && is_horiz, 'card--vert': is_card && is_vert, 'p-3': is_card_has_padding || is_card_no_img_no_padding, 'p-sm-4': is_card_has_padding || is_card_no_img_no_padding})}>
                 		<div className={classNames({'grid': is_horiz, 'grid-gap-none': is_horiz, 'flex': is_vert, 'flex-column': is_vert})}>
                 			{has_image && (
