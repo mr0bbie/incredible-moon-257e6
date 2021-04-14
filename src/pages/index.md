@@ -34,7 +34,7 @@ sections:
       - image: images/37193292_512310919224538_4202086317531594752_n_original.jpg
         image_alt: Contentful logo
         image_align: center
-        image_has_padding: true
+        image_has_padding: false
       - image: images/73505077_691126314709437_6208322097667535880_n.jpg
         image_alt: Netlify logo
         image_align: center
@@ -107,7 +107,7 @@ sections:
     grid_cols: four
     grid_gap_horiz: medium
     grid_gap_vert: medium
-    enable_cards: true
+    enable_cards: false
   - title: Glow Letters in action!
     content: |
       # &#xA;&#xA;
