@@ -1,5 +1,9 @@
 const siteMetadata = require('./site-metadata.json')
 
+require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+  })
+
 module.exports = {
     pathPrefix: '/',
     siteMetadata: siteMetadata,
@@ -27,7 +31,15 @@ module.exports = {
             options: {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
-            }
-        }
+            }            
+        },
+        {
+            resolve: `gatsby-source-stripe`,
+            options: {
+              objects: ['Price'],
+              secretKey: process.env.GATSBY_STRIPE_SECRET_KEY,
+              downloadFiles: false,
+            },
+          },
     ]
 };
