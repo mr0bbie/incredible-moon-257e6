@@ -46,7 +46,7 @@ export default class HeroSection extends React.Component {
                 	<div className={classNames('container', {'container--medium': is_vert})}>
                 		<div className="hero__content grid items-center">
                 			{has_media && (
-                			<div className={classNames('hero__media', 'my-2', 'cell-12', {'cell-md-5': (is_horiz && has_text) && (media_width === 'fourty'), 'cell-md-6': (is_horiz && has_text) && (media_width === 'fifty'), 'cell-md-7': (is_horiz && has_text) && (media_width === 'sixty')})}>
+                			<div className={classNames('hero__media', 'my-1', 'cell-12', {'cell-md-5': (is_horiz && has_text) && (media_width === 'fourty'), 'cell-md-6': (is_horiz && has_text) && (media_width === 'fifty'), 'cell-md-7': (is_horiz && has_text) && (media_width === 'sixty')})}>
                 				{_.get(section, 'video_embed_html', null) ? (
                 					htmlToReact(_.get(section, 'video_embed_html', null))
                 				) : 
