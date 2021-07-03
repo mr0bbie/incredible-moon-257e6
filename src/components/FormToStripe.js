@@ -96,7 +96,8 @@ const FormToStripe = (props) => {
         setToSubmit(newToSubmit)
     }
 
-    const letters = toSubmit.message ? toSubmit.message.length : 0
+    const messageLetters = toSubmit.message?.replace(/ /g,'')
+    const letters = messageLetters ? messageLetters.length : 0
     const subtotal = letters <= 3 ? 450 : letters * 150
     const gst = subtotal * 0.1
 
