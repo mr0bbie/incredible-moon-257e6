@@ -77,6 +77,7 @@ const FormToStripe = (props) => {
     }
 
     const stripe = useStripe();
+    const [loading, setLoading] = useState(false)
     const [toSubmit, setToSubmit] = useState({
         name: "",
         email: "",
@@ -103,6 +104,7 @@ const FormToStripe = (props) => {
 
     const submitForm = async (e) => {
         e.preventDefault()
+        setLoading(true)
         
         const response = await fetch('/.netlify/functions/payment', {
             method: 'POST',
@@ -120,6 +122,7 @@ const FormToStripe = (props) => {
     
         if (error) {
             console.error(error);
+            setLoading(false)
         }
     }
 
@@ -196,7 +199,7 @@ const FormToStripe = (props) => {
                                         <small style={allStyles.smallStyle}>e.g. venue contacts, prefferred colours, setup location.</small>
                                     </div>
                                     <div className="form-checkbox">
-                                        <input id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent}/>
+                                        <input id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
                                         <label htmlFor="consent" id="consent-label">I understand that this form is storing my submitted information so I can be contacted.</label>
                                     </div>
                                     <div style={{
@@ -223,7 +226,7 @@ const FormToStripe = (props) => {
                                         }}>Amount Due: ${formatMoney(subtotal + gst)}.00</h5>
                                     </div>
                                     <div className={classNames('form-submit', {'mt-3': form_is_inline === false, 'mx-auto': form_is_inline === true, 'mr-xs-0': form_is_inline === true, 'ml-xs-1': form_is_inline === true})}>
-                                        <button type="submit" className="btn btn--primary">{_.get(section, 'submit_label', null)}</button>
+                                        <button type="submit" className="btn btn--primary" disabled={loading}>{loading ? "Loading..." : _.get(section, 'submit_label', null)}</button>
                                     </div>
                                 </div>
                             </form>
