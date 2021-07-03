@@ -1,4 +1,3 @@
-window.onGatsbyInitialClientRender = function() {
 /*
   * reframe.js - Reframe.js: responsive iframes for embedded content
   * @version v2.2.7
@@ -102,4 +101,3 @@ window.removeAnnouncementHandlers = function() {
 		anncmntClose.removeEventListener('click', announcementCloseHandler, false);
 	}
 }
-};
