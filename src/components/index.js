@@ -13,6 +13,7 @@ import Footer from './Footer';
 import FooterMenu from './FooterMenu';
 import FormField from './FormField';
 import FormSection from './FormSection';
+import FormToStripe from './FormToStripe';
 import GridItem from './GridItem';
 import GridSection from './GridSection';
 import Header from './Header';
@@ -38,6 +39,7 @@ export {
     FooterMenu,
     FormField,
     FormSection,
+    FormToStripe,
     GridItem,
     GridSection,
     Header,
@@ -64,6 +66,7 @@ export default {
     FooterMenu,
     FormField,
     FormSection,
+    FormToStripe,
     GridItem,
     GridSection,
     Header,
