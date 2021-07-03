@@ -13,12 +13,12 @@ exports.handler = async (event, context) => {
     pack_down_time,
     message,
     additional_notes
-  } = order
+  } = order;
 
-  const messageLetters = toSubmit.message?.replace(/ /g,'')
-  const letters = messageLetters ? messageLetters.length : 0
-  const subtotal = letters <= 3 ? 450 : letters * 150
-  const totalPayment = Math.round(subtotal * 1.1)
+  const messageLetters = toSubmit.message?.replace(/ /g,'');
+  const letters = messageLetters ? messageLetters.length : 0;
+  const subtotal = letters <= 3 ? 450 : letters * 150;
+  const totalPayment = Math.round(subtotal * 1.1);
 
   const session = await stripe.checkout.sessions.create({
     customer_email: email,
