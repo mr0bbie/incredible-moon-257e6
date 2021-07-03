@@ -30,22 +30,14 @@ sections:
         label: Email
         default_value: Your email address
         is_required: true
-      - input_type: number
-        name: Contact Number
+      - input_type: text
+        name: contact_number
         label: Contact Number
         default_value: Your phone number
-        options: []
-        is_required: false
-        type: form_field
+        is_required: true
       - input_type: select
         name: subject
-        label: Subject
-        default_value: Please select
-        options:
-          - Booking
-          - Enquiry
-          - Partnership
-          - Other
+        label: 
         is_required: true
       - input_type: text
         name: letters
@@ -64,7 +56,7 @@ sections:
           I understand that this form is storing my submitted information so I
           can be contacted.
         is_required: true
-    submit_label: Submit
+    submit_label: Book
     align_vert: top
     padding_top: medium
     padding_bottom: medium

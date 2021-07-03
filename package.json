@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@stackbit/gatsby-plugin-menus": "0.0.4",
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.15.1",
     "chokidar": "^3.4.0",
     "classnames": "^2.2.6",
     "fs-extra": "^7.0.1",

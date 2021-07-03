@@ -17,6 +17,8 @@ input[type="tel"],
 input[type="number"],
 input[type="search"],
 input[type="url"],
+input[type="date"],
+input[type="time"],
 select,
 textarea {
 	background: $color-input-bg;
@@ -106,6 +108,8 @@ textarea {
 	input[type="number"],
 	input[type="search"],
 	input[type="url"],
+	input[type="date"],
+	input[type="time"],
 	select,
 	textarea {
 		background: $color-classic-input-bg;
@@ -121,6 +125,8 @@ textarea {
 	input[type="number"],
 	input[type="search"],
 	input[type="url"],
+	input[type="date"],
+	input[type="time"],
 	select,
 	textarea {
 		background: $color-bold-input-bg;
