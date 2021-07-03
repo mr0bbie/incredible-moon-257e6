@@ -15,7 +15,7 @@ exports.handler = async (event, context) => {
     additional_notes
   } = order;
 
-  const messageLetters = toSubmit.message?.replace(/ /g,'');
+  const messageLetters = message?.replace(/ /g,'');
   const letters = messageLetters ? messageLetters.length : 0;
   const subtotal = letters <= 3 ? 450 : letters * 150;
   const totalPayment = Math.round(subtotal * 1.1);
