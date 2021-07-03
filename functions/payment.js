@@ -46,6 +46,7 @@ exports.handler = async (event, context) => {
         quantity: 1,
       },
     ],
+    mode: 'payment',
     success_url: `${process.env.GATSBY_PAYMENT_URL}/thank-you/`,
     cancel_url: `${process.env.GATSBY_PAYMENT_URL}/general-enquiries/`,
   });
