@@ -3,7 +3,7 @@ import {CardElement, useStripe, useElements} from '@stripe/react-stripe-js';
 import _ from 'lodash';
 
 import {classNames, toStyleObj, withPrefix, markdownify} from '../utils';
-import {formatMoney} from '../utils/payment'
+import {formatMoney, encodeJson} from '../utils/payment'
 
 const allStyles = {
     smallStyle: {
@@ -107,6 +107,15 @@ const FormToStripe = (props) => {
     const submitForm = async (e) => {
         e.preventDefault()
         setLoading(true)
+
+        await fetch('/', {
+            method: 'POST',
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encodeJson({
+                "form-name": _.get(section, 'form_id', 'contact-form'),
+                ...toSubmit
+            })
+        })
         
         if (toSubmit.online_payment) {
             if (!stripe || !elements) {
@@ -124,26 +133,24 @@ const FormToStripe = (props) => {
                 console.error(error);
             }
 
-            setLoading(false)
-            console.log(paymentMethod)
-
             const response = await fetch('/.netlify/functions/payment', {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    order: toSubmit,
-                    paymentMethod: paymentMethod
+                    order: toSubmit
                 })
             }).then((res) => res.json());
 
-            console.log(response)
-    
-            setLoading(false)
-        } else {
+            const charge = await stripe.confirmCardPayment(response.paymentIntent.client_secret, {
+                payment_method: paymentMethod
+            });
 
+            console.log(charge)
         }
+
+        setLoading(false)
     }
 
     return (

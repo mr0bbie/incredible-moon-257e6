@@ -16,6 +16,12 @@ export const formatMoney = nominal => {
   return result
 }
 
+export const encodeJson = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
+
 // let stripePromise;
 // const getStripe = () => {
 //   if (!stripePromise) {
