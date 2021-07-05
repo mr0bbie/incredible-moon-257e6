@@ -29,6 +29,26 @@ const allStyles = {
         marginRight: "-4px",
         padding: "4px",
         borderRadius: "6px"
+    },
+    successBox: {
+        color: "#155724",
+        backgroundColor: "#d4edda",
+        borderColor: "#c3e6cb",
+        padding: ".75rem 1.25rem",
+        marginBottom: "1rem",
+        border: "1px solid transparent",
+        borderRadius: ".25rem",
+        marginTop: "15px"
+    },
+    errorBox: {
+        color: "#721c24",
+        backgroundColor: "#f8d7da",
+        borderColor: "#f5c6cb",
+        padding: ".75rem 1.25rem",
+        marginBottom: "1rem",
+        border: "1px solid transparent",
+        borderRadius: ".25rem",
+        marginTop: "15px"
     }
 }
 
@@ -78,7 +98,7 @@ const FormToStripe = (props) => {
 
     const stripe = useStripe();
     const elements = useElements();
-    const [loading, setLoading] = useState(false)
+    const [paymentStatus, setPaymentStatus] = useState(2) // 0 = Nothing, 1 = Loading, 2 = Success, 3 = Error
     const [toSubmit, setToSubmit] = useState({
         name: "",
         email: "",
@@ -106,7 +126,7 @@ const FormToStripe = (props) => {
 
     const submitForm = async (e) => {
         e.preventDefault()
-        setLoading(true)
+        setPaymentStatus(1)
 
         await fetch('/', {
             method: 'POST',
@@ -119,7 +139,7 @@ const FormToStripe = (props) => {
         
         if (toSubmit.online_payment) {
             if (!stripe || !elements) {
-                setLoading(false)
+                setPaymentStatus(3)
                 return;
             }
 
@@ -130,7 +150,8 @@ const FormToStripe = (props) => {
             });
         
             if (error) {
-                console.error(error);
+                setPaymentStatus(3)
+                return
             }
 
             const response = await fetch('/.netlify/functions/payment', {
@@ -147,10 +168,14 @@ const FormToStripe = (props) => {
                 payment_method: paymentMethod.id
             });
 
-            console.log(charge)
+            if (charge.error) {
+                setPaymentStatus(3)
+            } else {
+                setPaymentStatus(2)
+            }
+        } else {
+            setPaymentStatus(2)
         }
-
-        setLoading(false)
     }
 
     return (
@@ -275,9 +300,24 @@ const FormToStripe = (props) => {
                                             }}
                                         />
                                     </div> : <></>}
-                                    <div className={classNames('form-submit', {'mt-3': form_is_inline === false, 'mx-auto': form_is_inline === true, 'mr-xs-0': form_is_inline === true, 'ml-xs-1': form_is_inline === true})}>
-                                        <button type="submit" className="btn btn--primary" disabled={loading}>{loading ? "Loading..." : _.get(section, 'submit_label', null)}</button>
+                                    {paymentStatus === 2 ?
+                                    <div style={allStyles.successBox}>
+                                        Payment Successful!
                                     </div>
+                                    : paymentStatus === 3 ?
+                                    <div style={allStyles.errorBox}>
+                                        Error! Please try again later
+                                    </div>
+                                    : <></>
+                                    }
+                                    {paymentStatus !== 2 ?
+                                    <div className={classNames('form-submit', {'mt-3': form_is_inline === false, 'mx-auto': form_is_inline === true, 'mr-xs-0': form_is_inline === true, 'ml-xs-1': form_is_inline === true})}>
+                                        <button type="submit" className="btn btn--primary" disabled={paymentStatus === 1} style={paymentStatus === 1 ? {
+                                            opacity: 0.7,
+                                            cursor: "unset"
+                                        } : {}}>{paymentStatus === 1 ? "Loading..." : _.get(section, 'submit_label', null)}</button>
+                                    </div>
+                                    : <></>}
                                 </div>
                             </form>
                         </div>
