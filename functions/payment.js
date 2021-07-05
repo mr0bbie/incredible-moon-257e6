@@ -2,7 +2,7 @@ const stripe = require('stripe')(process.env.GATSBY_STRIPE_SECRET_KEY);
 
 // Docs on event and context https://docs.netlify.com/functions/build-with-javascript/
 exports.handler = async (event, context) => {
-  const { order } = JSON.parse(event.body);
+  const { order, paymentMethod } = JSON.parse(event.body);
   const {
     name,
     email,
@@ -20,41 +20,58 @@ exports.handler = async (event, context) => {
   const subtotal = letters <= 3 ? 450 : letters * 150;
   const totalPayment = Math.round(subtotal * 1.1) * 100;
 
-  const session = await stripe.checkout.sessions.create({
-    customer_email: email,
-    payment_method_types: ['card'],
-    line_items: [
-      {
-        price_data: {
-          currency: 'usd',
-          product_data: {
-            name: "Glow Letters",
-            images: [`${process.env.GATSBY_PAYMENT_URL}/images/breath.jpg`],
-            metadata: {
-              "Customer Name": name,
-              "Contact Number": contact_number,
-              "Event Date": event_date,
-              "Location": location,
-              "Setup Time": setup_time,
-              "Pack Down Time": pack_down_time,
-              "Message": message,
-              "Additional Notes": additional_notes
-            }
-          },
-          unit_amount: totalPayment,
-        },
-        quantity: 1,
-      },
-    ],
-    mode: 'payment',
-    success_url: `${process.env.GATSBY_PAYMENT_URL}/thank-you/`,
-    cancel_url: `${process.env.GATSBY_PAYMENT_URL}/general-enquiries/`,
+  const charge = await stripe.charges.create({
+    amount: totalPayment,
+    currency: 'usd',
+    source: paymentMethod.id,
+    metadata: {
+      "Customer Name": name,
+      "Customer Email": email,
+      "Contact Number": contact_number,
+      "Event Date": event_date,
+      "Location": location,
+      "Setup Time": setup_time,
+      "Pack Down Time": pack_down_time,
+      "Message": message,
+      "Additional Notes": additional_notes
+    }
   });
+
+  // const session = await stripe.checkout.sessions.create({
+  //   customer_email: email,
+  //   payment_method_types: ['card'],
+  //   line_items: [
+  //     {
+  //       price_data: {
+  //         currency: 'usd',
+  //         product_data: {
+  //           name: "Glow Letters",
+  //           images: [`${process.env.GATSBY_PAYMENT_URL}/images/breath.jpg`],
+            // metadata: {
+            //   "Customer Name": name,
+            //   "Contact Number": contact_number,
+            //   "Event Date": event_date,
+            //   "Location": location,
+            //   "Setup Time": setup_time,
+            //   "Pack Down Time": pack_down_time,
+            //   "Message": message,
+            //   "Additional Notes": additional_notes
+            // }
+  //         },
+  //         unit_amount: totalPayment,
+  //       },
+  //       quantity: 1,
+  //     },
+  //   ],
+  //   mode: 'payment',
+  //   success_url: `${process.env.GATSBY_PAYMENT_URL}/thank-you/`,
+  //   cancel_url: `${process.env.GATSBY_PAYMENT_URL}/general-enquiries/`,
+  // });
 
   return {
     statusCode: 200,
     body: JSON.stringify({
-      sessionId: session.id,
+      charge: charge,
       publishableKey: process.env.GATSBY_STRIPE_PUBLISHABLE_KEY,
     }),
   };

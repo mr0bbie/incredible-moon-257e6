@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {useStripe} from '@stripe/react-stripe-js';
+import {CardElement, useStripe, useElements} from '@stripe/react-stripe-js';
 import _ from 'lodash';
 
 import {classNames, toStyleObj, withPrefix, markdownify} from '../utils';
@@ -77,6 +77,7 @@ const FormToStripe = (props) => {
     }
 
     const stripe = useStripe();
+    const elements = useElements();
     const [loading, setLoading] = useState(false)
     const [toSubmit, setToSubmit] = useState({
         name: "",
@@ -88,12 +89,13 @@ const FormToStripe = (props) => {
         pack_down_time: "",
         message: "",
         additional_notes: "",
-        consent: ""
+        consent: false,
+        online_payment: false
     })
 
     const onChangeInput = (name) => (e) => {
         const newToSubmit = {...toSubmit}
-        newToSubmit[name] = e.target.value
+        newToSubmit[name] = e.target.type === 'checkbox' ? e.target.checked : e.target.value
         setToSubmit(newToSubmit)
     }
 
@@ -106,23 +108,41 @@ const FormToStripe = (props) => {
         e.preventDefault()
         setLoading(true)
         
-        const response = await fetch('/.netlify/functions/payment', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                order: toSubmit
-            })
-        }).then((res) => res.json());
+        if (toSubmit.online_payment) {
+            if (!stripe || !elements) {
+                setLoading(false)
+                return;
+            }
 
-        const { error } = await stripe.redirectToCheckout({
-            sessionId: response.sessionId,
-        });
-    
-        if (error) {
-            console.error(error);
+            const cardElement = elements.getElement(CardElement);
+            const {error, paymentMethod} = await stripe.createPaymentMethod({
+                type: 'card',
+                card: cardElement,
+            });
+        
+            if (error) {
+                console.error(error);
+            }
+
             setLoading(false)
+            console.log(paymentMethod)
+
+            const response = await fetch('/.netlify/functions/payment', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    order: toSubmit,
+                    paymentMethod: paymentMethod
+                })
+            }).then((res) => res.json());
+
+            console.log(response)
+    
+            setLoading(false)
+        } else {
+
         }
     }
 
@@ -150,7 +170,7 @@ const FormToStripe = (props) => {
                         </div>
                         )}
                         <div className={classNames('section__form', 'my-2', 'cell-12', {'cell-md-5': (is_horiz && has_text) && (form_width === 'fourty'), 'cell-md-6': (is_horiz && has_text) && (form_width === 'fifty'), 'cell-md-7': (is_horiz && has_text) && (form_width === 'sixty'), 'order-first': (form_pos === 'top') || (form_pos === 'left')})}>
-                            <form name={_.get(section, 'form_id', null)} id={_.get(section, 'form_id', null)} className={classNames({'form-inline': form_is_inline, 'card': form_is_card, 'p-4': form_is_card, 'p-sm-5': form_is_card})} onSubmit={submitForm}>
+                            <form name={_.get(section, 'form_id', null)} id={_.get(section, 'form_id', null)} className={classNames({'form-inline': form_is_inline, 'card': form_is_card, 'p-4': form_is_card, 'p-sm-5': form_is_card})} onSubmit={submitForm} data-netlify="true">
                                 <div className={classNames('form-content', {'flex': form_is_inline, 'flex-column': form_is_inline, 'flex-xs-row': form_is_inline})}>
                                     <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                         <label htmlFor="name">Name</label>
@@ -225,6 +245,29 @@ const FormToStripe = (props) => {
                                             textAlign: "right"
                                         }}>Amount Due: ${formatMoney(subtotal + gst)}.00</h5>
                                     </div>
+                                    <div className="form-checkbox">
+                                        <input id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
+                                        <label htmlFor="online_payment" id="online_payment-label">Do you want to pay now?</label>
+                                    </div>
+                                    {toSubmit.online_payment ?
+                                    <div style={allStyles.paymentBox}>
+                                        <CardElement
+                                            options={{
+                                                style: {
+                                                    base: {
+                                                        fontSize: '16px',
+                                                        color: '#424770',
+                                                        '::placeholder': {
+                                                            color: '#aab7c4',
+                                                        },
+                                                    },
+                                                    invalid: {
+                                                        color: '#9e2146',
+                                                    },
+                                                },
+                                            }}
+                                        />
+                                    </div> : <></>}
                                     <div className={classNames('form-submit', {'mt-3': form_is_inline === false, 'mx-auto': form_is_inline === true, 'mr-xs-0': form_is_inline === true, 'ml-xs-1': form_is_inline === true})}>
                                         <button type="submit" className="btn btn--primary" disabled={loading}>{loading ? "Loading..." : _.get(section, 'submit_label', null)}</button>
                                     </div>
