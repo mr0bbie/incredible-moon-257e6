@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { navigate } from 'gatsby'
 import {CardElement, useStripe, useElements} from '@stripe/react-stripe-js';
 import _ from 'lodash';
 
@@ -172,9 +173,15 @@ const FormToStripe = (props) => {
                 setPaymentStatus(3)
             } else {
                 setPaymentStatus(2)
+                setTimeout(() => {
+                    navigate("/thank-you")
+                }, 2000);
             }
         } else {
             setPaymentStatus(2)
+            setTimeout(() => {
+                navigate("/thank-you")
+            }, 2000);
         }
     }
 
@@ -306,7 +313,7 @@ const FormToStripe = (props) => {
                                     </div> : <></>}
                                     {paymentStatus === 2 ?
                                     <div style={allStyles.successBox}>
-                                        Payment Successful! Our Team will contact you shortly
+                                        Payment Successful!
                                     </div>
                                     : paymentStatus === 3 ?
                                     <div style={allStyles.errorBox}>
