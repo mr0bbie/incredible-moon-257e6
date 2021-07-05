@@ -144,7 +144,7 @@ const FormToStripe = (props) => {
             }).then((res) => res.json());
 
             const charge = await stripe.confirmCardPayment(response.paymentIntent.client_secret, {
-                payment_method: paymentMethod
+                payment_method: paymentMethod.id
             });
 
             console.log(charge)
