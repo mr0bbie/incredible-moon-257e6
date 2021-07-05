@@ -129,15 +129,12 @@ const FormToStripe = (props) => {
         e.preventDefault()
         setPaymentStatus(1)
 
-        const toEncodeSubmit = JSON.parse(JSON.stringify(toSubmit))
-        toEncodeSubmit.consent = toEncodeSubmit.consent ? "true" : "false"
-        toEncodeSubmit.online_payment = toEncodeSubmit.online_payment ? "true" : "false"
         await fetch('/', {
             method: 'POST',
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encodeJson({
                 "form-name": _.get(section, 'form_id', 'contact-form'),
-                ...toEncodeSubmit
+                ...toSubmit
             })
         })
         
@@ -262,7 +259,7 @@ const FormToStripe = (props) => {
                                     </div>
                                     <div className="form-checkbox">
                                         <label htmlFor="consent" id="consent-label">
-                                            <input id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
+                                            <input name="consent" id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
                                             <span>I understand that this form is storing my submitted information so I can be contacted.</span>
                                         </label>
                                     </div>
@@ -291,7 +288,7 @@ const FormToStripe = (props) => {
                                     </div>
                                     <div className="form-checkbox">
                                         <label htmlFor="online_payment" id="online_payment-label">
-                                            <input id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
+                                            <input name="online_payment" id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
                                             <span>Do you want to pay now?</span>
                                         </label>
                                     </div>
