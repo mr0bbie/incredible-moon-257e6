@@ -98,7 +98,7 @@ const FormToStripe = (props) => {
 
     const stripe = useStripe();
     const elements = useElements();
-    const [paymentStatus, setPaymentStatus] = useState(2) // 0 = Nothing, 1 = Loading, 2 = Success, 3 = Error
+    const [paymentStatus, setPaymentStatus] = useState(0) // 0 = Nothing, 1 = Loading, 2 = Success, 3 = Error
     const [toSubmit, setToSubmit] = useState({
         name: "",
         email: "",
