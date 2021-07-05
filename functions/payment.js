@@ -23,7 +23,6 @@ exports.handler = async (event, context) => {
   const paymentIntent = await stripe.paymentIntents.create({
     amount: totalPayment,
     currency: 'usd',
-    payment_method: paymentMethod.id,
     metadata: {
       "Customer Name": name,
       "Customer Email": email,
@@ -37,10 +36,8 @@ exports.handler = async (event, context) => {
     }
   });
 
-  const charge = await stripe.charges.create({
-    amount: totalPayment,
-    currency: 'usd',
-    source: paymentIntent.id
+  const charge = await stripe.confirmCardPayment(paymentIntent.client_secret, {
+    payment_method: paymentMethod
   });
 
   // const session = await stripe.checkout.sessions.create({
