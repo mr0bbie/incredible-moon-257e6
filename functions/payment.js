@@ -20,10 +20,10 @@ exports.handler = async (event, context) => {
   const subtotal = letters <= 3 ? 450 : letters * 150;
   const totalPayment = Math.round(subtotal * 1.1) * 100;
 
-  const charge = await stripe.charges.create({
+  const paymentIntent = await stripe.paymentIntents.create({
     amount: totalPayment,
     currency: 'usd',
-    source: paymentMethod.id,
+    payment_method: paymentMethod.id,
     metadata: {
       "Customer Name": name,
       "Customer Email": email,
@@ -35,6 +35,12 @@ exports.handler = async (event, context) => {
       "Message": message,
       "Additional Notes": additional_notes
     }
+  });
+
+  const charge = await stripe.charges.create({
+    amount: totalPayment,
+    currency: 'usd',
+    source: paymentIntent.id
   });
 
   // const session = await stripe.checkout.sessions.create({
