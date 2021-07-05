@@ -129,12 +129,15 @@ const FormToStripe = (props) => {
         e.preventDefault()
         setPaymentStatus(1)
 
+        const toEncodeSubmit = JSON.parse(JSON.stringify(toSubmit))
+        toEncodeSubmit.consent = toEncodeSubmit.consent ? "true" : "false"
+        toEncodeSubmit.online_payment = toEncodeSubmit.online_payment ? "true" : "false"
         await fetch('/', {
             method: 'POST',
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encodeJson({
                 "form-name": _.get(section, 'form_id', 'contact-form'),
-                ...toSubmit
+                ...toEncodeSubmit
             })
         })
         
