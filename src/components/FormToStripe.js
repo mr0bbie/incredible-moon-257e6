@@ -251,8 +251,10 @@ const FormToStripe = (props) => {
                                         <small style={allStyles.smallStyle}>e.g. venue contacts, prefferred colours, setup location.</small>
                                     </div>
                                     <div className="form-checkbox">
-                                        <input id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
-                                        <label htmlFor="consent" id="consent-label">I understand that this form is storing my submitted information so I can be contacted.</label>
+                                        <label htmlFor="consent" id="consent-label">
+                                            <input id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
+                                            <span>I understand that this form is storing my submitted information so I can be contacted.</span>
+                                        </label>
                                     </div>
                                     <div style={{
                                         paddingTop: "10px"
@@ -278,8 +280,10 @@ const FormToStripe = (props) => {
                                         }}>Amount Due: ${formatMoney(subtotal + gst)}.00</h5>
                                     </div>
                                     <div className="form-checkbox">
-                                        <input id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
-                                        <label htmlFor="online_payment" id="online_payment-label">Do you want to pay now?</label>
+                                        <label htmlFor="online_payment" id="online_payment-label">
+                                            <input id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
+                                            <span>Do you want to pay now?</span>
+                                        </label>
                                     </div>
                                     {toSubmit.online_payment ?
                                     <div style={allStyles.paymentBox}>
@@ -302,7 +306,7 @@ const FormToStripe = (props) => {
                                     </div> : <></>}
                                     {paymentStatus === 2 ?
                                     <div style={allStyles.successBox}>
-                                        Payment Successful!
+                                        Payment Successful! Our Team will contact you shortly
                                     </div>
                                     : paymentStatus === 3 ?
                                     <div style={allStyles.errorBox}>
