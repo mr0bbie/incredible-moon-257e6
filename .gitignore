@@ -67,3 +67,10 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Local Netlify folder
+.netlify
+
+# Environment Variables
+.env.development
+.env.production

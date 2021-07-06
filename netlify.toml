@@ -1,3 +1,7 @@
 [build]
-publish = "public"
-command = "npm run build"
+  publish = "public"
+  command = "cd functions && npm i && cd .. && npm run build"
+  functions = "functions"
+
+[dev]
+  functions = "functions"

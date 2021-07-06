@@ -95,6 +95,8 @@
 		input[type="number"],
 		input[type="search"],
 		input[type="url"],
+		input[type="date"],
+		input[type="time"],
 		select,
 		textarea {
 			background-color: $color-sect-input-bg;
@@ -135,6 +137,8 @@
 		input[type="number"],
 		input[type="search"],
 		input[type="url"],
+		input[type="date"],
+		input[type="time"],
 		select,
 		textarea {
 			background-color: $color-input-bg;
@@ -166,6 +170,8 @@
 			input[type="number"],
 			input[type="search"],
 			input[type="url"],
+			input[type="date"],
+			input[type="time"],
 			select,
 			textarea {
 				background: $color-classic-input-bg;
@@ -196,6 +202,8 @@
 			input[type="number"],
 			input[type="search"],
 			input[type="url"],
+			input[type="date"],
+			input[type="time"],
 			select,
 			textarea {
 				background: $color-bold-input-bg;
@@ -277,6 +285,8 @@
 	input[type="number"],
 	input[type="search"],
 	input[type="url"],
+	input[type="date"],
+	input[type="time"],
 	select,
 	textarea {
 		background: $color-dark-input-bg;

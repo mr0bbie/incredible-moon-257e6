@@ -1,12 +1,18 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 import _ from 'lodash';
+import {Elements} from '@stripe/react-stripe-js';
+import {loadStripe} from '@stripe/stripe-js';
 
 import {withPrefix} from '../utils';
 import '../sass/main.scss';
 import Announcement from './Announcement';
 import Header from './Header';
 import Footer from './Footer';
+
+// Make sure to call `loadStripe` outside of a component’s render to avoid
+// recreating the `Stripe` object on every render.
+const stripePromise = loadStripe(process.env.GATSBY_STRIPE_PUBLISHABLE_KEY);
 
 export default class Body extends React.Component {
     render() {
@@ -41,21 +47,23 @@ export default class Body extends React.Component {
                     )}
                     <body className={'layout-' + _.get(this.props, 'pageContext.site.siteMetadata.layout', null) + ' style-' + _.get(this.props, 'pageContext.site.siteMetadata.style', null) + ' palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette', null) + ' mode-' + _.get(this.props, 'pageContext.site.siteMetadata.mode', null) + ' font-' + _.get(this.props, 'pageContext.site.siteMetadata.base_font', null)} />
                 </Helmet>
-                <div id="site-wrap" className="site">
-                	{(_.get(this.props, 'pageContext.site.siteMetadata.header.has_anncmnt', null) && _.get(this.props, 'pageContext.site.siteMetadata.header.anncmnt_content', null)) && (
-                		_.get(this.props, 'pageContext.site.siteMetadata.header.anncmnt_is_home_only', null) ? (
-                			(_.get(this.props, 'pageContext.url', null) === '/') && (
-                				<Announcement {...this.props} site={this.props.pageContext.site} />
-                			)
-                		) : 
-                			<Announcement {...this.props} site={this.props.pageContext.site} />
-                	)}
-                	<Header {...this.props} />
-                	<main id="content" className="site-content">
-                		{this.props.children}
-                	</main>
-                	<Footer {...this.props} />
-                </div>
+                <Elements stripe={stripePromise}>
+                  <div id="site-wrap" className="site">
+                    {(_.get(this.props, 'pageContext.site.siteMetadata.header.has_anncmnt', null) && _.get(this.props, 'pageContext.site.siteMetadata.header.anncmnt_content', null)) && (
+                      _.get(this.props, 'pageContext.site.siteMetadata.header.anncmnt_is_home_only', null) ? (
+                        (_.get(this.props, 'pageContext.url', null) === '/') && (
+                          <Announcement {...this.props} site={this.props.pageContext.site} />
+                        )
+                      ) : 
+                        <Announcement {...this.props} site={this.props.pageContext.site} />
+                    )}
+                    <Header {...this.props} />
+                    <main id="content" className="site-content">
+                      {this.props.children}
+                    </main>
+                    <Footer {...this.props} />
+                  </div>
+                </Elements>
                 {(_.get(this.props, 'pageContext.site.siteMetadata.header.has_primary_nav', null) || _.get(this.props, 'pageContext.site.siteMetadata.header.has_secondary_nav', null)) && (
                 <div className="nav-overlay js-nav-toggle" />
                 )}
