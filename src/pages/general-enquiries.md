@@ -18,44 +18,6 @@ sections:
     form_layout: stacked
     enable_card: true
     form_id: contact-form
-    form_action: /thank-you
-    form_fields:
-      - input_type: text
-        name: name
-        label: Name
-        default_value: Your name
-        is_required: true
-      - input_type: email
-        name: email
-        label: Email
-        default_value: Your email address
-        is_required: true
-      - input_type: text
-        name: contact_number
-        label: Contact Number
-        default_value: Your phone number
-        is_required: true
-      - input_type: select
-        name: subject
-        label: 
-        is_required: true
-      - input_type: text
-        name: letters
-        label: Glow Letters
-        options: []
-        is_required: false
-        type: form_field
-        default_value: Glow letters for your event
-      - input_type: textarea
-        name: message
-        label: Message
-        default_value: Your message
-      - input_type: checkbox
-        name: consent
-        label: >-
-          I understand that this form is storing my submitted information so I
-          can be contacted.
-        is_required: true
     submit_label: Book
     align_vert: top
     padding_top: medium
