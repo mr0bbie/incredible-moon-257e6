@@ -175,13 +175,13 @@ const FormToStripe = (props) => {
                 setPaymentStatus(2)
                 setTimeout(() => {
                     navigate("/thank-you")
-                }, 2000);
+                }, 1000);
             }
         } else {
             setPaymentStatus(2)
             setTimeout(() => {
                 navigate("/thank-you")
-            }, 2000);
+            }, 1000);
         }
     }
 
@@ -313,7 +313,7 @@ const FormToStripe = (props) => {
                                     </div> : <></>}
                                     {paymentStatus === 2 ?
                                     <div style={allStyles.successBox}>
-                                        Payment Successful!
+                                        Order Submitted!
                                     </div>
                                     : paymentStatus === 3 ?
                                     <div style={allStyles.errorBox}>
