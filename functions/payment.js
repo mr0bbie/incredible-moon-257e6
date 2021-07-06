@@ -14,10 +14,18 @@ exports.handler = async (event, context) => {
     message,
     additional_notes
   } = order;
+  
+  const eventDate = new Date(event_date)
+  const todayDate = new Date()
+  todayDate.setDate(todayDate.getDate() + 14);
+  let discount = 1
+  if (todayDate < eventDate) {
+    discount = 0.9
+  }
 
   const messageLetters = message?.replace(/ /g,'');
   const letters = messageLetters ? messageLetters.length : 0;
-  const subtotal = letters <= 3 ? 450 : letters * 150;
+  const subtotal = (letters <= 3 ? 450 : letters * 150) * discount
   const totalPayment = Math.round(subtotal * 1.1) * 100;
 
   const paymentIntent = await stripe.paymentIntents.create({

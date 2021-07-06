@@ -2,7 +2,9 @@
 
 export const formatMoney = nominal => {
   if (!nominal) return "0"
-  nominal = Number(nominal)
+  const initialVal = Number(nominal)
+  nominal = Math.floor(initialVal)
+  const trunc = initialVal - nominal
   let result = ""
   let counter = 0
   while (nominal > 0) {
@@ -13,7 +15,7 @@ export const formatMoney = nominal => {
     nominal = Math.floor(nominal / 10)
     counter += 1
   }
-  return result
+  return result + trunc.toFixed(2).slice(1)
 }
 
 export const encodeJson = (data) => {

@@ -120,9 +120,16 @@ const FormToStripe = (props) => {
         setToSubmit(newToSubmit)
     }
 
+    const eventDate = new Date(toSubmit.event_date)
+    const todayDate = new Date()
+    todayDate.setDate(todayDate.getDate() + 14);
+    let discount = 1
+    if (todayDate < eventDate) {
+        discount = 0.9
+    }
     const messageLetters = toSubmit.message?.replace(/ /g,'')
     const letters = messageLetters ? messageLetters.length : 0
-    const subtotal = letters <= 3 ? 450 : letters * 150
+    const subtotal = (letters <= 3 ? 450 : letters * 150) * discount
     const gst = subtotal * 0.1
 
     const submitForm = async (e) => {
@@ -226,7 +233,7 @@ const FormToStripe = (props) => {
                                     <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                         <label htmlFor="event_date">Event Date</label>
                                         <input type="date" id="event_date" name="event_date" onChange={onChangeInput("event_date")} value={toSubmit.event_date} required />
-                                        <small style={allStyles.smallStyle}>Events more then two two weeks in advance have gauranteed availability.</small>
+                                        <small style={allStyles.smallStyle}>Events more than two weeks in advance have guaranteed availability and 10% discount.</small>
                                     </div>
                                     <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                         <label htmlFor="location">Location</label>
@@ -243,13 +250,19 @@ const FormToStripe = (props) => {
                                     </div>
                                     <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                         <label htmlFor="message">Message</label>
-                                        <input type="text" id="message" name="message" placeholder="What will you create?" onChange={onChangeInput("message")} value={toSubmit.message} required />
+                                        <input type="text" id="message" name="message" placeholder="What will you create?" onChange={(e) => {
+                                            setToSubmit({
+                                                ...toSubmit,
+                                                message: e.target.value?.toUpperCase()
+                                            })
+                                        }} value={toSubmit.message} required />
                                         <small style={allStyles.smallStyle}>Type any combination of letters, numbers or characters.</small>
                                     </div>
                                     <div>
                                         <label>Number of letters</label>
                                         <input type="text" disabled value={letters} style={{
-                                            color: "gray"
+                                            color: "gray",
+                                            marginBottom: "15px"
                                         }} />
                                     </div>
                                     <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
@@ -263,6 +276,12 @@ const FormToStripe = (props) => {
                                             <span>I understand that this form is storing my submitted information so I can be contacted.</span>
                                         </label>
                                     </div>
+                                    <div className="form-checkbox">
+                                        <label htmlFor="online_payment" id="online_payment-label">
+                                            <input name="online_payment" id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
+                                            <span>Do you want to pay now?</span>
+                                        </label>
+                                    </div>
                                     <div style={{
                                         paddingTop: "10px"
                                     }}>
@@ -270,27 +289,21 @@ const FormToStripe = (props) => {
                                         <div style={allStyles.paymentBox}>
                                             <div style={allStyles.paymentRow}>
                                                 <div>Glow Letters:</div>
-                                                <div>${formatMoney(subtotal)}.00</div>
+                                                <div>${formatMoney(subtotal)}</div>
                                             </div>
                                             <div style={allStyles.paymentRowHighlighted}>
                                                 <div>Subtotal:</div>
-                                                <div>${formatMoney(subtotal)}.00</div>
+                                                <div>${formatMoney(subtotal)}</div>
                                             </div>
                                             <div style={allStyles.paymentRow}>
                                                 <div>GST:</div>
-                                                <div>${formatMoney(gst)}.00</div>
+                                                <div>${formatMoney(gst)}</div>
                                             </div>
                                         </div>
                                         <h5 style={{
                                             marginTop: "10px",
                                             textAlign: "right"
-                                        }}>Amount Due: ${formatMoney(subtotal + gst)}.00</h5>
-                                    </div>
-                                    <div className="form-checkbox">
-                                        <label htmlFor="online_payment" id="online_payment-label">
-                                            <input name="online_payment" id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
-                                            <span>Do you want to pay now?</span>
-                                        </label>
+                                        }}>Amount Due: ${formatMoney(subtotal + gst)}</h5>
                                     </div>
                                     {toSubmit.online_payment ?
                                     <div style={allStyles.paymentBox}>
