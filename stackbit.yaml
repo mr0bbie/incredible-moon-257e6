@@ -1,6 +1,5 @@
 stackbitVersion: ~0.3.0
 ssgName: gatsby
-ssgVersion: 2.3.30
 buildCommand: npm run build
 publishDir: public
 staticDir: static
@@ -16,6 +15,9 @@ logicFields:
   - grid_section.background_image_opacity
   - cta_section.background_image_opacity
   - form_section.background_image_opacity
+cmsName: git
+nodeVersion: 12
+devCommand: npm start
 models:
   config:
     type: config
@@ -328,7 +330,8 @@ models:
     type: page
     label: Page
     layout: page
-    exclude: blog/**/*
+    exclude:
+      - blog/**/*
     fields:
       - type: string
         name: title
@@ -1732,6 +1735,9 @@ models:
       - type: list
         name: options
         description: 'The list of options, used only when the field type is "select"'
+        label: Options
+        items:
+          type: string
       - type: boolean
         name: is_required
         label: Is the field required?
