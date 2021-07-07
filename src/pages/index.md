@@ -383,6 +383,6 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
-    background_image: images/futuristic-planet.jpg
+    background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
 template: advanced
 ---
