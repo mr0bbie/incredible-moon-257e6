@@ -40,7 +40,7 @@
                 "style": "primary"
             }
         ],
-        "has_anncmnt": true,
+        "has_anncmnt": false,
         "anncmnt_content": "**In light of the current COVID-19 situation**, we're implementing certain measures to ensure everyone's health and safety. [*Please read about our COVID-19 Policy.*](https://tagsnaps.com.au/covid-19-policy)\n",
         "anncmnt_align": "left",
         "anncmnt_is_home_only": true,
