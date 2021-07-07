@@ -32,7 +32,7 @@
                 "type": "action"
             }
         ],
-        "has_secondary_nav": true,
+        "has_secondary_nav": false,
         "secondary_nav_links": [
             {
                 "label": "Get In Touch",
