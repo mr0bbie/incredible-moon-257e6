@@ -140,7 +140,7 @@ sections:
     background_image_position: center center
     background_image_repeat: no-repeat
     type: hero_section
-    background_image: images/beautiful-shining-stars-night-sky.jpg
+    background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
   - type: features_section
     title: What We Do
     subtitle: A little about what
