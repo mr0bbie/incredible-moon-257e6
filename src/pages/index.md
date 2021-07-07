@@ -21,7 +21,7 @@ sections:
     padding_bottom: large
     background_color: primary
     has_border: true
-    background_image: images/maroon-triceratops.jpg
+    background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
     background_image_opacity: 98
     background_image_position: center center
     background_image_repeat: no-repeat
