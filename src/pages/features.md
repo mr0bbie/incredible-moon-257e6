@@ -23,7 +23,7 @@ sections:
         media_width: fourty
         image: images/nervous-spinach.png
   - type: grid_section
-    title: Cards Section
+    title: Additional Features
     subtitle: The whole package
     grid_items:
       - title: Section Item 1
