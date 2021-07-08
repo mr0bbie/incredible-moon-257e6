@@ -69,10 +69,10 @@ sections:
         image_has_padding: true
       - title: Custom builds
         title_align: left
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: >
+          We are always adding to our library of letters and symbols. If we
+          don't have what you're looking for, why not do a custom build? From
+          logos to your favourite instrument. 
         content_align: left
         actions:
           - label: Learn More
