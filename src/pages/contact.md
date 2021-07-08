@@ -18,11 +18,11 @@ sections:
       src="https://streamable.com/e/wl9k25?autoplay=1" frameborder="0"
       width="100%" height="100%" allowfullscreen allow="autoplay"
       style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-    media_position: top
-    media_width: fifty
-    align: left
-    padding_top: medium
-    padding_bottom: medium
+    media_position: bottom
+    media_width: fourty
+    align: center
+    padding_top: none
+    padding_bottom: small
     has_border: false
     background_color: none
     background_image_opacity: 0
