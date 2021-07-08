@@ -2,7 +2,7 @@
 title: Features
 sections:
   - type: hero_section
-    title: Explore Features
+    title: Our Features
     subtitle: What makes us glow!
     background_color: primary
   - type: features_section
