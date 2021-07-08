@@ -139,7 +139,7 @@ sections:
       Get in touch and we'll answer any burning questions about how our letters
     actions:
       - label: Contact
-        url: /pricing
+        url: /general-enquiries
         style: primary
     actions_position: right
     align: left
