@@ -10,6 +10,26 @@ sections:
     has_border: true
     background_color: primary
     background_image: images/beautiful-shining-stars-night-sky.jpg
+  - actions: []
+    image_alt: lorem-ipsum
+    video_embed_html: >-
+      <div
+      style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe
+      src="https://streamable.com/e/wl9k25?autoplay=1" frameborder="0"
+      width="100%" height="100%" allowfullscreen allow="autoplay"
+      style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+    media_position: top
+    media_width: fifty
+    align: left
+    padding_top: medium
+    padding_bottom: medium
+    has_border: false
+    background_color: none
+    background_image_opacity: 0
+    background_image_size: cover
+    background_image_position: center center
+    background_image_repeat: no-repeat
+    type: hero_section
   - type: grid_section
     grid_items:
       - title: Bronze Partner
@@ -140,25 +160,5 @@ sections:
     background_image_position: center center
     background_image_repeat: no-repeat
     type: features_section
-  - actions: []
-    image_alt: lorem-ipsum
-    video_embed_html: >-
-      <div
-      style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe
-      src="https://streamable.com/e/wl9k25?autoplay=1" frameborder="0"
-      width="100%" height="100%" allowfullscreen allow="autoplay"
-      style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-    media_position: top
-    media_width: fifty
-    align: left
-    padding_top: medium
-    padding_bottom: medium
-    has_border: false
-    background_color: none
-    background_image_opacity: 0
-    background_image_size: cover
-    background_image_position: center center
-    background_image_repeat: no-repeat
-    type: hero_section
 template: advanced
 ---
