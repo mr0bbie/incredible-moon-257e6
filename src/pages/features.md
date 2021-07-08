@@ -28,10 +28,10 @@ sections:
     grid_items:
       - title: Anytime & Place
         title_align: left
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: >
+          No job is too big or too small for the Glow Letter team, in fact, we
+          guarantee availability if your event is booked 2 weeks in advance of
+          your event date. 
         content_align: left
         actions:
           - label: Learn More
