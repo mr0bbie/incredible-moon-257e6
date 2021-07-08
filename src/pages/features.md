@@ -123,7 +123,7 @@ sections:
         actions_align: left
         image: images/enthusiastic-panda.png
         image_alt: Item 4 icon
-        image_position: left
+        image_position: top
         image_align: left
         image_has_padding: true
         title: DMX Control
