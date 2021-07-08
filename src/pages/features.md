@@ -11,9 +11,9 @@ sections:
       - title: Glow Letter Specifications
         subtitle: Our letters are carefully crafted in-house by our design engineers
         content: >
-          We use the latest technology to constantly innovate our letters and
-          create their unique design so that you can have your event stand out
-          like no other!
+          We use the latest technology to constantly innovate our letter design
+          and create their unique design so that your event will stand out like
+          no other!
         image_alt: Top view of business meeting
         media_position: right
         media_width: fifty
