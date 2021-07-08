@@ -24,7 +24,7 @@ sections:
         image: images/nervous-spinach.png
   - type: grid_section
     title: Additional Features
-    subtitle: The whole package
+    subtitle: What sets us apart from the rest
     grid_items:
       - title: Section Item 1
         title_align: left
