@@ -8,7 +8,7 @@ sections:
     background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
   - type: features_section
     features:
-      - title: Section Title One
+      - title: Glow Letter Specifications
         subtitle: 'Odio et tortor laoreet, sed interdum augue ornare. '
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
