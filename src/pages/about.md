@@ -124,7 +124,7 @@ sections:
         type: grid_item
         image: images/modern-tiger.jpg
       - title: Matthew Robbie
-        subtitle: Chief Operations Officer
+        subtitle: Co-Founder and COO
         title_align: center
         content_align: left
         actions: []
