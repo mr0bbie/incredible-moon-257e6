@@ -136,7 +136,7 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/magnificent-zebra.jpeg
+        image: images/matt2.jpg
       - title: Sara Miljic
         subtitle: Business Development
         title_align: center
@@ -150,8 +150,8 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/curious-turtle.jpeg
-      - title: Andrew Flanagan
+        image: images/oval-panda.jpeg
+      - title: Aanand Prabhakar
         subtitle: Operations Manager
         title_align: center
         content_align: left
@@ -164,7 +164,7 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/andrew.jpg
+        image: images/blue-petunia.jpg
     grid_cols: four
     grid_gap_vert: small
     grid_gap_horiz: small
