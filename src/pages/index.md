@@ -212,28 +212,6 @@ sections:
     feature_padding_vert: small
     background_color: primary
     background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
-  - title: Specifications
-    features:
-      - content: "### Dimensions\n\n*   Height - 115 cm\n\n*   Width - 77 cm\_\n\n*   Thickness - 2.5 cm\n\n*   Base - 27.5 x 80 cm\n\n### Technical\n\n*   Silicon molded RGB LED Strip\n\n*   Multi colour LED controllers with 12 selectable modes\n\n*   High capacity LED power supply capable\n    of supporting multiple letters\n"
-        actions: []
-        image_alt: lorem-ipsum
-        media_position: left
-        media_width: fourty
-        align: left
-        type: feature
-        image: images/nervous-spinach.png
-    feature_padding_vert: medium
-    align: center
-    padding_top: medium
-    padding_bottom: medium
-    has_border: false
-    background_color: none
-    background_image_opacity: 0
-    background_image_size: cover
-    background_image_position: left center
-    background_image_repeat: no-repeat
-    type: features_section
-    subtitle: Glow Letter
   - type: grid_section
     subtitle: The Glow Letter Co
     grid_items:
