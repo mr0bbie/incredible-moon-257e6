@@ -9,7 +9,7 @@ sections:
   - type: features_section
     features:
       - title: Glow Letter Specifications
-        subtitle: Our letters are made in house at our Brisbane factory
+        subtitle: Our letters are made in by us for you
         content: >
           We use the latest technology to constantly innovate our letters and
           create their unique design so that you can have your event stand out
