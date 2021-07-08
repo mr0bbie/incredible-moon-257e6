@@ -121,7 +121,7 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        image: images/classic/icon-3.svg
+        image: images/enthusiastic-panda.png
         image_alt: Item 4 icon
         image_position: top
         image_align: left
