@@ -22,8 +22,7 @@ sections:
         media_position: left
         media_width: fourty
         image: images/nervous-spinach.png
-  - title: lorem-ipsum
-    actions: []
+  - actions: []
     image_alt: lorem-ipsum
     video_embed_html: >-
       <div
