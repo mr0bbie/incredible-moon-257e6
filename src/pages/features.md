@@ -125,7 +125,7 @@ sections:
         image_alt: Item 4 icon
         image_position: top
         image_align: left
-        image_has_padding: true
+        image_has_padding: false
         title: DMX Control
     grid_cols: two
     grid_gap_horiz: medium
