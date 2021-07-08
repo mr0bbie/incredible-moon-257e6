@@ -89,10 +89,10 @@ sections:
         image_has_padding: true
       - title: Remote control
         title_align: left
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: >
+          Our remote control puts the power in your hands. No need to stick to
+          one colour the whole night, or maybe you want to get a strobe effect
+          going once the party starts!
         content_align: left
         actions:
           - label: Learn More
