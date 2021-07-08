@@ -95,13 +95,7 @@ sections:
           timing, which allows for special effects and light transitions beyond
           our wide range of standard effects.
         content_align: left
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
+        actions: []
         actions_align: left
         image: images/stars_small.png
         image_alt: Item 4 icon
