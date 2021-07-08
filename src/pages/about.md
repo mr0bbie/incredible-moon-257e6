@@ -136,7 +136,7 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/magnificent-zebra.jpeg
+        image: images/matt2.jpg
       - title: Sara Miljic
         subtitle: Business Development
         title_align: center
