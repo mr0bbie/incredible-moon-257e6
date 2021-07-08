@@ -19,7 +19,7 @@ sections:
       width="100%" height="100%" allowfullscreen allow="autoplay"
       style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
     media_position: top
-    media_width: sixty
+    media_width: fourty
     align: left
     padding_top: none
     padding_bottom: none
