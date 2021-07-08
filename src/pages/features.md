@@ -20,10 +20,7 @@ sections:
         align: center
       - title: Section Title Two
         subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: "# Dimensions\n\n*   Height - 115 cm\n\n*   Width - 77 cm\_\n\n*   Thickness - 2.5 cm\n\n*   Base - 27.5 x 80 cm\n\n### Technical\n\n*   Silicon molded RGB LED Strip\n\n*   Multi colour LED controllers with 12 selectable modes\n\n*   High capacity LED power supply capable\n    of supporting multiple letters\n"
         media_position: left
         media_width: fifty
         image: images/nervous-spinach.png
