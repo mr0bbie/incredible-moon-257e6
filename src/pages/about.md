@@ -150,7 +150,7 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/WhatsApp Image 2021-07-08 at 09.57.27.jpeg
+        image: images/sara2.jpeg
       - title: Aanand Prabhakar
         subtitle: Operations Manager
         title_align: center
