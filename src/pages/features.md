@@ -135,7 +135,8 @@ sections:
     background_color: none
   - type: cta_section
     title: Still Curious?
-    content: Ut egestas elementum suscipit. Quisque at hendrerit mauris.
+    content: |
+      Get in touch and we'll answer any burning questions about how our letters
     actions:
       - label: Compare Plans
         url: /pricing
