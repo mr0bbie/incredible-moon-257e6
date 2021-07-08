@@ -12,7 +12,7 @@
         "primary_nav_links": [
             {
                 "label": "Home",
-                "url": "lorem-ipsum",
+                "url": "home",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
