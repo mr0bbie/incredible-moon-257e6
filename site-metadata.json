@@ -27,13 +27,8 @@
                 "style": "link"
             },
             {
-                "label": "Pricing",
-                "url": "/pricing",
-                "style": "link"
-            },
-            {
-                "label": "Partnership",
-                "url": "/contact",
+                "label": "Features",
+                "url": "features",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
@@ -43,8 +38,13 @@
                 "type": "action"
             },
             {
-                "label": "Features",
-                "url": "features",
+                "label": "Pricing",
+                "url": "/pricing",
+                "style": "link"
+            },
+            {
+                "label": "Partnership",
+                "url": "/contact",
                 "style": "link",
                 "has_icon": false,
                 "icon": "arrow-left",
