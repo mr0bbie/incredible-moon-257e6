@@ -94,13 +94,7 @@ sections:
           one colour the whole night, or maybe you want to get a strobe effect
           going once the party starts!
         content_align: left
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
+        actions: []
         actions_align: left
         image: images/classic/icon-3.svg
         image_alt: Item 3 icon
