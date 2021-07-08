@@ -151,7 +151,7 @@ sections:
         image_has_padding: false
         type: grid_item
         image: images/WhatsApp Image 2021-07-08 at 09.57.27.jpeg
-      - title: Andrew Flanagan
+      - title: Aanand Prakbar
         subtitle: Operations Manager
         title_align: center
         content_align: left
