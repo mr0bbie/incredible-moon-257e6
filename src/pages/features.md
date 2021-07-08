@@ -68,13 +68,7 @@ sections:
           don't have what you're looking for, why not do a custom build? From
           logos to your favourite instrument. 
         content_align: left
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
+        actions: []
         actions_align: left
         image: images/classic/icon-2.svg
         image_alt: Item 2 icon
