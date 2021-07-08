@@ -38,8 +38,11 @@ sections:
     actions: []
     image_alt: lorem-ipsum
     video_embed_html: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+      <div
+      style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe
+      src="https://streamable.com/e/ojt382" frameborder="0" width="100%"
+      height="100%" allowfullscreen
+      style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
     media_position: top
     media_width: fifty
     align: left
