@@ -121,7 +121,7 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        image: images/enthusiastic-panda.png
+        image: images/stars_small.png
         image_alt: Item 4 icon
         image_position: top
         image_align: left
