@@ -108,10 +108,11 @@ sections:
         image_align: left
         image_has_padding: true
       - title_align: left
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: >+
+          Connecting the DMX control allows for full configuration control of
+          letter colours and timing, which allows for special effects and light
+          transitions beyond our wide range of standard effects
+
         content_align: left
         actions:
           - label: Learn More
