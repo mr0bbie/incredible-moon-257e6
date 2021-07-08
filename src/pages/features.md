@@ -54,13 +54,7 @@ sections:
           guarantee availability if your event is booked 2 weeks in advance of
           your event date. 
         content_align: left
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
+        actions: []
         actions_align: left
         image: images/classic/icon-1.svg
         image_alt: Item 1 icon
