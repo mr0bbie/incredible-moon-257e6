@@ -26,7 +26,7 @@ sections:
     title: Additional Features
     subtitle: What sets us apart from the rest
     grid_items:
-      - title: Anytime & Place
+      - title: Any Time & Place
         title_align: left
         content: >
           No job is too big or too small for the Glow Letter team, in fact, we
