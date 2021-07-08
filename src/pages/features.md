@@ -26,6 +26,7 @@ sections:
           fringilla, fringilla.
         media_position: left
         media_width: fifty
+        image: images/nervous-spinach.png
   - type: grid_section
     title: Cards Section
     subtitle: Grid Section Example
