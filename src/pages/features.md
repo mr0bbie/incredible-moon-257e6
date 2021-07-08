@@ -105,7 +105,6 @@ sections:
         image_position: top
         image_align: left
         image_has_padding: true
-        subtitle: DMX control
         title: DMX Control
     grid_cols: two
     grid_gap_horiz: medium
