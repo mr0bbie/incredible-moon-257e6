@@ -17,7 +17,7 @@ sections:
         content: |
           # 15% off
 
-          ##### for every hire
+          ##### every hire
 
           \---
 
