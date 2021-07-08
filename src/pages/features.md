@@ -108,11 +108,10 @@ sections:
         image_align: left
         image_has_padding: true
       - title_align: left
-        content: >+
-          Connecting the DMX control allows for full configuration control of
-          letter colours and timing, which allows for special effects and light
-          transitions beyond our wide range of standard effects
-
+        content: >
+          DMX allows for full configuration control of letter colours and
+          timing, which allows for special effects and light transitions beyond
+          our wide range of standard effects
         content_align: left
         actions:
           - label: Learn More
