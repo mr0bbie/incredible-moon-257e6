@@ -3,7 +3,7 @@ title: Features
 sections:
   - type: hero_section
     title: Explore Features
-    subtitle: The Glow Letter Co's Unique features
+    subtitle: What makes us glow!
     background_color: primary
   - type: features_section
     features:
