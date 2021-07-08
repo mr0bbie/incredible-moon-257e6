@@ -55,6 +55,7 @@ sections:
     background_image_position: center center
     background_image_repeat: no-repeat
     type: hero_section
+    background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
   - type: grid_section
     title: Additional Features
     subtitle: What sets us apart from the rest
