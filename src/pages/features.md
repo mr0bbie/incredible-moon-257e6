@@ -138,7 +138,7 @@ sections:
     content: |
       Get in touch and we'll answer any burning questions about how our letters
     actions:
-      - label: Cont
+      - label: Contact
         url: /pricing
         style: primary
     actions_position: right
