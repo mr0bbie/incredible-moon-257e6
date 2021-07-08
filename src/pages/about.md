@@ -150,7 +150,7 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/nervous-comet.jpeg
+        image: images/oval-panda.jpeg
       - title: Aanand Prabhakar
         subtitle: Operations Manager
         title_align: center
