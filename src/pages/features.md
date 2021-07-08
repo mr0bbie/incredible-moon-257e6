@@ -105,6 +105,7 @@ sections:
         image_position: top
         image_align: left
         image_has_padding: true
+        subtitle: Remote control
     grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: medium
