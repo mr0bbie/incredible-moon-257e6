@@ -164,7 +164,7 @@ sections:
         image_align: left
         image_has_padding: false
         type: grid_item
-        image: images/andrew.jpg
+        image: images/aanand.jpg
     grid_cols: four
     grid_gap_vert: small
     grid_gap_horiz: small
