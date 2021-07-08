@@ -22,131 +22,100 @@ sections:
         media_position: left
         media_width: fourty
         image: images/nervous-spinach.png
+  - actions: []
+    image_alt: lorem-ipsum
+    video_embed_html: >-
+      <div
+      style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe
+      src="https://streamable.com/e/ojt382" frameborder="0" width="100%"
+      height="100%" allowfullscreen
+      style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+    media_position: top
+    media_width: fifty
+    align: left
+    padding_top: medium
+    padding_bottom: medium
+    has_border: false
+    background_color: none
+    background_image_opacity: 0
+    background_image_size: cover
+    background_image_position: center center
+    background_image_repeat: no-repeat
+    type: hero_section
+    background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
   - type: grid_section
-    title: Cards Section
-    subtitle: Grid Section Example
+    title: Additional Features
+    subtitle: What sets us apart from the rest
     grid_items:
-      - title: Section Item 1
+      - title: Any Time & Place
         title_align: left
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: >
+          No job is too big or too small for the Glow Letter team, in fact, we
+          guarantee availability if your event is booked 2 weeks in advance of
+          your event date. 
         content_align: left
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
+        actions: []
         actions_align: left
         image: images/classic/icon-1.svg
         image_alt: Item 1 icon
         image_position: top
         image_align: left
         image_has_padding: true
-      - title: Section Item 2
+      - title: Custom builds
         title_align: left
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: >
+          We are always adding to our library of letters and symbols. If we
+          don't have what you're looking for, why not do a custom build? From
+          logos to your favourite instrument. 
         content_align: left
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
+        actions: []
         actions_align: left
         image: images/classic/icon-2.svg
         image_alt: Item 2 icon
         image_position: top
         image_align: left
         image_has_padding: true
-      - title: Section Item 3
+      - title: Remote control
         title_align: left
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+        content: >
+          Our remote control puts the power in your hands. No need to stick to
+          one colour the whole night, or maybe you want to get a strobe effect
+          going once the party starts!
         content_align: left
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
+        actions: []
         actions_align: left
         image: images/classic/icon-3.svg
         image_alt: Item 3 icon
         image_position: top
         image_align: left
         image_has_padding: true
-      - title: Section Item 4
-        title_align: left
-        content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+      - title_align: left
+        content: >
+          DMX allows for full configuration control of letter colours and
+          timing, which allows for special effects and light transitions beyond
+          our wide range of standard effects.
         content_align: left
-        actions:
-          - label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
+        actions: []
         actions_align: left
-        image: images/classic/icon-3.svg
+        image: images/stars_small.png
         image_alt: Item 4 icon
         image_position: top
         image_align: left
         image_has_padding: true
+        title: DMX Control
     grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: medium
     enable_cards: true
     align: center
     background_color: none
-  - type: grid_section
-    title: Reviews Section
-    subtitle: Grid Section Example
-    grid_items:
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
-
-
-          **Eleanor Carr,** *CTO, Studio*
-        image: images/eleanor-carr.png
-        image_alt: Eleanor Carr
-        image_position: left
-        image_width: twenty-five
-      - content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus.
-
-
-          **Gordon Norman,** *Web Designer, Studio*
-        image: images/gordon-norman.png
-        image_alt: Gordon Norman
-        image_position: left
-        image_width: twenty-five
-    grid_cols: two
-    grid_gap_horiz: medium
-    grid_gap_vert: large
-    align: center
-    background_color: secondary
   - type: cta_section
-    title: This is a Call to Action
-    content: Ut egestas elementum suscipit. Quisque at hendrerit mauris.
+    title: Still Curious?
+    content: |
+      Get in touch and we'll answer any burning questions about how our letters
     actions:
-      - label: Compare Plans
-        url: /pricing
+      - label: Contact
+        url: /general-enquiries
         style: primary
     actions_position: right
     align: left
@@ -154,5 +123,6 @@ sections:
     padding_bottom: medium
     has_border: false
     background_color: primary
+    background_image: images/WhatsApp Image 2021-01-29 at 19.26.32.jpeg
 template: advanced
 ---
