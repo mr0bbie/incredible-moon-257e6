@@ -24,7 +24,7 @@ sections:
         image: images/nervous-spinach.png
   - type: grid_section
     title: Cards Section
-    subtitle: Grid Section Example
+    subtitle: The whole package
     grid_items:
       - title: Section Item 1
         title_align: left
