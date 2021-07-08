@@ -17,6 +17,7 @@ sections:
         image_alt: Top view of business meeting
         media_position: right
         media_width: fifty
+        align: center
       - title: Section Title Two
         subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
         content: >-
