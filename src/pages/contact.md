@@ -20,7 +20,7 @@ sections:
       style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
     media_position: top
     media_width: fourty
-    align: left
+    align: center
     padding_top: none
     padding_bottom: none
     has_border: false
