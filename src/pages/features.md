@@ -19,7 +19,7 @@ sections:
         media_width: fifty
         align: center
       - content: "### Dimensions\n\n*   Height - 115 cm\n\n*   Width - 77 cm\_\n\n*   Thickness - 2.5 cm\n\n*   Base - 27.5 x 80 cm\n\n### Technical\n\n*   Silicon molded RGB LED Strip\n\n*   Multi colour LED controllers with 12 selectable modes\n\n*   High capacity LED power supply capable\n    of supporting multiple letters\n"
-        media_position: right
+        media_position: left
         media_width: fourty
         image: images/nervous-spinach.png
   - type: grid_section
