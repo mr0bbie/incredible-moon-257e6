@@ -26,7 +26,7 @@ sections:
     title: Additional Features
     subtitle: What sets us apart from the rest
     grid_items:
-      - title: Section Item 1
+      - title: No Venue too hard
         title_align: left
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
