@@ -258,17 +258,17 @@ const FormToStripe = (props) => {
                                     }}>
                                         <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                             <label htmlFor="event_date">Event Date</label>
-                                            <input type="date" id="event_date" name="event_date" onChange={onChangeInput("event_date")} value={toSubmit.event_date} required />
+                                            <input type="date" id="event_date" name="event_date" onChange={onChangeInput("event_date")} value={toSubmit.event_date} required={toSubmit.subject === "Booking"} />
                                             <small style={allStyles.smallStyle}>Events more than two weeks in advance have guaranteed availability and 10% discount.</small>
                                         </div>
                                         <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                             <label htmlFor="location">Location</label>
-                                            <input type="text" id="location" name="location" placeholder="Your event location" onChange={onChangeInput("location")} value={toSubmit.location} required />
+                                            <input type="text" id="location" name="location" placeholder="Your event location" onChange={onChangeInput("location")} value={toSubmit.location} required={toSubmit.subject === "Booking"} />
                                             <small style={allStyles.smallStyle}>Locations outside of Sydney, Brisbane or the Gold Coast may incur additional mobilisation charges.</small>
                                         </div>
                                         <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                             <label htmlFor="setup_time">Setup Time</label>
-                                            <input type="time" id="setup_time" name="setup_time" onChange={onChangeInput("setup_time")} value={toSubmit.setup_time} required />
+                                            <input type="time" id="setup_time" name="setup_time" onChange={onChangeInput("setup_time")} value={toSubmit.setup_time} required={toSubmit.subject === "Booking"} />
                                         </div>
                                         <div className="form-checkbox">
                                             <label htmlFor="have_pack_down_time" id="have_pack_down_time-label">
@@ -279,7 +279,7 @@ const FormToStripe = (props) => {
                                         {toSubmit.have_pack_down_time ?
                                         <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                             <label htmlFor="pack_down_time">Pack Down Time</label>
-                                            <input type="time" id="pack_down_time" name="pack_down_time" onChange={onChangeInput("pack_down_time")} value={toSubmit.pack_down_time} required />
+                                            <input type="time" id="pack_down_time" name="pack_down_time" onChange={onChangeInput("pack_down_time")} value={toSubmit.pack_down_time} required={toSubmit.subject === "Booking"} />
                                         </div>
                                         :
                                         <div style={{
@@ -294,7 +294,7 @@ const FormToStripe = (props) => {
                                                     ...toSubmit,
                                                     message: e.target.value?.toUpperCase()
                                                 })
-                                            }} value={toSubmit.message} required />
+                                            }} value={toSubmit.message} required={toSubmit.subject === "Booking"} />
                                             <small style={allStyles.smallStyle}>Type any combination of letters, numbers or characters.</small>
                                         </div>
                                         : <></>}
