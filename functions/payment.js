@@ -20,7 +20,7 @@ exports.handler = async (event, context) => {
   const todayDate = new Date()
   todayDate.setDate(todayDate.getDate() + 14);
   let discount = 0
-  if (todayDate < eventDate) {
+  if (todayDate < eventDate && !diy_option) {
       discount = 0.1
   }
   const messageLetters = message?.replace(/ /g,'')

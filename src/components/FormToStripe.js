@@ -132,7 +132,7 @@ const FormToStripe = (props) => {
     const todayDate = new Date()
     todayDate.setDate(todayDate.getDate() + 14);
     let discount = 0
-    if (todayDate < eventDate) {
+    if (todayDate < eventDate && !toSubmit.diy_option) {
         discount = 0.1
     }
     const messageLetters = toSubmit.message?.replace(/ /g,'')
@@ -321,7 +321,7 @@ const FormToStripe = (props) => {
                                         <div className="form-checkbox">
                                             <label htmlFor="diy_option" id="diy_option-label">
                                                 <input name="diy_option" id="diy_option" type="checkbox" onChange={onChangeInput("diy_option")} value={toSubmit.diy_option} />
-                                                <span>Do you want to set up yourself (DIY option cost $100 per letter)?</span>
+                                                <span>Do you want to set up yourself (DIY option cost $100 per letter, not applicable for 10% discount)?</span>
                                             </label>
                                         </div>
                                         <div className="form-checkbox">
