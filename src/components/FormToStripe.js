@@ -286,7 +286,7 @@ const FormToStripe = (props) => {
                                             height: "8px"
                                         }} />
                                         }
-                                        {toSubmit.subject === "booking" ?
+                                        {toSubmit.subject === "Booking" ?
                                         <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                             <label htmlFor="message">Message</label>
                                             <input type="text" id="message" name="message" placeholder="What will you create?" onChange={(e) => {
