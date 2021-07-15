@@ -310,12 +310,14 @@ const FormToStripe = (props) => {
                                             <textarea rows="4" id="additional_notes" name="additional_notes" onChange={onChangeInput("additional_notes")} value={toSubmit.additional_notes} />
                                             <small style={allStyles.smallStyle}>e.g. venue contacts, prefferred colours, setup location.</small>
                                         </div>
+                                        {toSubmit.subject === "booking" ?
                                         <div className="form-checkbox">
                                             <label htmlFor="consent" id="consent-label">
                                                 <input name="consent" id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
                                                 <span>I understand that this form is storing my submitted information so I can be contacted.</span>
                                             </label>
                                         </div>
+                                        : <></>}
                                         <div className="form-checkbox">
                                             <label htmlFor="diy_option" id="diy_option-label">
                                                 <input name="diy_option" id="diy_option" type="checkbox" onChange={onChangeInput("diy_option")} value={toSubmit.diy_option} />
@@ -357,10 +359,18 @@ const FormToStripe = (props) => {
                                         </div>
                                     </div>
                                     {toSubmit.subject === "Booking" ? <></> :
-                                    <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
-                                        <label htmlFor="message">Message</label>
-                                        <textarea rows="4" id="message" name="message" onChange={onChangeInput("message")} value={toSubmit.message} />
-                                    </div>
+                                    <>
+                                        <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
+                                            <label htmlFor="message">Message</label>
+                                            <textarea rows="4" id="message" name="message" onChange={onChangeInput("message")} value={toSubmit.message} />
+                                        </div>
+                                        <div className="form-checkbox">
+                                            <label htmlFor="consent" id="consent-label">
+                                                <input name="consent" id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
+                                                <span>I understand that this form is storing my submitted information so I can be contacted.</span>
+                                            </label>
+                                        </div>
+                                    </>
                                     }
                                     {toSubmit.online_payment ?
                                     <div style={allStyles.paymentBox}>
