@@ -310,7 +310,7 @@ const FormToStripe = (props) => {
                                             <textarea rows="4" id="additional_notes" name="additional_notes" onChange={onChangeInput("additional_notes")} value={toSubmit.additional_notes} />
                                             <small style={allStyles.smallStyle}>e.g. venue contacts, prefferred colours, setup location.</small>
                                         </div>
-                                        {toSubmit.subject === "booking" ?
+                                        {toSubmit.subject === "Booking" ?
                                         <div className="form-checkbox">
                                             <label htmlFor="consent" id="consent-label">
                                                 <input name="consent" id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
