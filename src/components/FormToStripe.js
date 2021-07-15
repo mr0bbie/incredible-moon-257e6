@@ -142,7 +142,8 @@ const FormToStripe = (props) => {
     const subtotal =  letterCost - discounted
     const gst = subtotal * 0.1
 
-    const formId = ("Form " + toSubmit.subject).split(" ").join("-")
+    // const formId = ("Form " + toSubmit.subject).split(" ").join("-")
+    const formId = "contact-form"
     const submitForm = async (e) => {
         e.preventDefault()
         setPaymentStatus(1)
