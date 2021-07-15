@@ -12,21 +12,24 @@ exports.handler = async (event, context) => {
     setup_time,
     pack_down_time,
     message,
-    additional_notes
+    additional_notes,
+    diy_option
   } = order;
   
   const eventDate = new Date(event_date)
   const todayDate = new Date()
   todayDate.setDate(todayDate.getDate() + 14);
-  let discount = 1
+  let discount = 0
   if (todayDate < eventDate) {
-    discount = 0.9
+      discount = 0.1
   }
-
-  const messageLetters = message?.replace(/ /g,'');
-  const letters = messageLetters ? messageLetters.length : 0;
-  const subtotal = (letters <= 3 ? 450 : letters * 150) * discount
-  const totalPayment = Math.round(subtotal * 1.1) * 100;
+  const messageLetters = message?.replace(/ /g,'')
+  const letters = messageLetters ? messageLetters.length : 0
+  const letterCost = diy_option ? letters * 100 : (letters <= 3 ? 450 : letters * 150)
+  const discounted = letterCost * discount
+  const subtotal =  letterCost - discounted
+  const gst = subtotal * 0.1
+  const totalPayment = Math.round(subtotal + gst)
 
   const paymentIntent = await stripe.paymentIntents.create({
     amount: totalPayment,
