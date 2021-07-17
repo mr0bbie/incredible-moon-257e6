@@ -17,7 +17,6 @@ sections:
     form_width: sixty
     form_layout: stacked
     enable_card: true
-    form_id: contact-form
     submit_label: Book
     align_vert: top
     padding_top: medium
