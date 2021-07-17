@@ -50,6 +50,11 @@ const allStyles = {
         border: "1px solid transparent",
         borderRadius: ".25rem",
         marginTop: "15px"
+    },
+    dropdownSelect: {
+        background: "url(/images/common/dropdown-arrow.png) no-repeat right #f7f8f9",
+        WebkitAppearance: "none",
+        backgroundPositionX: "calc(100% - 16px)"
     }
 }
 
@@ -104,13 +109,16 @@ const FormToStripe = (props) => {
         name: "",
         email: "",
         contact_number: "",
+        subject: "",
         event_date: "",
         location: "",
         setup_time: "",
+        have_pack_down_time: false,
         pack_down_time: "",
         message: "",
         additional_notes: "",
         consent: false,
+        diy_option: false,
         online_payment: false
     })
 
@@ -123,15 +131,19 @@ const FormToStripe = (props) => {
     const eventDate = new Date(toSubmit.event_date)
     const todayDate = new Date()
     todayDate.setDate(todayDate.getDate() + 14);
-    let discount = 1
-    if (todayDate < eventDate) {
-        discount = 0.9
+    let discount = 0
+    if (todayDate < eventDate && !toSubmit.diy_option) {
+        discount = 0.1
     }
     const messageLetters = toSubmit.message?.replace(/ /g,'')
     const letters = messageLetters ? messageLetters.length : 0
-    const subtotal = (letters <= 3 ? 450 : letters * 150) * discount
+    const letterCost = toSubmit.diy_option ? letters * 100 : (letters <= 3 ? 450 : letters * 150)
+    const discounted = letterCost * discount
+    const subtotal =  letterCost - discounted
     const gst = subtotal * 0.1
 
+    // const formId = ("Form " + toSubmit.subject).split(" ").join("-")
+    const formId = "contact-form"
     const submitForm = async (e) => {
         e.preventDefault()
         setPaymentStatus(1)
@@ -140,7 +152,7 @@ const FormToStripe = (props) => {
             method: 'POST',
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encodeJson({
-                "form-name": _.get(section, 'form_id', 'contact-form'),
+                "form-name": formId,
                 ...toSubmit
             })
         })
@@ -216,7 +228,7 @@ const FormToStripe = (props) => {
                         </div>
                         )}
                         <div className={classNames('section__form', 'my-2', 'cell-12', {'cell-md-5': (is_horiz && has_text) && (form_width === 'fourty'), 'cell-md-6': (is_horiz && has_text) && (form_width === 'fifty'), 'cell-md-7': (is_horiz && has_text) && (form_width === 'sixty'), 'order-first': (form_pos === 'top') || (form_pos === 'left')})}>
-                            <form name={_.get(section, 'form_id', null)} id={_.get(section, 'form_id', null)} className={classNames({'form-inline': form_is_inline, 'card': form_is_card, 'p-4': form_is_card, 'p-sm-5': form_is_card})} onSubmit={submitForm} data-netlify="true">
+                            <form name={formId} id={formId} className={classNames({'form-inline': form_is_inline, 'card': form_is_card, 'p-4': form_is_card, 'p-sm-5': form_is_card})} onSubmit={submitForm} data-netlify="true">
                                 <div className={classNames('form-content', {'flex': form_is_inline, 'flex-column': form_is_inline, 'flex-xs-row': form_is_inline})}>
                                     <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                         <label htmlFor="name">Name</label>
@@ -231,80 +243,135 @@ const FormToStripe = (props) => {
                                         <input type="text" id="contact_number" name="contact_number" placeholder="Your phone number" onChange={onChangeInput("contact_number")} value={toSubmit.contact_number} required />
                                     </div>
                                     <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
-                                        <label htmlFor="event_date">Event Date</label>
-                                        <input type="date" id="event_date" name="event_date" onChange={onChangeInput("event_date")} value={toSubmit.event_date} required />
-                                        <small style={allStyles.smallStyle}>Events more than two weeks in advance have guaranteed availability and 10% discount.</small>
+                                        <label htmlFor="subject">Subject</label>
+                                        <select name="subject" id="subject" onChange={onChangeInput("subject")} value={toSubmit.subject} style={
+                                            allStyles.dropdownSelect
+                                        } required>
+                                            <option disabled selected value="">Please select</option>
+                                            <option value="Partnerships">Partnerships</option>
+                                            <option value="General enquiry">General enquiry</option>
+                                            <option value="Booking">Booking</option>
+                                        </select>
                                     </div>
-                                    <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
-                                        <label htmlFor="location">Location</label>
-                                        <input type="text" id="location" name="location" placeholder="Your event location" onChange={onChangeInput("location")} value={toSubmit.location} required />
-                                        <small style={allStyles.smallStyle}>Locations outside of Sydney, Brisbane or the Gold Coast may incur additional mobilisation charges.</small>
-                                    </div>
-                                    <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
-                                        <label htmlFor="setup_time">Setup Time</label>
-                                        <input type="time" id="setup_time" name="setup_time" onChange={onChangeInput("setup_time")} value={toSubmit.setup_time} required />
-                                    </div>
-                                    <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
-                                        <label htmlFor="pack_down_time">Pack Down Time</label>
-                                        <input type="time" id="pack_down_time" name="pack_down_time" onChange={onChangeInput("pack_down_time")} value={toSubmit.pack_down_time} required />
-                                    </div>
-                                    <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
-                                        <label htmlFor="message">Message</label>
-                                        <input type="text" id="message" name="message" placeholder="What will you create?" onChange={(e) => {
-                                            setToSubmit({
-                                                ...toSubmit,
-                                                message: e.target.value?.toUpperCase()
-                                            })
-                                        }} value={toSubmit.message} required />
-                                        <small style={allStyles.smallStyle}>Type any combination of letters, numbers or characters.</small>
-                                    </div>
-                                    <div>
-                                        <label>Number of letters</label>
-                                        <input type="text" disabled value={letters} style={{
-                                            color: "gray",
-                                            marginBottom: "15px"
-                                        }} />
-                                    </div>
-                                    <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
-                                        <label htmlFor="additional_notes">Is there anything else we should know?</label>
-                                        <textarea rows="4" id="additional_notes" name="additional_notes" onChange={onChangeInput("additional_notes")} value={toSubmit.additional_notes} />
-                                        <small style={allStyles.smallStyle}>e.g. venue contacts, prefferred colours, setup location.</small>
-                                    </div>
-                                    <div className="form-checkbox">
-                                        <label htmlFor="consent" id="consent-label">
-                                            <input name="consent" id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
-                                            <span>I understand that this form is storing my submitted information so I can be contacted.</span>
-                                        </label>
-                                    </div>
-                                    <div className="form-checkbox">
-                                        <label htmlFor="online_payment" id="online_payment-label">
-                                            <input name="online_payment" id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
-                                            <span>Do you want to pay now?</span>
-                                        </label>
-                                    </div>
-                                    <div style={{
-                                        paddingTop: "10px"
+                                    <div style={toSubmit.subject === "Booking" ? {} : {
+                                        display: "none"
                                     }}>
-                                        <h5>Payment</h5>
-                                        <div style={allStyles.paymentBox}>
-                                            <div style={allStyles.paymentRow}>
-                                                <div>Glow Letters:</div>
-                                                <div>${formatMoney(subtotal)}</div>
-                                            </div>
-                                            <div style={allStyles.paymentRowHighlighted}>
-                                                <div>Subtotal:</div>
-                                                <div>${formatMoney(subtotal)}</div>
-                                            </div>
-                                            <div style={allStyles.paymentRow}>
-                                                <div>GST:</div>
-                                                <div>${formatMoney(gst)}</div>
-                                            </div>
+                                        <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
+                                            <label htmlFor="event_date">Event Date</label>
+                                            <input type="date" id="event_date" name="event_date" onChange={onChangeInput("event_date")} value={toSubmit.event_date} required={toSubmit.subject === "Booking"} />
+                                            <small style={allStyles.smallStyle}>Events more than two weeks in advance have guaranteed availability and 10% discount.</small>
                                         </div>
-                                        <h5 style={{
-                                            marginTop: "10px",
-                                            textAlign: "right"
-                                        }}>Amount Due: ${formatMoney(subtotal + gst)}</h5>
+                                        <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
+                                            <label htmlFor="location">Location</label>
+                                            <input type="text" id="location" name="location" placeholder="Your event location" onChange={onChangeInput("location")} value={toSubmit.location} required={toSubmit.subject === "Booking"} />
+                                            <small style={allStyles.smallStyle}>Locations outside of Sydney, Brisbane or the Gold Coast may incur additional mobilisation charges.</small>
+                                        </div>
+                                        <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
+                                            <label htmlFor="setup_time">Setup Time</label>
+                                            <input type="time" id="setup_time" name="setup_time" onChange={onChangeInput("setup_time")} value={toSubmit.setup_time} required={toSubmit.subject === "Booking"} />
+                                        </div>
+                                        <div className="form-checkbox">
+                                            <label htmlFor="have_pack_down_time" id="have_pack_down_time-label">
+                                                <input name="have_pack_down_time" id="have_pack_down_time" type="checkbox" onChange={onChangeInput("have_pack_down_time")} value={toSubmit.have_pack_down_time} />
+                                                <span>Do you know the pack down time?</span>
+                                            </label>
+                                        </div>
+                                        {toSubmit.have_pack_down_time ?
+                                        <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
+                                            <label htmlFor="pack_down_time">Pack Down Time</label>
+                                            <input type="time" id="pack_down_time" name="pack_down_time" onChange={onChangeInput("pack_down_time")} value={toSubmit.pack_down_time} required={toSubmit.subject === "Booking"} />
+                                        </div>
+                                        :
+                                        <div style={{
+                                            height: "8px"
+                                        }} />
+                                        }
+                                        {toSubmit.subject === "Booking" ?
+                                        <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
+                                            <label htmlFor="message">Message</label>
+                                            <input type="text" id="message" name="message" placeholder="What will you create?" onChange={(e) => {
+                                                setToSubmit({
+                                                    ...toSubmit,
+                                                    message: e.target.value?.toUpperCase()
+                                                })
+                                            }} value={toSubmit.message} required={toSubmit.subject === "Booking"} />
+                                            <small style={allStyles.smallStyle}>Type any combination of letters, numbers or characters.</small>
+                                        </div>
+                                        : <></>}
+                                        <div>
+                                            <label>Number of letters</label>
+                                            <input type="text" disabled value={letters} style={{
+                                                color: "gray",
+                                                marginBottom: "15px"
+                                            }} />
+                                        </div>
+                                        <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
+                                            <label htmlFor="additional_notes">Is there anything else we should know?</label>
+                                            <textarea rows="4" id="additional_notes" name="additional_notes" onChange={onChangeInput("additional_notes")} value={toSubmit.additional_notes} />
+                                            <small style={allStyles.smallStyle}>e.g. venue contacts, prefferred colours, setup location.</small>
+                                        </div>
+                                        {toSubmit.subject === "Booking" ?
+                                        <div className="form-checkbox">
+                                            <label htmlFor="consent" id="consent-label">
+                                                <input name="consent" id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
+                                                <span>I understand that this form is storing my submitted information so I can be contacted.</span>
+                                            </label>
+                                        </div>
+                                        : <></>}
+                                        <div className="form-checkbox">
+                                            <label htmlFor="diy_option" id="diy_option-label">
+                                                <input name="diy_option" id="diy_option" type="checkbox" onChange={onChangeInput("diy_option")} value={toSubmit.diy_option} />
+                                                <span>Do you want to set up yourself (DIY option cost $100 per letter, not applicable for 10% discount)?</span>
+                                            </label>
+                                        </div>
+                                        <div className="form-checkbox">
+                                            <label htmlFor="online_payment" id="online_payment-label">
+                                                <input name="online_payment" id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
+                                                <span>Do you want to pay now?</span>
+                                            </label>
+                                        </div>
+                                        <div style={{
+                                            paddingTop: "10px"
+                                        }}>
+                                            <h5>Payment</h5>
+                                            <div style={allStyles.paymentBox}>
+                                                <div style={allStyles.paymentRow}>
+                                                    <div>Glow Letters:</div>
+                                                    <div>${formatMoney(letterCost)}</div>
+                                                </div>
+                                                {discounted > 0 ? <div style={allStyles.paymentRow}>
+                                                    <div>Discount:</div>
+                                                    <div>- ${formatMoney(discounted)}</div>
+                                                </div> : <></>}
+                                                <div style={allStyles.paymentRowHighlighted}>
+                                                    <div>Subtotal:</div>
+                                                    <div>${formatMoney(subtotal)}</div>
+                                                </div>
+                                                <div style={allStyles.paymentRow}>
+                                                    <div>GST:</div>
+                                                    <div>${formatMoney(gst)}</div>
+                                                </div>
+                                            </div>
+                                            <h5 style={{
+                                                marginTop: "10px",
+                                                textAlign: "right"
+                                            }}>Amount Due: ${formatMoney(subtotal + gst)}</h5>
+                                        </div>
                                     </div>
+                                    {toSubmit.subject === "Booking" ? <></> :
+                                    <>
+                                        <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
+                                            <label htmlFor="message">Message</label>
+                                            <textarea rows="4" id="message" name="message" onChange={onChangeInput("message")} value={toSubmit.message} />
+                                        </div>
+                                        <div className="form-checkbox">
+                                            <label htmlFor="consent" id="consent-label">
+                                                <input name="consent" id="consent" type="checkbox" onChange={onChangeInput("consent")} value={toSubmit.consent} required />
+                                                <span>I understand that this form is storing my submitted information so I can be contacted.</span>
+                                            </label>
+                                        </div>
+                                    </>
+                                    }
                                     {toSubmit.online_payment ?
                                     <div style={allStyles.paymentBox}>
                                         <CardElement
@@ -326,7 +393,7 @@ const FormToStripe = (props) => {
                                     </div> : <></>}
                                     {paymentStatus === 2 ?
                                     <div style={allStyles.successBox}>
-                                        Order Submitted!
+                                        Form Submitted!
                                     </div>
                                     : paymentStatus === 3 ?
                                     <div style={allStyles.errorBox}>

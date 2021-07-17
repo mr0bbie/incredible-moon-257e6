@@ -57,10 +57,10 @@ sections:
         actions_width: auto
         title_align: center
       - title: Brisbane
-        content: |
-          63 Moss St\<br/>Slacks Creek, QLD 4127
-          \+61 7 3185 2373
-          info@glowletter.co
+        content: >-
+          63 Moss St <br/> Slacks Creek, QLD 4127<br/> [+61 7 3185
+          2373](tel:+61731852373)<br/>
+          [info@glowletter.co](mailto:info@glowletter.co)
         content_align: center
         actions:
           - label: Get Directions
