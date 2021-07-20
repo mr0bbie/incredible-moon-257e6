@@ -308,7 +308,7 @@ const FormToStripe = (props) => {
                                         <div className={classNames('form-group', {'mb-2': form_is_inline === false, 'mb-1': form_is_inline === true, 'mb-xs-0': form_is_inline === true, 'flex-auto': form_is_inline})}>
                                             <label htmlFor="additional_notes">Is there anything else we should know?</label>
                                             <textarea rows="4" id="additional_notes" name="additional_notes" onChange={onChangeInput("additional_notes")} value={toSubmit.additional_notes} />
-                                            <small style={allStyles.smallStyle}>e.g. venue contacts, prefferred colours, setup location.</small>
+                                            <small style={allStyles.smallStyle}>e.g. venue contacts, preferred colours, setup location.</small>
                                         </div>
                                         {toSubmit.subject === "Booking" ?
                                         <div className="form-checkbox">
