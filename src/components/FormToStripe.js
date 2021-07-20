@@ -132,7 +132,7 @@ const FormToStripe = (props) => {
     const todayDate = new Date()
     todayDate.setDate(todayDate.getDate() + 14);
     let discount = 0
-    if (todayDate < eventDate && !toSubmit.diy_option) {
+    if (todayDate < eventDate && !toSubmit.diy_option && toSubmit.online_payment) {
         discount = 0.1
     }
     const messageLetters = toSubmit.message?.replace(/ /g,'')
@@ -327,7 +327,12 @@ const FormToStripe = (props) => {
                                         <div className="form-checkbox">
                                             <label htmlFor="online_payment" id="online_payment-label">
                                                 <input name="online_payment" id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
-                                                <span>Do you want to pay now?</span>
+                                                <span>
+                                                    Do you want to pay now?
+                                                    {todayDate < eventDate && !toSubmit.diy_option ?
+                                                    " (To get a 10% discount, you need to pay now)"
+                                                    : ""}
+                                                </span>
                                             </label>
                                         </div>
                                         <div style={{
