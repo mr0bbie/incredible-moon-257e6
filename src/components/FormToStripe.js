@@ -328,7 +328,7 @@ const FormToStripe = (props) => {
                                             <label htmlFor="online_payment" id="online_payment-label">
                                                 <input name="online_payment" id="online_payment" type="checkbox" onChange={onChangeInput("online_payment")} value={toSubmit.online_payment} />
                                                 <span>
-                                                    Pay now and save 10% on full hire
+                                                    Pay now and save 10% on Full Hire
                                                     {todayDate < eventDate && !toSubmit.diy_option ?
                                                     " (To get a 10% discount, you need to pay now)"
                                                     : ""}
