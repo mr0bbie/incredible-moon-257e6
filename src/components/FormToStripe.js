@@ -321,7 +321,7 @@ const FormToStripe = (props) => {
                                         <div className="form-checkbox">
                                             <label htmlFor="diy_option" id="diy_option-label">
                                                 <input name="diy_option" id="diy_option" type="checkbox" onChange={onChangeInput("diy_option")} value={toSubmit.diy_option} />
-                                                <span>Do you want to set up yourself? (DIY option $100 per letter)</span>
+                                                <span>Do you want to set up yourself? ($100 per letter)</span>
                                             </label>
                                         </div>
                                         <div className="form-checkbox">
