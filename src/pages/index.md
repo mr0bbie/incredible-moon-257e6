@@ -7,7 +7,7 @@ sections:
     content: ''
     actions:
       - label: Book now
-        url: /general-enquiry
+        url: /general-enquiries
         style: primary
       - label: Learn More
         url: /features
