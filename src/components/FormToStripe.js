@@ -58,6 +58,23 @@ const allStyles = {
     }
 }
 
+const defaultSubmitValue = {
+    name: "",
+    email: "",
+    contact_number: "",
+    subject: "",
+    event_date: "",
+    location: "",
+    setup_time: "",
+    have_pack_down_time: false,
+    pack_down_time: "",
+    message: "",
+    additional_notes: "",
+    consent: false,
+    diy_option: false,
+    online_payment: false
+}
+
 const FormToStripe = (props) => {    
     let section = _.get(props, 'section', null);
     let padding_top = _.get(section, 'padding_top', null) || 'medium';
@@ -106,26 +123,20 @@ const FormToStripe = (props) => {
     const elements = useElements();
     const [paymentStatus, setPaymentStatus] = useState(0) // 0 = Nothing, 1 = Loading, 2 = Success, 3 = Error
     const [toSubmit, setToSubmit] = useState({
-        name: "",
-        email: "",
-        contact_number: "",
-        subject: "",
-        event_date: "",
-        location: "",
-        setup_time: "",
-        have_pack_down_time: false,
-        pack_down_time: "",
-        message: "",
-        additional_notes: "",
-        consent: false,
-        diy_option: false,
-        online_payment: false
+        ...defaultSubmitValue
     })
 
     const onChangeInput = (name) => (e) => {
-        const newToSubmit = {...toSubmit}
-        newToSubmit[name] = e.target.type === 'checkbox' ? e.target.checked : e.target.value
-        setToSubmit(newToSubmit)
+        if (name === "subject" && toSubmit.subject !== "") {
+            setToSubmit({
+                ...defaultSubmitValue,
+                subject: e.target.value
+            })
+        } else {
+            const newToSubmit = {...toSubmit}
+            newToSubmit[name] = e.target.type === 'checkbox' ? e.target.checked : e.target.value
+            setToSubmit(newToSubmit)
+        }
     }
 
     const eventDate = new Date(toSubmit.event_date)
